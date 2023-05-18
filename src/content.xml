@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<office:document-content
+	xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0"
+	xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+	xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0"
+	xmlns:db="urn:oasis:names:tc:opendocument:xmlns:database:1.0"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+	xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+	xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+	xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+	xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+	xmlns:math="http://www.w3.org/1998/Math/MathML"
+	xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+	xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+	xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+	xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0"
+	xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+	xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0"
+	xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+	xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+	xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+	xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+	xmlns:xforms="http://www.w3.org/2002/xforms"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	office:version="1.3">
+	<office:font-face-decls>
+		<style:font-face
+			style:name="Arial Narrow"
+			svg:font-family="Arial Narrow"/>
+		<style:font-face
+			style:name="SimSun"
+			svg:font-family="SimSun"/>
+		<style:font-face
+			style:name="Times New Roman"
+			svg:font-family="Times New Roman"/>
+		<style:font-face
+			style:name="Calibri"
+			svg:font-family="Calibri"/>
+		<style:font-face
+			style:name="Arial"
+			svg:font-family="Arial"/>
+		<style:font-face
+			style:name="Courier New"
+			svg:font-family="Courier New"/>
+		<style:font-face
+			style:name="Wingdings"
+			svg:font-family="Wingdings"/>
+		<style:font-face
+			style:name="Symbol"
+			svg:font-family="Symbol"/>
+		<style:font-face
+			style:name="Arial Black"
+			svg:font-family="Arial Black"/>
+		<style:font-face
+			style:name="SimHei"
+			svg:font-family="SimHei"/>
+		<style:font-face
+			style:name="Cambria"
+			svg:font-family="Cambria"/>
+	</office:font-face-decls>
+	<office:automatic-styles>
+		<text:list-style style:name="LFO1">
+			<text:list-level-style-bullet
+				text:style-name="WW_CharLFO1LVL1"
+				text:level="1"
+				text:bullet-char="•">
+				<style:list-level-properties
+					text:space-before="0in"
+					text:min-label-width="0.25in"
+					text:list-level-position-and-space-mode="label-alignment">
+					<style:list-level-label-alignment
+						text:label-followed-by="listtab"
+						fo:margin-left="0.5in"
+						fo:text-indent="-0.25in"/>
+				</style:list-level-properties>
+				<style:text-properties
+					style:font-name="Arial"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+		<text:list-style style:name="LFO2">
+			<text:list-level-style-bullet
+				text:level="1"
+				text:style-name="WW_CharLFO2LVL1"
+				text:bullet-char="-">
+				<style:list-level-properties
+					text:space-before="0.25in"
+					text:min-label-width="0.25in"
+					text:list-level-position-and-space-mode="label-alignment">
+					<style:list-level-label-alignment
+						text:label-followed-by="listtab"
+						fo:margin-left="0.5in"
+						fo:text-indent="-0.25in"/>
+				</style:list-level-properties>
+				<style:text-properties
+					style:font-name="Arial Narrow"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+		<style:style
+			style:name="heading-1"
+			style:parent-style-name="Heading1"> </style:style>
+		<style:style
+			style:name="heading-2"
+			style:parent-style-name="Heading2"> </style:style>
+		<style:style
+			style:name="contact"
+			style:parent-style-name="Normal"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:text-align="end"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"
+				fo:margin-left="0.0069in"
+				fo:margin-right="-0.0104in"
+				fo:text-indent="-0.0069in">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"/>
+		</style:style>
+		<style:style
+			style:name="head-link"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"
+				fo:font-size="12pt"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"/>
+		</style:style>
+		<style:style
+			style:name="sect-tech"
+			style:family="section">
+			<style:section-properties
+				fo:margin-left="0in"
+				fo:margin-right="0in"
+				style:writing-mode="lr-tb">
+				<style:columns
+					fo:column-count="5"
+					fo:column-gap="0.05in"/>
+			</style:section-properties>
+		</style:style>
+		<style:style
+			style:name="tech-skill"
+			style:family="paragraph">
+			<style:paragraph-properties
+				fo:margin-bottom="0in"
+				fo:margin-left="0.1in"
+				fo:text-indent="0in">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"/>
+		</style:style>
+		<style:style
+			style:name="sect-tables"
+			style:family="section">
+			<style:section-properties
+				fo:margin-left="0in"
+				fo:margin-right="0in"
+				style:writing-mode="lr-tb"/>
+		</style:style>
+		<style:style
+			style:name="edu-text"
+			style:parent-style-name="Normal"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"
+			/>
+		</style:style>
+		<style:style
+			style:name="date-cell"
+			style:family="table-cell">
+			<style:table-cell-properties
+				fo:border-top="none"
+				fo:border-left="0.0069in dashed #000000"
+				fo:border-bottom="none"
+				fo:border-right="none"
+				style:writing-mode="lr-tb"
+				fo:padding-top="0in"
+				fo:padding-left="0.0784in"
+				fo:padding-bottom="0in"
+				fo:padding-right="0in"/>
+		</style:style>
+		<style:style
+			style:name="date"
+			style:parent-style-name="Normal"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-top="0.0277in"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"
+				fo:margin-left="0.1159in"
+				fo:margin-right="-0.0138in">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"/>
+		</style:style>
+		<style:style
+			style:name="edu-title"
+			style:parent-style-name="Normal"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-top="0.0277in"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"
+				fo:margin-right="-0.0138in"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"/>
+		</style:style>
+		<style:style
+			style:name="edu-sub"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				style:text-underline-type="none"
+				fo:font-style="italic"
+				fo:font-size="10pt"/>
+		</style:style>
+		<style:style
+			style:name="proj-head"
+			style:parent-style-name="Normal"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"
+				fo:margin-right="0.1972in"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"/>
+		</style:style>
+		<style:style
+			style:name="proj-title"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"/>
+		</style:style>
+		<style:style
+			style:name="proj-desc"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"
+				fo:margin-left="0.3138in"
+				fo:margin-right="0in">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"/>
+		</style:style>
+		<style:style
+			style:name="sect-data"
+			style:family="table-column">
+			<style:table-column-properties style:column-width="5.8076in"/>
+		</style:style>
+		<style:style
+			style:name="sect-date"
+			style:family="table-column">
+			<style:table-column-properties style:column-width="1.4631in"/>
+		</style:style>
+		<style:style
+			style:name="sect-row"
+			style:family="table-row">
+			<style:table-row-properties
+				style:min-row-height="0.0138in"/>
+		</style:style>
+		<style:style
+			style:name="sect-cell"
+			style:family="table-cell">
+			<style:table-cell-properties
+				fo:border-top="none"
+				fo:border-left="none"
+				fo:border-bottom="none"
+				fo:border-right="0.0069in dashed #000000"
+				style:writing-mode="lr-tb"
+				fo:padding-top="0in"
+				fo:padding-left="0.0784in"
+				fo:padding-bottom="0.2in"
+				fo:padding-right="0in"/>
+		</style:style>
+		<style:style
+			style:name="work-title"
+			style:family="text">
+			<style:paragraph-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"
+				fo:margin-left="0.0069in"
+				fo:margin-right="-0.0104in"
+				fo:text-indent="-0.0069in">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="12pt"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"
+				style:snap-to-layout-grid="false"/>
+		</style:style>
+		<style:style
+			style:name="work-sub"
+			style:family="text">
+			<style:text-properties
+				style:text-underline-type="none"
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"
+				fo:font-size="10pt"/>
+		</style:style>
+		<style:style
+			style:name="work-desc"
+			style:parent-style-name="Normal"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="0in"
+				style:line-height-at-least="0.0152in"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"/>
+		</style:style>
+	</office:automatic-styles>
+	<office:body>
+		<office:text text:use-soft-page-breaks="true">
+			<text:h
+				text:style-name="heading-1"
+				text:outline-level="1">Ahmed "VisualPlugin" Abo-Shadi<text:tab/>
+			</text:h>
+			<text:p text:style-name="contact"> +1 (714) 463 5142 <text:a xlink:href="http://www.github.com/Windows81">
+					<text:span text:style-name="head-link">www.github.com/Windows81</text:span>
+				</text:a>
+
+				<text:a xlink:href="mailto:aboshadi.n.ahmed@gmail.com">
+					<text:span text:style-name="head-link">aboshadi.n.ahmed@gmail.com</text:span>
+				</text:a>
+			</text:p>
+			<text:h text:style-name="heading-2">Technical Skills</text:h>
+			<text:section
+				text:style-name="sect-tech">
+				<text:list
+					text:style-name="LFO1"
+					text:continue-numbering="true">
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Node.JS</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">HTML5/CSS3</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Python</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">PowerShell</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">FFMPEG</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">GNU/Linux</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Bash</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">C++</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">C# (.NET)</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Roblox Lua(u)</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Affinity Photo</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">PHP</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Davinci Resolve</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">FL Studio</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">MySQL</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Microsoft Office</text:p>
+					</text:list-item>
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Visual Basic</text:p>
+					</text:list-item>
+				</text:list>
+			</text:section>
+			<text:section
+				text:style-name="sect-tables">
+				<text:h text:style-name="heading-2">Education</text:h>
+				<table:table>
+					<table:table-columns>
+						<table:table-column table:style-name="sect-data"/>
+						<table:table-column table:style-name="sect-date"/>
+					</table:table-columns>
+					<table:table-row table:visibility="collapse" table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="edu-title">University of California, Irvine<text:span text:style-name="edu-sub"> – 3.64 GPA</text:span>
+							</text:p>
+							<text:p text:style-name="edu-text">BS in Software Engineering at the school of Informatics &amp; Computer Science.</text:p>
+							<text:p text:style-name="edu-text">Participated at ACM; devised/presented solutions for LeetCode problems.</text:p>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">June 2023</text:p>
+						</table:table-cell>
+					</table:table-row>
+					<table:table-row table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="edu-title">Santiago Canyon College<text:span text:style-name="edu-sub"> – 3.6 GPA (4.0 in major)</text:span>
+							</text:p>
+							<text:p text:style-name="edu-text">Majored in Computer Science; graduated with an A.A. in Liberal Arts.</text:p>
+							<text:p text:style-name="edu-text">Took courses in data structures; enrolled in STEM Academy.</text:p>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">May 2020</text:p>
+						</table:table-cell>
+					</table:table-row>
+				</table:table>
+				<text:h text:style-name="heading-2">Projects</text:h>
+				<table:table>
+					<table:table-columns>
+						<table:table-column table:style-name="sect-data"/>
+						<table:table-column table:style-name="sect-date"/>
+					</table:table-columns>
+					<table:table-row table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="proj-head">
+								<text:span text:style-name="proj-title">Rōblox Custom Catalogue</text:span> is an open-source marketplace that allows users to sell their own hats/accessories, and packages outside the official Rōblox avatar store. </text:p>
+							<text:list
+								text:style-name="LFO2"
+								text:continue-numbering="true">
+								<text:list-item>
+									<text:p text:style-name="proj-desc">Drafted a sleek and modern user interface for the using Rōblox Studio, sans 3rd-party libraries. </text:p>
+								</text:list-item>
+							</text:list>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">2021-06 ∕ Present</text:p>
+						</table:table-cell>
+					</table:table-row>
+					<table:table-row table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="proj-head">
+								<text:span text:style-name="proj-title">GoAnimate Wrapper</text:span> is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With assistance from a team of community experts, Wrapper became my most significant production-level full-stack web project to date. </text:p>
+							<text:list
+								text:style-name="LFO2"
+								text:continue-numbering="true">
+								<text:list-item>
+									<text:p text:style-name="proj-desc">Coded a modern API in Node.JS to replicate server functionalities</text:p>
+								</text:list-item>
+								<text:list-item>
+									<text:p text:style-name="proj-desc">Reverse-engineered Shockwave Flash files and analysed legacy ActionScript code.</text:p>
+								</text:list-item>
+								<text:list-item>
+									<text:p text:style-name="proj-desc">Hundreds of minutes of engaging video experiences were delivered as of May 2021.</text:p>
+								</text:list-item>
+								<text:list-item>
+									<text:p text:style-name="proj-desc">More than 21,000 total results appear on a YouTube query for Wrapper and derivative works.</text:p>
+								</text:list-item>
+							</text:list>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">2019-12 ∕ 2020-11</text:p>
+						</table:table-cell>
+					</table:table-row>
+					<table:table-row table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="proj-head">
+								<text:span text:style-name="proj-title">Webhooky</text:span> was a lightweight, database-driven webhook proxy project intended for ROBLOX games to interact with Discord's webhook API. </text:p>
+							<text:list
+								text:style-name="LFO2"
+								text:continue-numbering="true">
+								<text:list-item>
+									<text:p text:style-name="proj-desc">Made use of PHP, MySQL, and PHPMyAdmin to process and store request logs.</text:p>
+								</text:list-item>
+								<text:list-item>
+									<text:p text:style-name="proj-desc">Over 200 game developers used the service to help transfer data to Discord. </text:p>
+								</text:list-item>
+							</text:list>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">2018-02 ∕ 2019-09</text:p>
+						</table:table-cell>
+					</table:table-row>
+				</table:table>
+				<text:h text:style-name="heading-2">Work/Community Experience</text:h>
+				<table:table>
+					<table:table-columns>
+						<table:table-column table:style-name="sect-data"/>
+						<table:table-column table:style-name="sect-date"/>
+					</table:table-columns>
+					<table:table-row table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="work-title"> Professional Engineering Course Center</text:p>
+							<text:p text:style-name="work-desc"> Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba. </text:p>
+							<text:p text:style-name="work-desc"> Assisted in architectural and structural design plans of commercial and industrial sites. </text:p>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">ON CALL</text:p>
+						</table:table-cell>
+					</table:table-row>
+					<table:table-row table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="work-title"> Graphic Designer @ Islamic Institute of Orange County et al. </text:p>
+							<text:p text:style-name="work-desc"> Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA. </text:p>
+							<text:p text:style-name="work-desc"> Designed real-estate marketing materials for Berkshire Hathaway agents. </text:p>
+							<text:p text:style-name="work-desc"> Commissioned to design over 20 event fliers for non-profit organizations. </text:p>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">2016-04 ∕ 2020-03</text:p>
+						</table:table-cell>
+					</table:table-row>
+					<table:table-row table:style-name="sect-row">
+						<table:table-cell table:style-name="sect-cell">
+							<text:p text:style-name="work-title"> Internship @ CSU Fullerton<text:span text:style-name="work-sub"> – under the Val Tech Program. </text:span>
+							</text:p>
+							<text:p text:style-name="work-desc"> Assisted in the development of a brain-computer interface with graduate students. </text:p>
+							<text:p text:style-name="work-desc"> Designed user interface for mock-up calibration procedure. </text:p>
+							<text:p text:style-name="work-desc"> Project coordinated by Professor Kiran George, PhD. </text:p>
+						</table:table-cell>
+						<table:table-cell table:style-name="date-cell">
+							<text:p text:style-name="date">2017-09 ∕ 2018-05</text:p>
+						</table:table-cell>
+					</table:table-row>
+				</table:table>
+			</text:section>
+		</office:text>
+	</office:body>
+</office:document-content>
