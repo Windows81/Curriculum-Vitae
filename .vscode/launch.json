@@ -5,10 +5,10 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Compile & Open Word",
+			"name": "Compile",
 			"type": "PowerShell",
 			"request": "launch",
-			"script": ".bat",
+			"script": "${workspaceFolder}/compile.ps1",
 			"cwd": "${cwd}"
 		}
 	]

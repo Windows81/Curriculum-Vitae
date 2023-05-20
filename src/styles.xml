@@ -63,7 +63,7 @@
 	<office:styles>
 		<style:default-style style:family="table">
 			<style:table-properties
-				fo:margin-left="0in"
+				fo:margin-left="0.00mm"
 				table:border-model="collapsing"
 				table:align="left"/>
 		</style:default-style>
@@ -72,7 +72,7 @@
 		</style:default-style>
 		<style:default-style style:family="table-row">
 			<style:table-row-properties
-				style:min-row-height="0in"
+				style:min-row-height="0.00mm"
 				style:use-optimal-row-height="true"
 				fo:keep-together="auto"/>
 		</style:default-style>
@@ -91,7 +91,7 @@
 				fo:break-before="auto"
 				text:number-lines="true"
 				fo:border="none"
-				fo:padding="0in"
+				fo:padding="0.00mm"
 				style:shadow="none"
 				style:line-break="strict"
 				style:punctuation-wrap="hanging"
@@ -99,9 +99,9 @@
 				style:snap-to-layout-grid="true"
 				fo:text-align="start"
 				style:vertical-align="auto"
-				fo:margin-bottom="0.1111in"
+				fo:margin-bottom="2.82mm"
 				fo:line-height="104%"
-				style:tab-stop-distance="0.1972in"/>
+				style:tab-stop-distance="5.00mm"/>
 			<style:text-properties
 				style:font-name="Arial Narrow"
 				style:font-name-complex="Times New Roman"
@@ -119,8 +119,7 @@
 				style:text-scale="100%"
 				style:letter-kerning="false"
 				style:text-position="0% 100%"
-				fo:font-size="11pt"
-				style:font-size-complex="11pt"
+				fo:font-size="3.9mm"
 				style:text-underline-type="none"
 				style:text-underline-color="font-color"
 				style:text-emphasize="none"
@@ -141,23 +140,23 @@
 			<style:paragraph-properties
 				fo:break-before="page"
 				style:snap-to-layout-grid="false"
-				fo:margin-left="-0.0118in"
-				fo:text-indent="0in"
+				fo:margin-left="-0.30mm"
+				fo:text-indent="0.00mm"
 				fo:keep-with-next="always"
 				fo:keep-together="always"
-				fo:margin-bottom="0in"
+				fo:margin-bottom="0.00mm"
 				fo:line-height="70%">
 				<style:tab-stops>
 					<style:tab-stop
 						style:type="right"
-						style:position="7.5125in"/>
+						style:position="190.82mm"/>
 				</style:tab-stops>
 			</style:paragraph-properties>
 			<style:text-properties
 				style:font-name="Arial Black"
 				fo:font-weight="bold"
 				fo:color="#000000"
-				fo:font-size="16pt"
+				fo:font-size="5.6mm"
 				style:text-underline-type="single"
 				style:text-underline-style="solid"
 				style:text-underline-width="auto"
@@ -173,20 +172,20 @@
 			style:default-outline-level="2">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
-				fo:margin-top="0in"
+				fo:margin-top="0.00mm"
 				fo:keep-with-next="always"
 				fo:keep-together="always"
-				fo:margin-bottom="0in"
+				fo:margin-bottom="0.00mm"
 				fo:line-height="110%"
-				fo:margin-left="0in"
-				fo:text-indent="-0.0069in">
+				fo:margin-left="0.00mm"
+				fo:text-indent="-0.18mm">
 				<style:tab-stops/>
 			</style:paragraph-properties>
 			<style:text-properties
 				style:font-name="Arial Black"
 				fo:font-style="normal"
 				fo:color="#000000"
-				fo:font-size="12pt"
+				fo:font-size="4.2mm"
 				fo:hyphenate="false"/>
 		</style:style>
 		<style:style
@@ -208,11 +207,11 @@
 			style:display-name="footnote description"
 			style:family="paragraph"
 			style:next-style-name="Normal">
-			<style:paragraph-properties fo:margin-bottom="0in"/>
+			<style:paragraph-properties fo:margin-bottom="0.00mm"/>
 			<style:text-properties
 				style:font-name="Times New Roman"
 				fo:color="#0000FF"
-				fo:font-size="10pt"
+				fo:font-size="3.5mm"
 				style:text-underline-type="single"
 				style:text-underline-style="solid"
 				style:text-underline-width="auto"
@@ -228,7 +227,7 @@
 				style:font-name="Times New Roman"
 				style:font-name-complex="Times New Roman"
 				fo:color="#0000FF"
-				fo:font-size="10pt"
+				fo:font-size="3.5mm"
 				style:text-underline-type="single"
 				style:text-underline-style="solid"
 				style:text-underline-width="auto"
@@ -244,7 +243,7 @@
 				style:font-name-complex="Times New Roman"
 				fo:color="#000000"
 				style:text-position="super 65%"
-				fo:font-size="10pt"/>
+				fo:font-size="3.5mm"/>
 		</style:style>
 		<style:style
 			style:name="ListParagraph"
@@ -252,7 +251,7 @@
 			style:family="paragraph"
 			style:parent-style-name="Normal">
 			<style:paragraph-properties
-				fo:margin-left="0.5in">
+				fo:margin-left="12.70mm">
 				<style:tab-stops/>
 			</style:paragraph-properties>
 			<style:text-properties fo:hyphenate="false"/>
@@ -285,15 +284,15 @@
 			style:family="paragraph"
 			style:parent-style-name="Normal">
 			<style:paragraph-properties
-				fo:margin-bottom="0in"
+				fo:margin-bottom="0.00mm"
 				fo:line-height="100%">
 				<style:tab-stops>
 					<style:tab-stop
 						style:type="center"
-						style:position="3.134in"/>
+						style:position="79.60mm"/>
 					<style:tab-stop
 						style:type="right"
-						style:position="6.268in"/>
+						style:position="159.21mm"/>
 				</style:tab-stops>
 			</style:paragraph-properties>
 			<style:text-properties fo:hyphenate="false"/>
@@ -314,15 +313,15 @@
 			style:family="paragraph"
 			style:parent-style-name="Normal">
 			<style:paragraph-properties
-				fo:margin-bottom="0in"
+				fo:margin-bottom="0.00mm"
 				fo:line-height="100%">
 				<style:tab-stops>
 					<style:tab-stop
 						style:type="center"
-						style:position="3.134in"/>
+						style:position="79.60mm"/>
 					<style:tab-stop
 						style:type="right"
-						style:position="6.268in"/>
+						style:position="159.21mm"/>
 				</style:tab-stops>
 			</style:paragraph-properties>
 			<style:text-properties fo:hyphenate="false"/>
@@ -368,136 +367,7 @@
 				style:text-line-through-type="none"
 				fo:color="#000000"
 				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL2"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL3"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL4"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL5"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL6"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL7"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL8"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
-				style:text-underline-type="none"
-				style:text-underline-color="#000000"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO1LVL9"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Arial"
-				style:font-name-complex="Arial"
-				fo:font-weight="normal"
-				fo:font-style="normal"
-				style:text-line-through-type="none"
-				fo:color="#000000"
-				style:text-position="0% 100%"
-				fo:font-size="10pt"
-				style:font-size-complex="10pt"
+				fo:font-size="3.5mm"
 				style:text-underline-type="none"
 				style:text-underline-color="#000000"/>
 		</style:style>
@@ -508,52 +378,6 @@
 				style:font-name="Arial Narrow"
 				style:font-name-complex="Times New Roman"/>
 		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL2"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Courier New"
-				style:font-name-complex="Courier New"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL3"
-			style:family="text">
-			<style:text-properties style:font-name="Wingdings"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL4"
-			style:family="text">
-			<style:text-properties style:font-name="Symbol"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL5"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Courier New"
-				style:font-name-complex="Courier New"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL6"
-			style:family="text">
-			<style:text-properties style:font-name="Wingdings"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL7"
-			style:family="text">
-			<style:text-properties style:font-name="Symbol"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL8"
-			style:family="text">
-			<style:text-properties
-				style:font-name="Courier New"
-				style:font-name-complex="Courier New"/>
-		</style:style>
-		<style:style
-			style:name="WW_CharLFO2LVL9"
-			style:family="text">
-			<style:text-properties style:font-name="Wingdings"/>
-		</style:style>
 		<style:default-page-layout>
 			<style:page-layout-properties style:layout-grid-standard-mode="true"/>
 		</style:default-page-layout>
@@ -563,7 +387,7 @@
 				draw:fill-color="#4472c4"
 				draw:opacity="100%"
 				draw:stroke="solid"
-				svg:stroke-width="0.01389in"
+				svg:stroke-width="0.35mm"
 				svg:stroke-color="#2f528f"
 				svg:stroke-opacity="100%"
 				draw:stroke-linejoin="miter"
@@ -577,13 +401,13 @@
 				text:style-name="WW_CharLFO1LVL1"
 				text:bullet-char="●">
 				<style:list-level-properties
-					text:space-before="0.2965in"
-					text:min-label-width="0in"
+					text:space-before="7.53mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="0.2965in"
-						fo:text-indent="0in"/>
+						fo:margin-left="7.53mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -592,13 +416,13 @@
 				text:style-name="WW_CharLFO1LVL2"
 				text:bullet-char="o">
 				<style:list-level-properties
-					text:space-before="0.7986in"
-					text:min-label-width="0in"
+					text:space-before="20.28mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="0.7986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="20.28mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -607,13 +431,13 @@
 				text:style-name="WW_CharLFO1LVL3"
 				text:bullet-char="▪">
 				<style:list-level-properties
-					text:space-before="1.2986in"
-					text:min-label-width="0in"
+					text:space-before="32.98mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="1.2986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="32.98mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -622,13 +446,13 @@
 				text:style-name="WW_CharLFO1LVL4"
 				text:bullet-char="•">
 				<style:list-level-properties
-					text:space-before="1.7986in"
-					text:min-label-width="0in"
+					text:space-before="45.68mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="1.7986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="45.68mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -637,13 +461,13 @@
 				text:style-name="WW_CharLFO1LVL5"
 				text:bullet-char="o">
 				<style:list-level-properties
-					text:space-before="2.2986in"
-					text:min-label-width="0in"
+					text:space-before="58.38mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="2.2986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="58.38mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -652,13 +476,13 @@
 				text:style-name="WW_CharLFO1LVL6"
 				text:bullet-char="▪">
 				<style:list-level-properties
-					text:space-before="2.7986in"
-					text:min-label-width="0in"
+					text:space-before="71.08mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="2.7986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="71.08mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -667,13 +491,13 @@
 				text:style-name="WW_CharLFO1LVL7"
 				text:bullet-char="•">
 				<style:list-level-properties
-					text:space-before="3.2986in"
-					text:min-label-width="0in"
+					text:space-before="83.78mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="3.2986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="83.78mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -682,13 +506,13 @@
 				text:style-name="WW_CharLFO1LVL8"
 				text:bullet-char="o">
 				<style:list-level-properties
-					text:space-before="3.7986in"
-					text:min-label-width="0in"
+					text:space-before="96.48mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="3.7986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="96.48mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -697,13 +521,13 @@
 				text:style-name="WW_CharLFO1LVL9"
 				text:bullet-char="▪">
 				<style:list-level-properties
-					text:space-before="4.2986in"
-					text:min-label-width="0in"
+					text:space-before="109.18mm"
+					text:min-label-width="0.00mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="4.2986in"
-						fo:text-indent="0in"/>
+						fo:margin-left="109.18mm"
+						fo:text-indent="0.00mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial"/>
 			</text:list-level-style-bullet>
@@ -714,13 +538,13 @@
 				text:style-name="WW_CharLFO2LVL1"
 				text:bullet-char="-">
 				<style:list-level-properties
-					text:space-before="0.25in"
-					text:min-label-width="0.25in"
+					text:space-before="6.35mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="0.5in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="12.70mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Arial Narrow"/>
 			</text:list-level-style-bullet>
@@ -729,13 +553,13 @@
 				text:style-name="WW_CharLFO2LVL2"
 				text:bullet-char="o">
 				<style:list-level-properties
-					text:space-before="0.75in"
-					text:min-label-width="0.25in"
+					text:space-before="19.05mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="1in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="25.40mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Courier New"/>
 			</text:list-level-style-bullet>
@@ -744,13 +568,13 @@
 				text:style-name="WW_CharLFO2LVL3"
 				text:bullet-char="">
 				<style:list-level-properties
-					text:space-before="1.25in"
-					text:min-label-width="0.25in"
+					text:space-before="31.75mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="1.5in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="38.10mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Wingdings"/>
 			</text:list-level-style-bullet>
@@ -759,13 +583,13 @@
 				text:style-name="WW_CharLFO2LVL4"
 				text:bullet-char="">
 				<style:list-level-properties
-					text:space-before="1.75in"
-					text:min-label-width="0.25in"
+					text:space-before="44.45mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="2in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="50.80mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Symbol"/>
 			</text:list-level-style-bullet>
@@ -774,13 +598,13 @@
 				text:style-name="WW_CharLFO2LVL5"
 				text:bullet-char="o">
 				<style:list-level-properties
-					text:space-before="2.25in"
-					text:min-label-width="0.25in"
+					text:space-before="57.15mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="2.5in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="63.50mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Courier New"/>
 			</text:list-level-style-bullet>
@@ -789,13 +613,13 @@
 				text:style-name="WW_CharLFO2LVL6"
 				text:bullet-char="">
 				<style:list-level-properties
-					text:space-before="2.75in"
-					text:min-label-width="0.25in"
+					text:space-before="69.85mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="3in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="76.20mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Wingdings"/>
 			</text:list-level-style-bullet>
@@ -804,13 +628,13 @@
 				text:style-name="WW_CharLFO2LVL7"
 				text:bullet-char="">
 				<style:list-level-properties
-					text:space-before="3.25in"
-					text:min-label-width="0.25in"
+					text:space-before="82.55mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="3.5in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="88.90mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Symbol"/>
 			</text:list-level-style-bullet>
@@ -819,13 +643,13 @@
 				text:style-name="WW_CharLFO2LVL8"
 				text:bullet-char="o">
 				<style:list-level-properties
-					text:space-before="3.75in"
-					text:min-label-width="0.25in"
+					text:space-before="95.25mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="4in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="101.60mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Courier New"/>
 			</text:list-level-style-bullet>
@@ -834,29 +658,29 @@
 				text:style-name="WW_CharLFO2LVL9"
 				text:bullet-char="">
 				<style:list-level-properties
-					text:space-before="4.25in"
-					text:min-label-width="0.25in"
+					text:space-before="107.95mm"
+					text:min-label-width="6.35mm"
 					text:list-level-position-and-space-mode="label-alignment">
 					<style:list-level-label-alignment
 						text:label-followed-by="listtab"
-						fo:margin-left="4.5in"
-						fo:text-indent="-0.25in"/>
+						fo:margin-left="114.30mm"
+						fo:text-indent="-6.35mm"/>
 				</style:list-level-properties>
 				<style:text-properties style:font-name="Wingdings"/>
 			</text:list-level-style-bullet>
 		</text:list-style>
 		<style:page-layout style:name="PL0">
 			<style:page-layout-properties
-				fo:page-width="8.268in"
-				fo:page-height="11.693in"
+				fo:page-width="210.00mm"
+				fo:page-height="297.00mm"
 				style:print-orientation="portrait"
-				fo:margin-top="0.5in"
-				fo:margin-left="0.5in"
-				fo:margin-bottom="0.5in"
-				fo:margin-right="0.5in"
+				fo:margin-top="12.70mm"
+				fo:margin-left="12.70mm"
+				fo:margin-bottom="12.70mm"
+				fo:margin-right="12.70mm"
 				style:num-format="1">
 				<style:footnote-sep
-					style:width="0.007in"
+					style:width="0.18mm"
 					style:rel-width="33%"
 					style:color="#000000"
 					style:line-style="solid"
@@ -865,16 +689,16 @@
 			<style:header-style>
 				<style:header-footer-properties
 					style:dynamic-spacing="true"
-					fo:min-height="0.1in"/>
+					fo:min-height="2.54mm"/>
 			</style:header-style>
 			<style:footer-style>
 				<style:header-footer-properties
 					style:dynamic-spacing="true"
-					fo:min-height="0.25in"/>
+					fo:min-height="6.35mm"/>
 			</style:footer-style>
 		</style:page-layout>
 		<style:style
-			style:name="P2"
+			style:name="foot-date"
 			style:parent-style-name="Footer"
 			style:family="paragraph">
 			<style:text-properties
@@ -882,8 +706,7 @@
 				style:font-name-complex="Arial"
 				fo:font-style="italic"
 				style:font-style-complex="italic"
-				fo:font-size="9pt"
-				style:font-size-complex="9pt"/>
+				fo:font-size="3.2mm"/>
 		</style:style>
 	</office:automatic-styles>
 	<office:master-styles>
@@ -891,7 +714,7 @@
 			style:name="MP0"
 			style:page-layout-name="PL0">
 			<style:footer>
-				<text:p text:style-name="P2">2022-08-30</text:p>
+				<text:p text:style-name="foot-date">2023-05-18</text:p>
 			</style:footer>
 		</style:master-page>
 	</office:master-styles>
