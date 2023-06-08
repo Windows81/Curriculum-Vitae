@@ -176,7 +176,7 @@
 				fo:keep-with-next="always"
 				fo:keep-together="always"
 				fo:margin-bottom="0.00mm"
-				fo:line-height="110%"
+				fo:line-height="100%"
 				fo:margin-left="0.00mm"
 				fo:text-indent="-0.18mm">
 				<style:tab-stops/>

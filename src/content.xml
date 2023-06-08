@@ -469,7 +469,7 @@
 					<table:table-column table:style-name="sect-data"/>
 					<table:table-column table:style-name="sect-date"/>
 				</table:table-columns>
-				<table:table-row table:visibility="collapse" table:style-name="sect-row">
+				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="edu-title">University of California, Irvine<text:span text:style-name="edu-sub"> – 3.64 GPA</text:span>
 						</text:p>
@@ -499,66 +499,134 @@
 					<table:table-column table:style-name="sect-data"/>
 					<table:table-column table:style-name="sect-date"/>
 				</table:table-columns>
+				<!-- PROJECTS START -->
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Rōblox Custom Catalogue</text:span> is an open-source marketplace that allows users to sell their own hats/accessories, and packages outside the official Rōblox avatar store. </text:p>
+							<text:span text:style-name="proj-title">Rōblox Script Executor</text:span> is a command-line interface that makes running scripts on Roblox.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Drafted a sleek and modern user interface for the using Rōblox Studio, sans 3rd-party libraries. </text:p>
+								<text:p text:style-name="proj-desc">Developed a syntax for script execution in Roblox.</text:p>
 							</text:list-item>
+
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Created 142 predefined scripts in a sister repository for direct support.</text:p>
+							</text:list-item>
+
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Introduced per-script parameterization when a normal GUI doesn't make it that easy for users.</text:p>
+							</text:list-item>
+
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Many scripts include help pages.</text:p>
+							</text:list-item>
+
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2022-07 ∕ Present</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:span text:style-name="proj-title">Rōblox Custom Catalogue</text:span> was an open-source marketplace that allows users to sell their own hats/accessories, and packages outside the official Rōblox avatar store.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">- Drafted a sleek and modern user interface for the using Rōblox Studio, sans 3rd-party libraries.</text:p>
+							</text:list-item>
+
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2021-06 ∕ 2022-05</text:p>
 					</table:table-cell>
 				</table:table-row>
+
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">GoAnimate Wrapper</text:span> is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With assistance from a team of community experts, Wrapper became my most significant production-level full-stack web project to date. </text:p>
+							<text:span text:style-name="proj-title">Time is Musical</text:span> is a musical adaptation of the WWV time station.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Coded a modern API in Node.JS to replicate server functionalities</text:p>
+								<text:p text:style-name="proj-desc">Plays a unique index-based composition of five loops every minute of the day.</text:p>
 							</text:list-item>
+
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Reverse-engineered Shockwave Flash files and analysed legacy ActionScript code.</text:p>
+								<text:p text:style-name="proj-desc">Produced 42 unique synth loops using FL Studio 20.</text:p>
 							</text:list-item>
+
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Hundreds of minutes of engaging video experiences were delivered as of May 2021.</text:p>
+								<text:p text:style-name="proj-desc">Constructed Python script to generate stream parameters.</text:p>
 							</text:list-item>
+
 							<text:list-item>
-								<text:p text:style-name="proj-desc">More than 21,000 total results appear on a YouTube query for Wrapper and derivative works.</text:p>
+								<text:p text:style-name="proj-desc">Streamed live on YouTube using FFmpeg's lavfi filter.</text:p>
 							</text:list-item>
+
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2019-12 ∕ 2020-11</text:p>
+						<text:p text:style-name="date">2021-05 / 2022-02</text:p>
 					</table:table-cell>
 				</table:table-row>
+
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Webhooky</text:span> was a lightweight, database-driven webhook proxy project intended for ROBLOX games to interact with Discord's webhook API. </text:p>
+							<text:span text:style-name="proj-title">Webhooky</text:span> was a lightweight, database-driven webhook proxy project intended for ROBLOX games to interact with Discord's webhook API.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Made use of PHP, MySQL, and PHPMyAdmin to process and store request logs.</text:p>
 							</text:list-item>
+
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Over 200 game developers used the service to help transfer data to Discord. </text:p>
+								<text:p text:style-name="proj-desc">Over 200 game developers used the service to help transfer data to Discord.</text:p>
 							</text:list-item>
+
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2018-02 ∕ 2019-09</text:p>
+						<text:p text:style-name="date">2018-02 / 2019-09</text:p>
 					</table:table-cell>
 				</table:table-row>
+
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:span text:style-name="proj-title">windows81.github.io</text:span> is a personal website hosted on GitHub Pages.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Compiles my creative 3D-showcasing work on Rōblox.</text:p>
+							</text:list-item>
+
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Incorporates elements of responsive philosophy.</text:p>
+							</text:list-item>
+
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Hand-coded using HTML and CSS, sans third-party frameworks.</text:p>
+							</text:list-item>
+
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2020-05</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<!-- PROJECTS END -->
 			</table:table>
 			<text:soft-page-break/>
 			<text:h text:style-name="heading-2">Work/Community Experience</text:h>
