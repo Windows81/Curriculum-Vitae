@@ -204,7 +204,7 @@
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
-				fo:margin-top="0.70mm"
+				fo:margin-top="0.00mm"
 				fo:margin-bottom="0.00mm"
 				style:line-height-at-least="0.50mm"
 				fo:margin-left="3.00mm"
@@ -221,7 +221,7 @@
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
-				fo:margin-top="0.70mm"
+				fo:margin-top="0.00mm"
 				fo:margin-bottom="0.00mm"
 				style:line-height-at-least="0.50mm"
 				fo:margin-right="-0.35mm"/>
@@ -249,7 +249,7 @@
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
-				fo:margin-bottom="0.00mm"
+				fo:margin-bottom="1.00mm"
 				style:line-height-at-least="0.50mm"
 				fo:margin-right="5.00mm"/>
 			<style:text-properties
@@ -393,7 +393,7 @@
 					<text:span text:style-name="head-link">aboshadi.n.ahmed@gmail.com</text:span>
 				</text:a>
 			</text:p>
-			<text:p text:style-name="message">I am available for a full-time position from September 2023 within Orange County, California.</text:p>
+			<text:p text:style-name="message">I am available for a full-time position (remote or in-person) from September 2023 within Orange County, California.<text:line-break/>I would love to work for a software company which promotes social good and nurtures coöperative relationships.</text:p>
 			<text:h text:style-name="heading-2">Technical Skills</text:h>
 			<text:section text:style-name="sect-tech">
 				<text:list
@@ -471,10 +471,11 @@
 				</table:table-columns>
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="edu-title">University of California, Irvine<text:span text:style-name="edu-sub"> – 3.64 GPA</text:span>
+						<text:p text:style-name="edu-title">University of California, Irvine<text:span text:style-name="edu-sub"> – 3.64 GPA and rising</text:span>
 						</text:p>
-						<text:p text:style-name="edu-text">BS in Software Engineering at the school of Informatics &amp; Computer Science.</text:p>
+						<text:p text:style-name="edu-text">BS in Software Engineering at the school of Informatics &amp; Computer Science by 2025.</text:p>
 						<text:p text:style-name="edu-text">Participated at ACM; devised/presented solutions for LeetCode problems.</text:p>
+						<text:p text:style-name="edu-text">Started course track for M.S. in Software Engineering programme.</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">June 2023</text:p>
@@ -508,46 +509,67 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Developed a syntax for script execution in Roblox.</text:p>
+								<text:p text:style-name="proj-desc">Built a custom syntax for script execution in Roblox on top of the existing Luau language.</text:p>
 							</text:list-item>
-
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Created 142 predefined scripts in a sister repository for direct support.</text:p>
+								<text:p text:style-name="proj-desc">Introduced per-script parameterization, when a normal GUI wouldn't make it that easy for users.</text:p>
 							</text:list-item>
-
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Introduced per-script parameterization when a normal GUI doesn't make it that easy for users.</text:p>
+								<text:p text:style-name="proj-desc">Created 142 predefined scripts in a sister repository, many of whuch have help pages.</text:p>
 							</text:list-item>
-
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Many scripts include help pages.</text:p>
-							</text:list-item>
-
+				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2022-07 ∕ Present</text:p>
 					</table:table-cell>
 				</table:table-row>
-
+				
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Rōblox Custom Catalogue</text:span> was an open-source marketplace that allows users to sell their own hats/accessories, and packages outside the official Rōblox avatar store.</text:p>
+							<text:span text:style-name="proj-title">Rōblox Custom Catalogue</text:span> was a prospective Free marketplace licenced under the GNU GPL.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">- Drafted a sleek and modern user interface for the using Rōblox Studio, sans 3rd-party libraries.</text:p>
+								<text:p text:style-name="proj-desc">Drafted a sleek and modern user interface for the using Rōblox Studio, sans 3rd-party libraries.</text:p>
 							</text:list-item>
-
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Allows users to sell hats, accessories, and packages outside the official Rōblox avatar store.</text:p>
+							</text:list-item>
+				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2021-06 ∕ 2022-05</text:p>
 					</table:table-cell>
 				</table:table-row>
-
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:span text:style-name="proj-title">Screwdja-YuJa</text:span> was a severe vulnerability in YuJa's API.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Allowed accessing all saved videos and their respective metadata.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Developed a Python script that scraped metadata from YuJa and stored it in a SQLite file.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Reported to YuJa and found the exploit to be resolved after ~2 days.</text:p>
+							</text:list-item>
+				
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2022-12</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
@@ -558,26 +580,23 @@
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Plays a unique index-based composition of five loops every minute of the day.</text:p>
 							</text:list-item>
-
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Produced 42 unique synth loops using FL Studio 20.</text:p>
 							</text:list-item>
-
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Constructed Python script to generate stream parameters.</text:p>
 							</text:list-item>
-
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Streamed live on YouTube using FFmpeg's lavfi filter.</text:p>
 							</text:list-item>
-
+				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2021-05 / 2022-02</text:p>
 					</table:table-cell>
 				</table:table-row>
-
+				
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
@@ -588,44 +607,41 @@
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Made use of PHP, MySQL, and PHPMyAdmin to process and store request logs.</text:p>
 							</text:list-item>
-
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Over 200 game developers used the service to help transfer data to Discord.</text:p>
 							</text:list-item>
-
+				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2018-02 / 2019-09</text:p>
 					</table:table-cell>
 				</table:table-row>
-
+				
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">windows81.github.io</text:span> is a personal website hosted on GitHub Pages.</text:p>
+							<text:span text:style-name="proj-title">Windows81.github.io</text:span> is a personal website hosted on GitHub Pages.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Compiles my creative 3D-showcasing work on Rōblox.</text:p>
 							</text:list-item>
-
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Incorporates elements of responsive philosophy.</text:p>
 							</text:list-item>
-
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Hand-coded using HTML and CSS, sans third-party frameworks.</text:p>
 							</text:list-item>
-
+				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2020-05</text:p>
 					</table:table-cell>
 				</table:table-row>
-
+				
 				<!-- PROJECTS END -->
 			</table:table>
 			<text:soft-page-break/>
@@ -637,10 +653,21 @@
 				</table:table-columns>
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title"> Graphic Designer @ Islamic Institute of Orange County et al. </text:p>
-						<text:p text:style-name="work-desc"> Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA. </text:p>
-						<text:p text:style-name="work-desc"> Designed real-estate marketing materials for Berkshire Hathaway agents. </text:p>
-						<text:p text:style-name="work-desc"> Commissioned to design over 20 event fliers for non-profit organizations. </text:p>
+						<text:p text:style-name="work-title">Rōblox Tutor at IIOC Community Center</text:p>
+						<text:p text:style-name="work-desc">Preparing a cirriculum for basic and intermediate Rōblox development</text:p>
+						<text:p text:style-name="work-desc">Establishing an audience of students aged approx. 8 through 11.</text:p>
+						<text:p text:style-name="work-desc">Carefully selected an adequate pricing scheme according to market value.</text:p>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2023-06 ∕ 2023-08</text:p>
+					</table:table-cell>
+				</table:table-row>
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="work-title">Graphic Designer @ Islamic Institute of Orange County et al.</text:p>
+						<text:p text:style-name="work-desc">Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA.</text:p>
+						<text:p text:style-name="work-desc">Designed real-estate marketing materials for Berkshire Hathaway agents.</text:p>
+						<text:p text:style-name="work-desc">Commissioned to design over 20 event fliers for non-profit organizations.</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2016-04 ∕ 2020-03</text:p>
@@ -648,11 +675,11 @@
 				</table:table-row>
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title"> Internship @ CSU Fullerton<text:span text:style-name="work-sub"> – under the Val Tech Program. </text:span>
+						<text:p text:style-name="work-title">Internship @ CSU Fullerton<text:span text:style-name="work-sub"> – under the Val Tech Program.</text:span>
 						</text:p>
-						<text:p text:style-name="work-desc"> Assisted in the development of a brain-computer interface with graduate students. </text:p>
-						<text:p text:style-name="work-desc"> Designed user interface for mock-up calibration procedure. </text:p>
-						<text:p text:style-name="work-desc"> Project coordinated by Professor Kiran George, PhD. </text:p>
+						<text:p text:style-name="work-desc">Assisted in the development of a brain-computer interface with graduate students.</text:p>
+						<text:p text:style-name="work-desc">Designed user interface for mock-up calibration procedure.</text:p>
+						<text:p text:style-name="work-desc">Project coordinated by Professor Kiran George, PhD.</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2017-09 ∕ 2018-05</text:p>
@@ -660,9 +687,9 @@
 				</table:table-row>
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title"> Professional Engineering Course Center</text:p>
-						<text:p text:style-name="work-desc"> Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba. </text:p>
-						<text:p text:style-name="work-desc"> Assisted in architectural and structural design plans of commercial and industrial sites. </text:p>
+						<text:p text:style-name="work-title">Professional Engineering Course Center</text:p>
+						<text:p text:style-name="work-desc">Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba.</text:p>
+						<text:p text:style-name="work-desc">Assisted in architectural and structural design plans of commercial and industrial sites.</text:p>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">ON CALL</text:p>

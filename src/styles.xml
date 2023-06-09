@@ -175,7 +175,7 @@
 				fo:margin-top="0.00mm"
 				fo:keep-with-next="always"
 				fo:keep-together="always"
-				fo:margin-bottom="0.00mm"
+				fo:margin-bottom="1.00mm"
 				fo:line-height="100%"
 				fo:margin-left="0.00mm"
 				fo:text-indent="-0.18mm">
@@ -714,7 +714,7 @@
 			style:name="MP0"
 			style:page-layout-name="PL0">
 			<style:footer>
-				<text:p text:style-name="foot-date">2023-05-18</text:p>
+				<text:p text:style-name="foot-date">2023-06-09 (nice)</text:p>
 			</style:footer>
 		</style:master-page>
 	</office:master-styles>

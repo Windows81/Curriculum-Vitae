@@ -22,28 +22,8 @@ PROJECT_TEMPLATE_DESC = """
 			</text:list-item>
 """.lstrip('\n')
 
-if __name__ == '__main__':
-    path = 'src/content.xml'
-    path2 = 'src/projects.txt'
-    with open(path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
 
-    tab_prefix = ''
-    start_i = end_i = 0
-    for i, l in enumerate(lines):
-        m = re.match('^(\t+)<!-- PROJECTS (.+) -->\s+$', l)
-        if not m:
-            continue
-
-        mode = m.group(2)
-        if mode == 'START':
-            tab_prefix = m.group(1)
-            start_i = i + 1
-
-        elif mode == 'END':
-            end_i = i
-            break
-
+def make_projects():
     with open(path2, 'r', encoding='utf-8') as f:
         project_data_lines = f.readlines()
         project_data = []
@@ -59,7 +39,7 @@ if __name__ == '__main__':
             'proj_title': proj[1].rstrip('\n'),
             'proj_sub': proj[2].rstrip('\n'),
             'proj_date': proj[0].rstrip('\n'),
-            'proj_descs': '\n'.join(
+            'proj_descs': ''.join(
                 PROJECT_TEMPLATE_DESC.format_map({
                     'proj_desc': desc.rstrip('\n')
                 })
@@ -68,8 +48,40 @@ if __name__ == '__main__':
         })
         for proj in project_data
     )
-    project_lines = [f'{tab_prefix}{l}\n' for l in project_fill.split('\n')]
+    return project_fill.split('\n')
 
-    new_lines = lines[:start_i] + project_lines + lines[end_i:]
+
+METHODS = {
+    'PROJECTS': make_projects,
+}
+
+if __name__ == '__main__':
+    path = 'src/content.xml'
+    path2 = 'src/projects.txt'
+    with open(path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+
+    ranges = {}
+    for i, l in enumerate(lines):
+        m = re.match('^(\t+)<!-- (.+) (.+) -->\s+$', l)
+        if not m:
+            continue
+
+        typ = m.group(2)
+        mode = m.group(3)
+        if mode == 'START':
+            ranges[typ] = {
+                'start': i + 1,
+                'end': i + 1,
+                'tab_prefix': m.group(1),
+            }
+
+        elif mode == 'END':
+            ranges[typ]['end'] = i
+            break
+
+    for i, d in ranges.items():
+        lines[d['start']:d['end']] = [f"{d['tab_prefix']}{l}\n" for l in METHODS[i]()]
+
     with open(path, 'w', encoding='utf-8') as f:
-        f.writelines(new_lines)
+        f.writelines(lines)
