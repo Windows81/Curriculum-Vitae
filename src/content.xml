@@ -262,11 +262,11 @@
 			<style:text-properties
 				style:font-name="Arial Narrow"
 				fo:font-size="4.20mm"
-				style:text-underline-type="single"
+				style:text-underline-type="double"
 				style:text-underline-style="solid"
-				style:text-underline-width="auto"
+				style:text-underline-width="bold"
 				style:text-underline-mode="continuous"
-				style:text-underline-color="#000000"/>
+				style:text-underline-color="#0078d7"/>
 		</style:style>
 		<text:list-style style:name="proj-list">
 			<text:list-level-style-bullet
@@ -506,9 +506,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">
 								<text:span text:style-name="proj-title">
-								GoAnimate Wrapper
-								</text:span>
-							</text:a> is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With assistance from a team of community experts, Wrapper became my most significant production-level full-stack web project to date.</text:p>
+								GoAnimate Wrapper</text:span>
+							</text:a>is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With assistance from a team of community experts, Wrapper became my most significant production-level full-stack web project to date.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -537,9 +536,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://github.com/Windows81/Roblox-Script-Executor-CLI">
 								<text:span text:style-name="proj-title">
-								Rōblox Script Executor
-								</text:span>
-							</text:a> is a command-line interface that makes running scripts on Rōblox.</text:p>
+								Rōblox Script Executor</text:span>
+							</text:a>is a command-line interface that makes running scripts on Rōblox.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -565,9 +563,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://www.roblox.com/games/7073192492/UGC-Spr">
 								<text:span text:style-name="proj-title">
-								Rōblox Custom Catalogue
-								</text:span>
-							</text:a> was a prospective Free marketplace licenced under the GNU GPL.</text:p>
+								Rōblox Custom Catalogue</text:span>
+							</text:a>was a prospective Free marketplace licenced under the GNU GPL.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -590,9 +587,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://github.com/Windows81/Screwdja-YuJa">
 								<text:span text:style-name="proj-title">
-								Screwdja-YuJa
-								</text:span>
-							</text:a> was a severe vulnerability in YuJa's API which has since been patched.</text:p>
+								Screwdja-YuJa</text:span>
+							</text:a>was a severe vulnerability in YuJa's API which has since been patched.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -615,9 +611,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://github.com/Windows81/Time-Is-Musical">
 								<text:span text:style-name="proj-title">
-								Time is Musical
-								</text:span>
-							</text:a> is a musical adaptation of the WWV time station.</text:p>
+								Time is Musical</text:span>
+							</text:a>is a musical adaptation of the WWV time station.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -646,9 +641,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://github.com/Windows81/Playing-Webhooky">
 								<text:span text:style-name="proj-title">
-								Webhooky
-								</text:span>
-							</text:a> was a lightweight, database-driven webhook proxy project intended for Rōblox games to interact with Discord's webhook API.</text:p>
+								Webhooky</text:span>
+							</text:a>was a lightweight, database-driven webhook proxy project intended for Rōblox games to interact with Discord's webhook API.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -671,9 +665,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://windows81.github.io">
 								<text:span text:style-name="proj-title">
-								Windows81.github.io
-								</text:span>
-							</text:a> is a personal website hosted on GitHub Pages.</text:p>
+								Windows81.github.io</text:span>
+							</text:a>is a personal website hosted on GitHub Pages.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -699,9 +692,8 @@
 						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://github.com/bibanon/tubeup">
 								<text:span text:style-name="proj-title">
-								Tubeup
-								</text:span>
-							</text:a> is a tool I used and contributed to so I can re-upload much of my entire YouTube channel to Internet Archive.</text:p>
+								Tubeup</text:span>
+							</text:a>is a tool I used and contributed to so I can re-upload much of my entire YouTube channel to Internet Archive.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -735,14 +727,13 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Rōblox Tutor @ IIOC Community Center
-							<text:span text:style-name="work-sub"> .</text:span>
+							Rōblox Tutor @ IIOC Community Center<text:span text:style-name="work-sub">- prospective</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Preparing a cirriculum for basic and intermediate Rōblox development
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Establishing an audience of students aged approx. 8 through 11.
+							Establishing an audience of students aged approx. 8 through 13.
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Carefully selecting an adequate pricing scheme according to market value.
@@ -757,8 +748,7 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Contracted Graphic Designer @ Islamic Institute of Orange County
-							<text:span text:style-name="work-sub"> et al.</text:span>
+							Contracted Graphic Designer @ Islamic Institute of Orange County<text:span text:style-name="work-sub">et al.</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA.
@@ -779,8 +769,7 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Internship @ CSU Fullerton
-							<text:span text:style-name="work-sub"> – under the Val Tech Program.</text:span>
+							Internship @ CSU Fullerton<text:span text:style-name="work-sub">– under the Val Tech Program.</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Assisted in the development of a brain-computer interface with graduate students.
@@ -801,8 +790,7 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Professional Engineering Course Center
-							<text:span text:style-name="work-sub"> .</text:span>
+							Professional Engineering Course Center<text:span text:style-name="work-sub">- on call</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba.
@@ -813,7 +801,7 @@
 				
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">ON CALL</text:p>
+						<text:p text:style-name="date">2015-06 / Present</text:p>
 					</table:table-cell>
 				</table:table-row>
 				

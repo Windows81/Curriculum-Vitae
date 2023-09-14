@@ -10,9 +10,8 @@ PROJECT_TEMPLATE = """
 		<text:p text:style-name="proj-head">
 			<text:a xlink:href="{proj_link}">
 				<text:span text:style-name="proj-title">
-				{proj_title}
-				</text:span>
-			</text:a> {proj_sub}</text:p>
+				{proj_title}</text:span>
+			</text:a>{proj_sub}</text:p>
 		<text:list
 			text:style-name="proj-list"
 			text:continue-numbering="true">
@@ -35,8 +34,7 @@ WORK_TEMPLATE = """
 <table:table-row table:style-name="sect-row">
 	<table:table-cell table:style-name="sect-cell">
 		<text:p text:style-name="work-title">
-			{work_title}
-			<text:span text:style-name="work-sub"> {work_sub}</text:span>
+			{work_title}<text:span text:style-name="work-sub">{work_sub}</text:span>
 		</text:p>
 {work_descs}
 	</table:table-cell>
