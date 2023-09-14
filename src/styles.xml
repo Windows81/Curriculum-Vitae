@@ -714,7 +714,9 @@
 			style:name="MP0"
 			style:page-layout-name="PL0">
 			<style:footer>
-				<text:p text:style-name="foot-date">2023-06-09 (nice)</text:p>
+				<!-- UPDATE-DATE START -->
+				<text:p text:style-name="foot-date">2023-09-14 05Z</text:p>
+				<!-- UPDATE-DATE END -->
 			</style:footer>
 		</style:master-page>
 	</office:master-styles>

@@ -1,0 +1,62 @@
+2019-12 / 2020-11
+GoAnimate Wrapper
+https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
+is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With assistance from a team of community experts, Wrapper became my most significant production-level full-stack web project to date.
+Published a modern API in Node.JS to replicate server functionalities
+Reverse-engineered Shockwave Flash files and analysed legacy ActionScript code.
+Hundreds of minutes of engaging video experiences were delivered as of May 2021.
+More than 21,000 total results appear on a YouTube query for Wrapper and derivative works.
+
+2022-07 ∕ Present
+Rōblox Script Executor
+https://github.com/Windows81/Roblox-Script-Executor-CLI
+is a command-line interface that makes running scripts on Rōblox.
+Built a custom syntax for script execution in Rōblox on top of the existing Luau language.
+Introduced per-script parameterization, when a normal GUI wouldn't make it that easy for users.
+Created 142 predefined scripts in a sister repository, many of whuch have help pages.
+
+2021-06 ∕ 2022-05
+Rōblox Custom Catalogue
+https://www.roblox.com/games/7073192492/UGC-Spr
+was a prospective Free marketplace licenced under the GNU GPL.
+Drafted a sleek and modern user interface for the using Rōblox Studio, sans 3rd-party libraries.
+Allows users to sell hats, accessories, and packages outside the official Rōblox avatar store.
+
+2022-12
+Screwdja-YuJa
+https://github.com/Windows81/Screwdja-YuJa
+was a severe vulnerability in YuJa's API which has since been patched.
+This exploit exposes all saved videos and their respective metadata.
+Reported to YuJa and found the exploit to be resolved after ~2 days.
+
+2021-05 / 2022-02
+Time is Musical
+https://github.com/Windows81/Time-Is-Musical
+is a musical adaptation of the WWV time station.
+Plays a unique index-based composition of five loops every minute of the day.
+Produced 42 unique synth loops using FL Studio 20.
+Constructed Python script to generate stream parameters.
+Streamed live on YouTube using FFmpeg's lavfi filter.
+
+2018-02 / 2019-09
+Webhooky
+https://github.com/Windows81/Playing-Webhooky
+was a lightweight, database-driven webhook proxy project intended for Rōblox games to interact with Discord's webhook API.
+Made use of PHP, MySQL, and PHPMyAdmin to process and store request logs.
+Over 200 game developers used the service to help transfer data to Discord.
+
+2020-05
+Windows81.github.io
+https://windows81.github.io
+is a personal website hosted on GitHub Pages.
+Compiles my creative 3D-showcasing work on Rōblox.
+Incorporates elements of responsive philosophy.
+Hand-coded using HTML and CSS, sans third-party frameworks.
+
+2023-08
+Tubeup
+https://github.com/bibanon/tubeup
+is a tool I used and contributed to so I can re-upload much of my entire YouTube channel to Internet Archive.
+Sifted through bugs on a payload of 234 YouTube videos.
+Merged fixes on GitHub to account for deleted assets.
+Intuited yt-dlp's Python interface.

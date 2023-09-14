@@ -504,12 +504,47 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Rōblox Script Executor</text:span> is a command-line interface that makes running scripts on Roblox.</text:p>
+							<text:a xlink:href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">
+								<text:span text:style-name="proj-title">
+								GoAnimate Wrapper
+								</text:span>
+							</text:a> is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With assistance from a team of community experts, Wrapper became my most significant production-level full-stack web project to date.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Built a custom syntax for script execution in Roblox on top of the existing Luau language.</text:p>
+								<text:p text:style-name="proj-desc">Published a modern API in Node.JS to replicate server functionalities</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Reverse-engineered Shockwave Flash files and analysed legacy ActionScript code.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Hundreds of minutes of engaging video experiences were delivered as of May 2021.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">More than 21,000 total results appear on a YouTube query for Wrapper and derivative works.</text:p>
+							</text:list-item>
+				
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2019-12 / 2020-11</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/Windows81/Roblox-Script-Executor-CLI">
+								<text:span text:style-name="proj-title">
+								Rōblox Script Executor
+								</text:span>
+							</text:a> is a command-line interface that makes running scripts on Rōblox.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Built a custom syntax for script execution in Rōblox on top of the existing Luau language.</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Introduced per-script parameterization, when a normal GUI wouldn't make it that easy for users.</text:p>
@@ -528,7 +563,11 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Rōblox Custom Catalogue</text:span> was a prospective Free marketplace licenced under the GNU GPL.</text:p>
+							<text:a xlink:href="https://www.roblox.com/games/7073192492/UGC-Spr">
+								<text:span text:style-name="proj-title">
+								Rōblox Custom Catalogue
+								</text:span>
+							</text:a> was a prospective Free marketplace licenced under the GNU GPL.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -549,15 +588,16 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Screwdja-YuJa</text:span> was a severe vulnerability in YuJa's API.</text:p>
+							<text:a xlink:href="https://github.com/Windows81/Screwdja-YuJa">
+								<text:span text:style-name="proj-title">
+								Screwdja-YuJa
+								</text:span>
+							</text:a> was a severe vulnerability in YuJa's API which has since been patched.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Allowed accessing all saved videos and their respective metadata.</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Developed a Python script that scraped metadata from YuJa and stored it in a SQLite file.</text:p>
+								<text:p text:style-name="proj-desc">This exploit exposes all saved videos and their respective metadata.</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Reported to YuJa and found the exploit to be resolved after ~2 days.</text:p>
@@ -573,7 +613,11 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Time is Musical</text:span> is a musical adaptation of the WWV time station.</text:p>
+							<text:a xlink:href="https://github.com/Windows81/Time-Is-Musical">
+								<text:span text:style-name="proj-title">
+								Time is Musical
+								</text:span>
+							</text:a> is a musical adaptation of the WWV time station.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -600,7 +644,11 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Webhooky</text:span> was a lightweight, database-driven webhook proxy project intended for ROBLOX games to interact with Discord's webhook API.</text:p>
+							<text:a xlink:href="https://github.com/Windows81/Playing-Webhooky">
+								<text:span text:style-name="proj-title">
+								Webhooky
+								</text:span>
+							</text:a> was a lightweight, database-driven webhook proxy project intended for Rōblox games to interact with Discord's webhook API.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -621,7 +669,11 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:span text:style-name="proj-title">Windows81.github.io</text:span> is a personal website hosted on GitHub Pages.</text:p>
+							<text:a xlink:href="https://windows81.github.io">
+								<text:span text:style-name="proj-title">
+								Windows81.github.io
+								</text:span>
+							</text:a> is a personal website hosted on GitHub Pages.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -642,6 +694,34 @@
 					</table:table-cell>
 				</table:table-row>
 				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/bibanon/tubeup">
+								<text:span text:style-name="proj-title">
+								Tubeup
+								</text:span>
+							</text:a> is a tool I used and contributed to so I can re-upload much of my entire YouTube channel to Internet Archive.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Sifted through bugs on a payload of 234 YouTube videos.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Merged fixes on GitHub to account for deleted assets.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Intuited yt-dlp's Python interface.</text:p>
+							</text:list-item>
+				
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2023-08</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
 				<!-- PROJECTS END -->
 			</table:table>
 			<text:soft-page-break/>
@@ -651,50 +731,93 @@
 					<table:table-column table:style-name="sect-data"/>
 					<table:table-column table:style-name="sect-date"/>
 				</table:table-columns>
+				<!-- WORK START -->
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title">Rōblox Tutor at IIOC Community Center</text:p>
-						<text:p text:style-name="work-desc">Preparing a cirriculum for basic and intermediate Rōblox development</text:p>
-						<text:p text:style-name="work-desc">Establishing an audience of students aged approx. 8 through 11.</text:p>
-						<text:p text:style-name="work-desc">Carefully selected an adequate pricing scheme according to market value.</text:p>
-					</table:table-cell>
-					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2023-06 ∕ 2023-08</text:p>
-					</table:table-cell>
-				</table:table-row>
-				<table:table-row table:style-name="sect-row">
-					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title">Graphic Designer @ Islamic Institute of Orange County et al.</text:p>
-						<text:p text:style-name="work-desc">Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA.</text:p>
-						<text:p text:style-name="work-desc">Designed real-estate marketing materials for Berkshire Hathaway agents.</text:p>
-						<text:p text:style-name="work-desc">Commissioned to design over 20 event fliers for non-profit organizations.</text:p>
-					</table:table-cell>
-					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2016-04 ∕ 2020-03</text:p>
-					</table:table-cell>
-				</table:table-row>
-				<table:table-row table:style-name="sect-row">
-					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title">Internship @ CSU Fullerton<text:span text:style-name="work-sub"> – under the Val Tech Program.</text:span>
+						<text:p text:style-name="work-title">
+							Rōblox Tutor @ IIOC Community Center
+							<text:span text:style-name="work-sub"> .</text:span>
 						</text:p>
-						<text:p text:style-name="work-desc">Assisted in the development of a brain-computer interface with graduate students.</text:p>
-						<text:p text:style-name="work-desc">Designed user interface for mock-up calibration procedure.</text:p>
-						<text:p text:style-name="work-desc">Project coordinated by Professor Kiran George, PhD.</text:p>
+						<text:p text:style-name="work-desc">
+							Preparing a cirriculum for basic and intermediate Rōblox development
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Establishing an audience of students aged approx. 8 through 11.
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Carefully selecting an adequate pricing scheme according to market value.
+						</text:p>
+				
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2023-06 / Present</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="work-title">
+							Contracted Graphic Designer @ Islamic Institute of Orange County
+							<text:span text:style-name="work-sub"> et al.</text:span>
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA.
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Designed real-estate marketing materials for Berkshire Hathaway agents.
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Commissioned to design over 20 event fliers for non-profit organizations.
+						</text:p>
+				
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2016-04 ∕ Present</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="work-title">
+							Internship @ CSU Fullerton
+							<text:span text:style-name="work-sub"> – under the Val Tech Program.</text:span>
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Assisted in the development of a brain-computer interface with graduate students.
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Designed user interface for mock-up calibration procedure.
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Project coordinated by Professor Kiran George, PhD.
+						</text:p>
+				
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2017-09 ∕ 2018-05</text:p>
 					</table:table-cell>
 				</table:table-row>
+				
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title">Professional Engineering Course Center</text:p>
-						<text:p text:style-name="work-desc">Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba.</text:p>
-						<text:p text:style-name="work-desc">Assisted in architectural and structural design plans of commercial and industrial sites.</text:p>
+						<text:p text:style-name="work-title">
+							Professional Engineering Course Center
+							<text:span text:style-name="work-sub"> .</text:span>
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba.
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Assisted in architectural and structural design plans of commercial and industrial sites.
+						</text:p>
+				
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">ON CALL</text:p>
 					</table:table-cell>
 				</table:table-row>
+				
+				<!-- WORK END -->
 			</table:table>
 		</office:text>
 	</office:body>
