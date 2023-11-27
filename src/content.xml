@@ -534,6 +534,36 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/Windows81/Bring-Back-Buffets">
+								<text:span text:style-name="proj-title">
+								Bring Back Buffets</text:span>
+							</text:a>was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Engineered separate user interfaces for customers, cashiers, and kitchen staff.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Streamlined the Covid dining experience, allowing customers to order with their mobile devices.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Developed a cashier system to generate unique order codes for efficient order tracking.</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Built an interface for servers to ensure timely preparation and delivery of orders to designated tables.</text:p>
+							</text:list-item>
+				
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2021-03 / 2021-04</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
 							<text:a xlink:href="https://github.com/Windows81/Roblox-Script-Executor-CLI">
 								<text:span text:style-name="proj-title">
 								Rōblox Script Executor</text:span>
@@ -693,7 +723,7 @@
 							<text:a xlink:href="https://github.com/bibanon/tubeup">
 								<text:span text:style-name="proj-title">
 								Tubeup</text:span>
-							</text:a>is a tool I used and contributed to so I can re-upload much of my entire YouTube channel to Internet Archive.</text:p>
+							</text:a>is a tool I wrote code for to that enabled me to efficiently re-upload a significant portion of my YouTube channel to the Internet Archive.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -727,16 +757,16 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Rōblox Tutor @ IIOC Community Center<text:span text:style-name="work-sub">- prospective</text:span>
+							Rōblox Tutor @ IIOC Community Center<text:span text:style-name="work-sub">  prospective</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Preparing a cirriculum for basic and intermediate Rōblox development
+							 Preparing a cirriculum for basic and intermediate Rōblox development
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Establishing an audience of students aged approx. 8 through 13.
+							 Establishing an audience of students aged approx. 8 through 13.
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Carefully selecting an adequate pricing scheme according to market value.
+							 Carefully selecting an adequate pricing scheme according to market value.
 						</text:p>
 				
 					</table:table-cell>
@@ -748,16 +778,16 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Contracted Graphic Designer @ Islamic Institute of Orange County<text:span text:style-name="work-sub">et al.</text:span>
+							Contracted Graphic Designer @ Islamic Institute of Orange County<text:span text:style-name="work-sub"> et al.</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA.
+							 Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA.
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Designed real-estate marketing materials for Berkshire Hathaway agents.
+							 Designed real-estate marketing materials for Berkshire Hathaway agents.
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Commissioned to design over 20 event fliers for non-profit organizations.
+							 Commissioned to design over 20 event fliers for non-profit organizations.
 						</text:p>
 				
 					</table:table-cell>
@@ -769,16 +799,16 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Internship @ CSU Fullerton<text:span text:style-name="work-sub">– under the Val Tech Program.</text:span>
+							Internship @ CSU Fullerton<text:span text:style-name="work-sub"> under the Val Tech Program.</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Assisted in the development of a brain-computer interface with graduate students.
+							 Assisted in the development of a brain-computer interface with graduate students.
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Designed user interface for mock-up calibration procedure.
+							 Designed user interface for mock-up calibration procedure.
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Project coordinated by Professor Kiran George, PhD.
+							 Project coordinated by Professor Kiran George, PhD.
 						</text:p>
 				
 					</table:table-cell>
@@ -790,13 +820,13 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Professional Engineering Course Center<text:span text:style-name="work-sub">- on call</text:span>
+							Professional Engineering Course Center<text:span text:style-name="work-sub"> (on call)</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba.
+							 Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba.
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Assisted in architectural and structural design plans of commercial and industrial sites.
+							 Assisted in architectural and structural design plans of commercial and industrial sites.
 						</text:p>
 				
 					</table:table-cell>

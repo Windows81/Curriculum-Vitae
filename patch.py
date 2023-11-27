@@ -61,7 +61,7 @@ def make_projects(dir_path: str, file: str) -> list[str]:
             if l != '\n':
                 continue
             data.append([
-                l.rstrip('\n')
+                l.rstrip('\r\n').lstrip('- ')
                 for l in data_lines[prev_i:i]
             ])
             prev_i = i + 1
@@ -94,14 +94,14 @@ def make_work_exp(dir_path: str, file: str) -> list[str]:
             if l != '\n':
                 continue
             data.append([
-                l.rstrip('\n')
+                l.rstrip('\r\n').lstrip('-')
                 for l in data_lines[prev_i:i]
             ])
             prev_i = i + 1
 
     project_fill = '\n'.join(
         WORK_TEMPLATE.format_map({
-            'work_sub': d[2],
+            'work_sub': ' ' + d[2],
             'work_title': d[1],
             'work_date': d[0],
             'work_descs': ''.join(
@@ -132,7 +132,7 @@ def xml_mod(dir_path: str, file: str, methods: dict[str, callable]):
     for i, l in enumerate(lines):
 
         # Captures XML comments.
-        m = re.match('^(\t*)<!-- (.+) (.+) -->\s*$', l)
+        m = re.match(r'^(\t*)<!-- (.+) (.+) -->\s*$', l)
         if not m:
             continue
         typ = m.group(2)
@@ -148,7 +148,7 @@ def xml_mod(dir_path: str, file: str, methods: dict[str, callable]):
         elif mode == 'END':
             ranges[typ]['end'] = i
 
-    # Replace text between the delimiting lines with what we return from calls to functions within METHODS.
+    # Replaces text between the delimiting lines with what we return from calls to functions within METHODS.
     for (i, d) in reversed(ranges.items()):
         lines[d['start']:d['end']] = [
             f"{d['tab_prefix']}{l}\n"
