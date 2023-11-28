@@ -1,71 +1,71 @@
 2019-12 / 2020-11
 GoAnimate Wrapper
 https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
-is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With assistance from a team of community experts, Wrapper became my most significant production-level full-stack web project to date.
-- Published a modern API in Node.JS to replicate server functionalities
-- Reverse-engineered Shockwave Flash files and analysed legacy ActionScript code.
-- Hundreds of minutes of engaging video experiences were delivered as of May 2021.
-- More than 21,000 total results appear on a YouTube query for Wrapper and derivative works.
+is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became my most significant production-level full-stack web project.
+- Created a modern Node.JS API replicating server functionalities
+- Reverse-engineered Shockwave Flash files and analyzed legacy ActionScript code
+- Delivered hundreds of engaging video experiences by May 2021
+- Over 21,000 results on a YouTube query for Wrapper and derivative works
 
 2021-03 / 2021-04
 Bring Back Buffets
 https://github.com/Windows81/Bring-Back-Buffets
 was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.
-- Engineered separate user interfaces for customers, cashiers, and kitchen staff.
-- Streamlined the Covid dining experience, allowing customers to order with their mobile devices.
-- Developed a cashier system to generate unique order codes for efficient order tracking.
-- Built an interface for servers to ensure timely preparation and delivery of orders to designated tables.
+- Engineered separate user interfaces for customers, cashiers, and kitchen staff
+- Streamlined the Covid dining experience with mobile device ordering
+- Developed a cashier system for efficient order tracking
+- Built an interface for servers to ensure timely order preparation and delivery
 
-2022-07 ∕ Present
+2022-07 / 2023-05
 Rōblox Script Executor
 https://github.com/Windows81/Roblox-Script-Executor-CLI
-is a command-line interface that makes running scripts on Rōblox.
-- Built a custom syntax for script execution in Rōblox on top of the existing Luau language.
-- Introduced per-script parameterization, when a normal GUI wouldn't make it that easy for users.
-- Created 142 predefined scripts in a sister repository, many of whuch have help pages.
+was a command-line interface facilitating script execution on Rōblox.
+- Constructed custom syntax for script execution in Luau
+- Introduced per-script parameterization for user ease
+- Created 142 predefined scripts in a sister repository, many with help pages
 
-2021-06 ∕ 2022-05
-Rōblox Custom Catalogue
-https://www.roblox.com/games/7073192492/UGC-Spr
-was a prospective Free marketplace licenced under the GNU GPL.
-- Drafted a sleek and modern user interface for the using Rōblox Studio, sans 3rd-party libraries.
-- Allows users to sell hats, accessories, and packages outside the official Rōblox avatar store.
+2023-08
+Tubeup
+https://github.com/bibanon/tubeup
+is a project I contributed code to enable efficient re-upload of a significant portion of a YouTube channel to the Internet Archive.
+- Addressed apparent bugs within a payload of 234 YouTube videos
+- Implemented fixes on GitHub to account for deleted assets
+- Intuited yt-dlp's Python interface
 
 2022-12
 Screwdja-YuJa
 https://github.com/Windows81/Screwdja-YuJa
-was a severe vulnerability in YuJa's API which has since been patched.
-- This exploit exposes all saved videos and their respective metadata.
-- Reported to YuJa and found the exploit to be resolved after ~2 days.
+was a severe vulnerability in YuJa's API I identified and reported.
+- Sparked effort to a major API patch after ~2 days
+- Exposed saved videos and metadata, resolved after notification
 
 2021-05 / 2022-02
 Time is Musical
 https://github.com/Windows81/Time-Is-Musical
 is a musical adaptation of the WWV time station.
-- Plays a unique index-based composition of five loops every minute of the day.
-- Produced 42 unique synth loops using FL Studio 20.
-- Constructed Python script to generate stream parameters.
-- Streamed live on YouTube using FFmpeg's lavfi filter.
+- Played a unique index-based composition of five loops every minute
+- Produced 42 synth loops using FL Studio 20
+- Constructed Python script for stream parameters
+- Streamed live on YouTube using FFmpeg's lavfi filter
 
 2018-02 / 2019-09
 Webhooky
 https://github.com/Windows81/Playing-Webhooky
-was a lightweight, database-driven webhook proxy project intended for Rōblox games to interact with Discord's webhook API.
-- Made use of PHP, MySQL, and PHPMyAdmin to process and store request logs.
-- Over 200 game developers used the service to help transfer data to Discord.
+was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API
+- Made use of PHP, MySQL, and PHPMyAdmin to process and store request logs
+- Empowered over 200 game developers to transfer data to Discord with my service
+
+2021-06 / 2022-05
+Rōblox Custom Catalogue
+https://www.roblox.com/games/7073192492/UGC-Spr
+was a prospective Free marketplace licensed under GNU GPL.
+- Designed a sleek user interface using Rōblox Studio, without third-party libraries
+- Enabled potential users to sell hats, accessories, and packages outside the official Rōblox store
 
 2020-05
 Windows81.github.io
 https://windows81.github.io
 is a personal website hosted on GitHub Pages.
-- Compiles my creative 3D-showcasing work on Rōblox.
-- Incorporates elements of responsive philosophy.
-- Hand-coded using HTML and CSS, sans third-party frameworks.
-
-2023-08
-Tubeup
-https://github.com/bibanon/tubeup
-is a tool I wrote code for to that enabled me to efficiently re-upload a significant portion of my YouTube channel to the Internet Archive.
-- Sifted through bugs on a payload of 234 YouTube videos.
-- Merged fixes on GitHub to account for deleted assets.
-- Intuited yt-dlp's Python interface.
+- Compiled my creative 3D-showcasing work on Rōblox
+- Incorporated elements of responsive philosophy
+- Hand-coded using HTML and CSS, sans third-party frameworks
