@@ -4,6 +4,42 @@ import zipfile
 import os
 import re
 
+
+def process_lines(path: str) -> list[list[str]]:
+    with open(path, 'r', encoding='utf-8') as f:
+        data_lines = f.readlines() + ['\n']
+        data = list[list[str]]()
+        prev_i = 0
+        for i, l in enumerate(data_lines):
+            if l != '\n':
+                continue
+            data.append([
+                l.rstrip('\r\n').lstrip('- ')
+                for l in data_lines[prev_i:i]
+            ])
+            prev_i = i + 1
+    return data
+
+
+SKILL_TEMPLATE = """
+<text:list-item>
+	<text:p text:style-name="tech-skill">{tech_skill}</text:p>
+</text:list-item>
+""".lstrip('\n')
+
+
+def make_skills(dir_path: str) -> list[str]:
+    data = process_lines(f'{dir_path}/_skills.txt')
+
+    fill = '\n'.join(
+        SKILL_TEMPLATE.format_map({
+            'tech_skill': l,
+        })
+        for d in data for l in d
+    )
+    return fill.split('\n')
+
+
 PROJECT_TEMPLATE = """
 <table:table-row table:style-name="sect-row">
 	<table:table-cell table:style-name="sect-cell">
@@ -30,6 +66,28 @@ PROJECT_TEMPLATE_DESC = """
 			</text:list-item>
 """.lstrip('\n')
 
+
+def make_projects(dir_path: str) -> list[str]:
+    data = process_lines(f'{dir_path}/_projects.txt')
+
+    fill = '\n'.join(
+        PROJECT_TEMPLATE.format_map({
+            'proj_sub': d[3],
+            'proj_link': d[2],
+            'proj_title': d[1],
+            'proj_date': d[0],
+            'proj_descs': ''.join(
+                PROJECT_TEMPLATE_DESC.format_map({
+                    'proj_desc': desc
+                })
+                for desc in d[4:]
+            ),
+        })
+        for d in data
+    )
+    return fill.split('\n')
+
+
 WORK_TEMPLATE = """
 <table:table-row table:style-name="sect-row">
 	<table:table-cell table:style-name="sect-cell">
@@ -51,53 +109,8 @@ WORK_TEMPLATE_DESC = """
 """.lstrip('\n')
 
 
-def make_projects(dir_path: str, file: str) -> list[str]:
-    path = f'{dir_path}/_projects.txt'
-    with open(path, 'r', encoding='utf-8') as f:
-        data_lines = f.readlines() + ['\n']
-        data = list[list[str]]()
-        prev_i = 0
-        for i, l in enumerate(data_lines):
-            if l != '\n':
-                continue
-            data.append([
-                l.rstrip('\r\n').lstrip('- ')
-                for l in data_lines[prev_i:i]
-            ])
-            prev_i = i + 1
-
-    fill = '\n'.join(
-        PROJECT_TEMPLATE.format_map({
-            'proj_sub': d[3],
-            'proj_link': d[2],
-            'proj_title': d[1],
-            'proj_date': d[0],
-            'proj_descs': ''.join(
-                PROJECT_TEMPLATE_DESC.format_map({
-                    'proj_desc': desc
-                })
-                for desc in d[4:]
-            ),
-        })
-        for d in data
-    )
-    return fill.split('\n')
-
-
-def make_work_exp(dir_path: str, file: str) -> list[str]:
-    path = f'{dir_path}/_work.txt'
-    with open(path, 'r', encoding='utf-8') as f:
-        data_lines = f.readlines() + ['\n']
-        data = list[list[str]]()
-        prev_i = 0
-        for i, l in enumerate(data_lines):
-            if l != '\n':
-                continue
-            data.append([
-                l.rstrip('\r\n').lstrip('-')
-                for l in data_lines[prev_i:i]
-            ])
-            prev_i = i + 1
+def make_work_exp(dir_path: str) -> list[str]:
+    data = process_lines(f'{dir_path}/_work.txt')
 
     project_fill = '\n'.join(
         WORK_TEMPLATE.format_map({
@@ -116,7 +129,7 @@ def make_work_exp(dir_path: str, file: str) -> list[str]:
     return project_fill.split('\n')
 
 
-def update_date(dir_path: str, file: str) -> list[str]:
+def update_date(dir_path: str) -> list[str]:
     date = datetime.utcnow().strftime('%Y-%m-%d %HZ')
     return [
         f'<text:p text:style-name="foot-date">{date}</text:p>',
@@ -152,7 +165,7 @@ def xml_mod(dir_path: str, file: str, methods: dict[str, callable]):
     for (i, d) in reversed(ranges.items()):
         lines[d['start']:d['end']] = [
             f"{d['tab_prefix']}{l}\n"
-            for l in methods[i](dir_path, file)
+            for l in methods[i](dir_path)
         ]
 
     with open(path, 'w', encoding='utf-8') as f:
@@ -161,6 +174,7 @@ def xml_mod(dir_path: str, file: str, methods: dict[str, callable]):
 
 def dir_mod(dir_path: str):
     xml_mod(dir_path, 'content.xml', {
+        'SKILLS': make_skills,
         'PROJECTS': make_projects,
         'WORK': make_work_exp,
     })

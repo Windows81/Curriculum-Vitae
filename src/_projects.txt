@@ -52,7 +52,7 @@ is a musical adaptation of the WWV time station.
 Webhooky
 https://github.com/Windows81/Playing-Webhooky
 was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API
-- Made use of PHP, MySQL, and PHPMyAdmin to process and store request logs
+- Made use of PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs
 - Empowered over 200 game developers to transfer data to Discord with my service
 
 2021-06 / 2022-05

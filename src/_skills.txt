@@ -1,0 +1,26 @@
+Node.JS
+HTML5/CSS3
+React
+MongoDB
+Roblox Lua(u)
+Python
+FFMPEG
+PowerShell
+GNU/Linux
+Bash
+C++
+C# (.NET)
+PHP
+MySQL
+FL Studio
+Microsoft Office
+Affinity Photo
+Shotcut
+Filmora 12
+OBS Studio
+Blender
+VS Code
+OpenDocument
+Visual Studio
+Documentation
+Docker Compose
