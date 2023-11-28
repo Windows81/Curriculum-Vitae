@@ -40,6 +40,50 @@ def make_skills(dir_path: str) -> list[str]:
     return fill.split('\n')
 
 
+EDUCATION_TEMPLATE = """
+<table:table-row table:style-name="sect-row">
+	<table:table-cell table:style-name="sect-cell">
+		<text:p text:style-name="edu-title">{educ_title}<text:span text:style-name="edu-sub"> – {educ_sub}</text:span>
+		</text:p>
+		<text:list
+			text:style-name="edu-list"
+			text:continue-numbering="true">
+{educ_descs}
+		</text:list>
+	</table:table-cell>
+	<table:table-cell table:style-name="date-cell">
+		<text:p text:style-name="date">{educ_date}</text:p>
+	</table:table-cell>
+</table:table-row>
+""".lstrip('\n')
+
+EDUCATION_TEMPLATE_DESC = """
+			<text:list-item>
+				<text:p text:style-name="edu-desc">{educ_desc}</text:p>
+			</text:list-item>
+""".lstrip('\n')
+
+
+def make_education(dir_path: str) -> list[str]:
+    data = process_lines(f'{dir_path}/_education.txt')
+
+    fill = '\n'.join(
+        EDUCATION_TEMPLATE.format_map({
+            'educ_date': d[0],
+            'educ_title': d[1],
+            'educ_sub': d[2],
+            'educ_descs': ''.join(
+                EDUCATION_TEMPLATE_DESC.format_map({
+                    'educ_desc': desc
+                })
+                for desc in d[3:]
+            ),
+        })
+        for d in data
+    )
+    return fill.split('\n')
+
+
 PROJECT_TEMPLATE = """
 <table:table-row table:style-name="sect-row">
 	<table:table-cell table:style-name="sect-cell">
@@ -92,7 +136,7 @@ WORK_TEMPLATE = """
 <table:table-row table:style-name="sect-row">
 	<table:table-cell table:style-name="sect-cell">
 		<text:p text:style-name="work-title">
-			{work_title}<text:span text:style-name="work-sub">{work_sub}</text:span>
+			{work_title}<text:span text:style-name="work-sub"> {work_sub}</text:span>
 		</text:p>
 {work_descs}
 	</table:table-cell>
@@ -114,9 +158,9 @@ def make_work_exp(dir_path: str) -> list[str]:
 
     project_fill = '\n'.join(
         WORK_TEMPLATE.format_map({
-            'work_sub': ' ' + d[2],
-            'work_title': d[1],
             'work_date': d[0],
+            'work_title': d[1],
+            'work_sub': d[2],
             'work_descs': ''.join(
                 WORK_TEMPLATE_DESC.format_map({
                     'work_desc': desc
@@ -175,6 +219,7 @@ def xml_mod(dir_path: str, file: str, methods: dict[str, callable]):
 def dir_mod(dir_path: str):
     xml_mod(dir_path, 'content.xml', {
         'SKILLS': make_skills,
+        'EDUCATION': make_education,
         'PROJECTS': make_projects,
         'WORK': make_work_exp,
     })

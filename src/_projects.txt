@@ -42,7 +42,7 @@ was a severe vulnerability in YuJa's API I identified and reported.
 2021-05 / 2022-02
 Time is Musical
 https://github.com/Windows81/Time-Is-Musical
-is a musical adaptation of the WWV time station.
+is a musical adaptation of the WWV time station
 - Streamed live on YouTube using FFmpeg's lavfi filter
 - Mastered, mixed, and reproduced a composition of five tracks
 - Devised an algorithm to uniquely select playing loops per minute
@@ -52,7 +52,7 @@ is a musical adaptation of the WWV time station.
 2018-02 / 2019-09
 Webhooky
 https://github.com/Windows81/Playing-Webhooky
-was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API
+was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.
 - Made use of PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs
 - Empowered over 200 game developers to transfer data to Discord with my service
 - Montored and tracked infrastructure usage stats on cPanel via 000webhost

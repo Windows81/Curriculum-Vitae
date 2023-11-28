@@ -104,7 +104,6 @@
 		</style:style>
 		<style:style
 			style:name="contact"
-			style:parent-style-name="Normal"
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
@@ -152,7 +151,7 @@
 				fo:margin-left="0.00mm"
 				fo:margin-right="0.00mm"
 				fo:padding-bottom="30.00mm"
-				style:writing-mode="lr-tb">
+			>
 				<style:columns
 					fo:column-count="5"
 					fo:column-gap="1.27mm"/>
@@ -171,18 +170,38 @@
 				style:font-name="Arial Narrow"
 				fo:font-size="4.20mm"/>
 		</style:style>
+		<text:list-style style:name="edu-list">
+			<text:list-level-style-bullet
+				text:level="1"
+				text:style-name="WW_Charproj-listLVL1"
+				text:bullet-char="-">
+				<style:list-level-properties
+					text:space-before="0.35mm"
+					text:min-label-width="2.35mm"
+					text:list-level-position-and-space-mode="label-alignment">
+					<style:list-level-label-alignment
+						text:label-followed-by="listtab"
+						fo:margin-left="12.70mm"
+						fo:text-indent="1.00mm"/>
+				</style:list-level-properties>
+				<style:text-properties
+					style:font-name="Arial Narrow"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
 		<style:style
-			style:name="edu-text"
-			style:parent-style-name="Normal"
+			style:name="edu-desc"
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
 				fo:margin-bottom="0.00mm"
-				style:line-height-at-least="0.50mm"/>
+				style:line-height-at-least="0.50mm"
+				fo:margin-left="0mm"
+				fo:margin-right="0.00mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
 			<style:text-properties
 				style:font-name="Arial Narrow"
-				fo:font-style="italic"
-			/>
+				fo:font-style="italic"/>
 		</style:style>
 		<style:style
 			style:name="date-cell"
@@ -192,7 +211,6 @@
 				fo:border-left="0.20mm dashed #000000"
 				fo:border-bottom="none"
 				fo:border-right="none"
-				style:writing-mode="lr-tb"
 				fo:padding-top="0.00mm"
 				fo:padding-left="2.00mm"
 				fo:padding-bottom="0.00mm"
@@ -200,7 +218,6 @@
 		</style:style>
 		<style:style
 			style:name="date"
-			style:parent-style-name="Normal"
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
@@ -217,14 +234,12 @@
 		</style:style>
 		<style:style
 			style:name="edu-title"
-			style:parent-style-name="Normal"
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
 				fo:margin-top="0.00mm"
-				fo:margin-bottom="0.00mm"
-				style:line-height-at-least="0.50mm"
-				fo:margin-right="-0.35mm"/>
+				fo:margin-bottom="0.69mm"
+				style:line-height-at-least="0.50mm"/>
 			<style:text-properties
 				style:font-name="Arial Narrow"
 				fo:font-size="4.20mm"
@@ -245,7 +260,6 @@
 		</style:style>
 		<style:style
 			style:name="proj-head"
-			style:parent-style-name="Normal"
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
@@ -325,7 +339,6 @@
 				fo:border-left="none"
 				fo:border-bottom="none"
 				fo:border-right="0.20mm dashed #000000"
-				style:writing-mode="lr-tb"
 				fo:padding-top="0.00mm"
 				fo:padding-left="2.00mm"
 				fo:padding-bottom="5.08mm"
@@ -365,7 +378,6 @@
 		</style:style>
 		<style:style
 			style:name="work-desc"
-			style:parent-style-name="Normal"
 			style:family="paragraph">
 			<style:paragraph-properties
 				style:snap-to-layout-grid="false"
@@ -393,7 +405,7 @@
 					<text:span text:style-name="head-link">aboshadi.n.ahmed@gmail.com</text:span>
 				</text:a>
 			</text:p>
-			<text:p text:style-name="message">I'm available for a full-time position (remote or in-person) from Sep. 2023 onwards in Orange County, California.<text:line-break/>I would love to work for a software company which promotes social good and nurtures coöperative relationships.</text:p>
+			<text:p text:style-name="message">I'm available for a full-time position (remote or in-person) from Sep. 2023 onwards in Orange County, California.<text:line-break/>I would love to work for a software company which promotes social good and nurtures coöperative relationships!</text:p>
 			<text:h text:style-name="heading-2">Technical Skills</text:h>
 			<text:section text:style-name="sect-tech">
 				<text:list
@@ -511,32 +523,62 @@
 					<table:table-column table:style-name="sect-data"/>
 					<table:table-column table:style-name="sect-date"/>
 				</table:table-columns>
+				<!-- EDUCATION START -->
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="edu-title">University of California, Irvine<text:span text:style-name="edu-sub"> – 3.67 GPA and rising</text:span>
 						</text:p>
-						<text:p text:style-name="edu-text">Currently finishing BS in Software Engineering under part-time study.</text:p>
-						<text:p text:style-name="edu-text">Enrolled at the school of Informatics &amp; Computer Science.</text:p>
-						<text:p text:style-name="edu-text">Achieved a 3.80 GPA for all in-person courses (Fall 2021 and later)</text:p>
-						<text:p text:style-name="edu-text">Participated at ACM; devised and presented solutions for LeetCode problems.</text:p>
-						<text:p text:style-name="edu-text">Started course track for MS in Software Engineering programme at CSUF.</text:p>
+						<text:list
+							text:style-name="edu-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Currently finishing BS in Software Engineering under part-time study</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Enrolled at the school of Informatics &amp; Computer Science</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Achieved a 3.80 GPA for all in-person courses (Fall 2021 and later)</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Participated at ACM; devised and presented solutions for LeetCode problems</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Started course track for MS in Software Engineering programme at CSUF</text:p>
+							</text:list-item>
+				
+						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">before June 2024</text:p>
 					</table:table-cell>
 				</table:table-row>
+				
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="edu-title">Santiago Canyon College<text:span text:style-name="edu-sub"> – 3.6 GPA</text:span>
 						</text:p>
-						<text:p text:style-name="edu-text">Majored in Computer Science; graduated with an AA in Liberal Arts.</text:p>
-						<text:p text:style-name="edu-text">Earnt a 4.0 GPA for major-related courses.</text:p>
-						<text:p text:style-name="edu-text">Re-took courses in data structures; enrolled in STEM Academy.</text:p>
+						<text:list
+							text:style-name="edu-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Majored in Computer Science; graduated with an AA in Liberal Arts</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Re-took courses in data structures; enrolled in STEM Academy</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Earnt a 4.0 GPA for major-related courses</text:p>
+							</text:list-item>
+				
+						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">May 2020</text:p>
 					</table:table-cell>
 				</table:table-row>
+				
+				<!-- EDUCATION END -->
 			</table:table>
 			<text:soft-page-break/>
 			<text:h text:style-name="heading-2">Projects</text:h>
@@ -690,7 +732,7 @@
 							<text:a xlink:href="https://github.com/Windows81/Time-Is-Musical">
 								<text:span text:style-name="proj-title">
 								Time is Musical</text:span>
-							</text:a>is a musical adaptation of the WWV time station.</text:p>
+							</text:a>is a musical adaptation of the WWV time station</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -723,7 +765,7 @@
 							<text:a xlink:href="https://github.com/Windows81/Playing-Webhooky">
 								<text:span text:style-name="proj-title">
 								Webhooky</text:span>
-							</text:a>was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API</text:p>
+							</text:a>was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -814,10 +856,10 @@
 							Preparing a cirriculum for basic and intermediate Rōblox development
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Establishing an audience of students aged approx. 8 through 13.
+							Establishing an audience of students aged approx. 8 through 13
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Carefully selecting an adequate pricing scheme according to market value.
+							Carefully selecting an adequate pricing scheme according to market value
 						</text:p>
 				
 					</table:table-cell>
@@ -829,16 +871,16 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Contracted Graphic Designer @ Islamic Institute of Orange County<text:span text:style-name="work-sub"> et al.</text:span>
+							Contracted Graphic Designer @ Islamic Institute of Orange County<text:span text:style-name="work-sub"> et al</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA.
+							Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Designed real-estate marketing materials for Berkshire Hathaway agents.
+							Designed real-estate marketing materials for Berkshire Hathaway agents
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Commissioned to design over 20 event fliers for non-profit organizations.
+							Commissioned to design over 20 event fliers for non-profit organizations
 						</text:p>
 				
 					</table:table-cell>
@@ -850,16 +892,16 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Internship @ CSU Fullerton<text:span text:style-name="work-sub"> under the Val Tech Program.</text:span>
+							Internship @ CSU Fullerton<text:span text:style-name="work-sub"> under the Val Tech Program</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Assisted in the development of a brain-computer interface with graduate students.
+							Assisted in the development of a brain-computer interface with graduate students
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Designed user interface for mock-up calibration procedure.
+							Designed user interface for mock-up calibration procedure
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Project coordinated by Professor Kiran George, PhD.
+							Project coordinated by Professor Kiran George, PhD
 						</text:p>
 				
 					</table:table-cell>
@@ -874,10 +916,10 @@
 							Professional Engineering Course Center<text:span text:style-name="work-sub"> (on call)</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba.
+							Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
 						</text:p>
 						<text:p text:style-name="work-desc">
-							Assisted in architectural and structural design plans of commercial and industrial sites.
+							Assisted in architectural and structural design plans of commercial and industrial sites
 						</text:p>
 				
 					</table:table-cell>
