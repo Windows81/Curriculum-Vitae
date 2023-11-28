@@ -4,23 +4,22 @@ React
 MongoDB
 Roblox Lua(u)
 Python
-FFMPEG
+FFmpeg
 PowerShell
 GNU/Linux
 Bash
 C++
 C# (.NET)
+Docker Compose
 PHP
 MySQL
+Documentation
+Affinity Photo
 FL Studio
 Microsoft Office
-Affinity Photo
-Shotcut
-Filmora 12
 OBS Studio
+Filmora 12
+Shotcut
 Blender
 VS Code
 OpenDocument
-Visual Studio
-Documentation
-Docker Compose
