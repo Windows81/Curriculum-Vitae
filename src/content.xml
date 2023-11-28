@@ -549,15 +549,45 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
-							<text:a xlink:href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">
+							<text:a xlink:href="https://github.com/Windows81/Bring-Back-Buffets">
 								<text:span text:style-name="proj-title">
-								GoAnimate Wrapper</text:span>
-							</text:a>is a locally hosted project designed to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became my most significant production-level full-stack web project.</text:p>
+								Bring Back Buffets</text:span>
+							</text:a>was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Created a modern Node.JS API replicating server functionalities</text:p>
+								<text:p text:style-name="proj-desc">Engineered separate user interfaces for customers, cashiers, and kitchen staff</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Streamlined the Covid dining experience UX with mobile device ordering</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Developed a cashier system for efficient order tracking</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Built a front-end for bussers to ensure timely order preparation and delivery</text:p>
+							</text:list-item>
+				
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2021-03 / 2021-04</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">
+								<text:span text:style-name="proj-title">
+								GoAnimate Wrapper</text:span>
+							</text:a>is a locally-hosted project designed to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became my most significant production-level full-stack web infrastructure project.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Created a modern Node.JS API replicating GoAnimate's back-end functionalities</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Reverse-engineered Shockwave Flash files and analyzed legacy ActionScript code</text:p>
@@ -573,36 +603,6 @@
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2019-12 / 2020-11</text:p>
-					</table:table-cell>
-				</table:table-row>
-				
-				<table:table-row table:style-name="sect-row">
-					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="proj-head">
-							<text:a xlink:href="https://github.com/Windows81/Bring-Back-Buffets">
-								<text:span text:style-name="proj-title">
-								Bring Back Buffets</text:span>
-							</text:a>was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.</text:p>
-						<text:list
-							text:style-name="proj-list"
-							text:continue-numbering="true">
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Engineered separate user interfaces for customers, cashiers, and kitchen staff</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Streamlined the Covid dining experience with mobile device ordering</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Developed a cashier system for efficient order tracking</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Built an interface for servers to ensure timely order preparation and delivery</text:p>
-							</text:list-item>
-				
-						</text:list>
-					</table:table-cell>
-					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2021-03 / 2021-04</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -695,16 +695,19 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Played a unique index-based composition of five loops every minute</text:p>
+								<text:p text:style-name="proj-desc">Streamed live on YouTube using FFmpeg's lavfi filter</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Mastered, mixed, and reproduced a composition of five tracks</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Devised an algorithm to uniquely select playing loops per minute</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Produced 42 synth loops using FL Studio 20</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Constructed Python script for stream parameters</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Streamed live on YouTube using FFmpeg's lavfi filter</text:p>
 							</text:list-item>
 				
 						</text:list>
@@ -729,6 +732,9 @@
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="proj-desc">Empowered over 200 game developers to transfer data to Discord with my service</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Montored and tracked infrastructure usage stats on cPanel via 000webhost</text:p>
 							</text:list-item>
 				
 						</text:list>
