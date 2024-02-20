@@ -1,8 +1,18 @@
-from datetime import datetime
 import win32com.client
+import datetime
 import zipfile
 import os
 import re
+
+
+def resolveTextFile(contents_dir: str, file_name: str) -> str:
+    while True:
+        path = f'{contents_dir}/{file_name}'
+        with open(path, 'r', encoding='utf-8') as f:
+            text = f.readline().rstrip('\r\n')
+            if not text.startswith('@'):
+                return path
+            contents_dir = text[1:]
 
 
 def process_lines(path: str) -> list[list[str]]:
@@ -16,6 +26,7 @@ def process_lines(path: str) -> list[list[str]]:
             data.append([
                 l.rstrip('\r\n').lstrip('- ')
                 for l in data_lines[prev_i:i]
+                if not l.startswith('#')
             ])
             prev_i = i + 1
     return data
@@ -28,8 +39,8 @@ SKILL_TEMPLATE = """
 """.lstrip('\n')
 
 
-def make_skills(dir_path: str) -> list[str]:
-    data = process_lines(f'{dir_path}/_skills.txt')
+def make_skills(contents_dir: str) -> list[str]:
+    data = process_lines(resolveTextFile(contents_dir, 'skills.txt'))
 
     fill = '\n'.join(
         SKILL_TEMPLATE.format_map({
@@ -64,8 +75,8 @@ EDUCATION_TEMPLATE_DESC = """
 """.lstrip('\n')
 
 
-def make_education(dir_path: str) -> list[str]:
-    data = process_lines(f'{dir_path}/_education.txt')
+def make_education(contents_dir: str) -> list[str]:
+    data = process_lines(resolveTextFile(contents_dir, 'education.txt'))
 
     fill = '\n'.join(
         EDUCATION_TEMPLATE.format_map({
@@ -111,8 +122,8 @@ PROJECT_TEMPLATE_DESC = """
 """.lstrip('\n')
 
 
-def make_projects(dir_path: str) -> list[str]:
-    data = process_lines(f'{dir_path}/_projects.txt')
+def make_projects(contents_dir: str) -> list[str]:
+    data = process_lines(resolveTextFile(contents_dir, 'projects.txt'))
 
     fill = '\n'.join(
         PROJECT_TEMPLATE.format_map({
@@ -153,8 +164,8 @@ WORK_TEMPLATE_DESC = """
 """.lstrip('\n')
 
 
-def make_work_exp(dir_path: str) -> list[str]:
-    data = process_lines(f'{dir_path}/_work.txt')
+def make_work_exp(contents_dir: str) -> list[str]:
+    data = process_lines(resolveTextFile(contents_dir, 'work.txt'))
 
     project_fill = '\n'.join(
         WORK_TEMPLATE.format_map({
@@ -173,16 +184,16 @@ def make_work_exp(dir_path: str) -> list[str]:
     return project_fill.split('\n')
 
 
-def update_date(dir_path: str) -> list[str]:
-    date = datetime.utcnow().strftime('%Y-%m-%d %HZ')
+def update_date(contents_dir: str) -> list[str]:
+    date = datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d %HZ')
     return [
         f'<text:p text:style-name="foot-date">{date}</text:p>',
     ]
 
 
-def xml_mod(dir_path: str, file: str, methods: dict[str, callable]):
-    path = f'{dir_path}/{file}'
-    with open(path, 'r', encoding='utf-8') as f:
+def xml_mod(contents_dir: str, source_dir: str, file_name: str, methods: dict[str, callable]):
+    xml_path = f'{source_dir}/{file_name}'
+    with open(xml_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     ranges = {}
@@ -209,29 +220,29 @@ def xml_mod(dir_path: str, file: str, methods: dict[str, callable]):
     for (i, d) in reversed(ranges.items()):
         lines[d['start']:d['end']] = [
             f"{d['tab_prefix']}{l}\n"
-            for l in methods[i](dir_path)
+            for l in methods[i](contents_dir)
         ]
 
-    with open(path, 'w', encoding='utf-8') as f:
+    with open(xml_path, 'w', encoding='utf-8') as f:
         f.writelines(lines)
 
 
-def dir_mod(dir_path: str):
-    xml_mod(dir_path, 'content.xml', {
+def dir_mod(contents_dir: str, source_dir: str):
+    xml_mod(contents_dir, source_dir, 'content.xml', {
         'SKILLS': make_skills,
         'EDUCATION': make_education,
         'PROJECTS': make_projects,
         'WORK': make_work_exp,
     })
-    xml_mod(dir_path, 'styles.xml', {
+    xml_mod(contents_dir, source_dir, 'styles.xml', {
         'UPDATE-DATE': update_date,
     })
 
 
-def dir2odt(dir_path: str, odt_path: str):
+def dir2odt(contents_dir: str, odt_path: str):
     with zipfile.ZipFile(odt_path, 'w') as archive:
-        for f in os.listdir(dir_path):
-            archive.write(f'{dir_path}/{f}', f)
+        for f in os.listdir(contents_dir):
+            archive.write(f'{contents_dir}/{f}', f)
 
 
 def odt2pdf(odt_path: str, pdf_path: str):
@@ -245,6 +256,18 @@ def odt2pdf(odt_path: str, pdf_path: str):
 
 
 if __name__ == '__main__':
-    dir_mod('src')
-    dir2odt('src', 'cv.odt')
-    odt2pdf('cv.odt', 'cv.pdf')
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        'contents_dir',
+        default='default',
+        nargs='?',
+        type=str,
+    )
+    args = parser.parse_args()
+    contents_dir = args.contents_dir
+    source_dir = f'{os.path.abspath(os.path.dirname(__file__))}/src'
+
+    dir_mod(contents_dir, source_dir)
+    dir2odt(source_dir, f'{contents_dir}/cv.odt')
+    odt2pdf(f'{contents_dir}/cv.odt', f'{contents_dir}/cv.pdf')

@@ -708,7 +708,7 @@
 							<text:a xlink:href="https://github.com/Windows81/Screwdja-YuJa">
 								<text:span text:style-name="proj-title">
 								Screwdja-YuJa</text:span>
-							</text:a>was a severe vulnerability in YuJa's API I identified and reported.</text:p>
+							</text:a>was a severe vulnerability in YuJa's API that I identified and reported.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
@@ -850,7 +850,7 @@
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="work-title">
-							Rōblox Tutor @ IIOC Community Center<text:span text:style-name="work-sub"> prospective</text:span>
+							Rōblox Tutor @ IIOC Community Center<text:span text:style-name="work-sub"> (prospective)</text:span>
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Preparing a cirriculum for basic and intermediate Rōblox development
@@ -925,6 +925,33 @@
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2015-06 / Present</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="work-title">
+							Raising Cane's; El Pollo Loco<text:span text:style-name="work-sub"> (customer service, part-time)</text:span>
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Effectively communicated with customers and team members in a fast-paced environment
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Assumed different roles within the restaurant to support overall operations
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Handled cash transactions and using point-of-sale systems
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Addressed customer concerns and resolving issues in a positive and efficient manner
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Carefully selecting an adequate pricing scheme according to market value
+						</text:p>
+				
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2019-08 / 2021-06</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
