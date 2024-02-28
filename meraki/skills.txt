@@ -11,7 +11,7 @@ Bash
 C++
 Docker Compose
 PHP
-MySQL
+Network Protocols
 Documentation
 Marketing
 Affinity Photo
