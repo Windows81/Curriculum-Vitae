@@ -1,3 +1,4 @@
+from typing import Callable
 import win32com.client
 import datetime
 import zipfile
@@ -191,7 +192,7 @@ def update_date(contents_dir: str) -> list[str]:
     ]
 
 
-def xml_mod(contents_dir: str, source_dir: str, file_name: str, methods: dict[str, callable]):
+def xml_mod(contents_dir: str, source_dir: str, file_name: str, methods: dict[str, Callable]):
     xml_path = f'{source_dir}/{file_name}'
     with open(xml_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()

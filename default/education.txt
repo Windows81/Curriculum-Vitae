@@ -1,15 +1,14 @@
-before June 2024
+March 2024
 University of California, Irvine
-3.67 GPA and rising
-- Currently finishing BS in Software Engineering under part-time study
+3.671 GPA
+- Completed a B.S. in Software Engineering under part-time study
 - Enrolled at the school of Informatics &amp; Computer Science
-- Achieved a 3.80 GPA for all in-person courses (Fall 2021 and later)
 - Participated at ACM; devised and presented solutions for LeetCode problems
 - Started course track for MS in Software Engineering programme at CSUF
 
 May 2020
 Santiago Canyon College
 3.6 GPA
-- Majored in Computer Science; graduated with an AA in Liberal Arts
-- Re-took courses in data structures; enrolled in STEM Academy
+- Majored in Computer Science; graduated with an A.A. in Liberal Arts
+- Re-took courses in data structures; enrolled in S.T.E.M. Academy
 - Earnt a 4.0 GPA for major-related courses
