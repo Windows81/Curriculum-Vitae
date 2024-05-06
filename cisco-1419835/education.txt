@@ -2,10 +2,10 @@ March 2024
 University of California, Irvine
 3.671 GPA
 - Completed a B.S. in Software Engineering
-- Enrolled at the school of Informatics &amp; Computer Science
 - Demonstrated strong proficiency in courses relating to the network stack
+- Enrolled at the school of Informatics &amp; Computer Science
 - Participated at ACM; devised and presented solutions for LeetCode problems
-- Started course track for an MSE in Computer Engineering at CSUF
+- Started course track for MS in Software Engineering programme at CSUF
 
 May 2020
 Santiago Canyon College
