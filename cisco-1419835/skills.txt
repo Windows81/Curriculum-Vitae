@@ -9,17 +9,16 @@ PowerShell
 GNU/Linux
 Bash
 C++
-Android/Linux
 Docker Compose
 PHP
 MySQL
 Documentation
+Testing
 Affinity Photo
 FL Studio
 Microsoft Office
 OBS Studio
-Filmora 12
-Shotcut
 Blender
 VS Code
 OpenDocument
+LabView

@@ -3,6 +3,7 @@ University of California, Irvine
 3.671 GPA
 - Completed a B.S. in Software Engineering
 - Enrolled at the school of Informatics &amp; Computer Science
+- Demonstrated strong proficiency in courses relating to the network stack
 - Participated at ACM; devised and presented solutions for LeetCode problems
 - Started course track for an MSE in Computer Engineering at CSUF
 
@@ -10,5 +11,4 @@ May 2020
 Santiago Canyon College
 3.6 GPA
 - Majored in Computer Science; graduated with an A.A. in Liberal Arts
-- Re-took courses in data structures; enrolled in S.T.E.M. Academy
 - Earnt a 4.0 GPA for major-related courses
