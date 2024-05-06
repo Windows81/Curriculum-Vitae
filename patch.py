@@ -260,15 +260,23 @@ if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        'contents_dir',
-        default='default',
-        nargs='?',
+        'contents_dirs',
+        default=[
+            f.name
+            for f in os.scandir()
+            if f.is_dir(follow_symlinks=False)
+            and f.name != 'src'
+            and not f.name.startswith('.')
+        ],
+        nargs='*',
         type=str,
     )
     args = parser.parse_args()
-    contents_dir = args.contents_dir
+    contents_dirs = args.contents_dirs
     source_dir = f'{os.path.abspath(os.path.dirname(__file__))}/src'
 
-    dir_mod(contents_dir, source_dir)
-    dir2odt(source_dir, f'{contents_dir}/cv.odt')
-    odt2pdf(f'{contents_dir}/cv.odt', f'{contents_dir}/cv.pdf')
+    for contents_dir in contents_dirs:
+        dir_mod(contents_dir, source_dir)
+        dir2odt(source_dir, f'{contents_dir}/cv.odt')
+        odt2pdf(f'{contents_dir}/cv.odt', f'{contents_dir}/cv.pdf')
+        print(f'Finished "{contents_dir}"')

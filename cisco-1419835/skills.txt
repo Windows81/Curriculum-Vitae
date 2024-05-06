@@ -7,18 +7,13 @@ Python
 FFmpeg
 PowerShell
 GNU/Linux
+Network Stack
+TCP/IP
 Bash
 C++
 Docker Compose
 PHP
 MySQL
 Documentation
-Testing
-Affinity Photo
-FL Studio
-Microsoft Office
-OBS Studio
-Blender
 VS Code
-OpenDocument
 LabView

@@ -5,16 +5,6 @@ was a severe vulnerability in YuJa's API that I identified and reported.
 - Bootstrapped effort to release a major security patch after ~2 days
 - Exposed saved videos and metadata, resolved after notification
 
-2021-05 / 2022-02
-Time is Musical
-https://github.com/Windows81/Time-Is-Musical
-is a musical adaptation of the WWV time station
-- Streamed live on YouTube (RTMP) using FFmpeg's lavfi filter
-- Mastered, mixed, and reproduced a composition of five tracks
-- Produced 42 unique synth loops using FL Studio 20
-- Automated stream paraters using a Python script
-- Documentated file sturcture and internal logic
-
 2021-03 / 2021-04
 Bring Back Buffets
 https://github.com/Windows81/Bring-Back-Buffets
@@ -23,12 +13,3 @@ was a mobile web app written in JavaScript with the objective to revive buffets 
 - Streamlined the Covid dining experience UX with mobile device ordering
 - Developed a cashier system for efficient order tracking
 - Built a front-end for bussers to ensure timely order preparation and delivery
-
-2023-08
-Tubeup
-https://github.com/bibanon/tubeup
-is a project I contributed code to enable efficient re-upload of a significant portion of a YouTube channel to the Internet Archive.
-- Addressed apparent bugs within a payload of 234 YouTube videos
-- Implemented fixes on GitHub to account for deleted assets
-- Validated pull requests against CI test frameworks
-- Intuited yt-dlp's Python interface
