@@ -2,8 +2,9 @@ Node.JS
 HTML5/CSS3
 React
 MongoDB
-Roblox Lua(u)
 Python
+Git; GitHub
+Roblox Lua(u)
 FFmpeg
 PowerShell
 GNU/Linux

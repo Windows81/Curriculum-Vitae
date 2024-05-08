@@ -1,3 +1,4 @@
+from genericpath import isfile
 from typing import Callable
 import win32com.client
 import datetime
@@ -8,12 +9,12 @@ import re
 
 def resolveTextFile(contents_dir: str, file_name: str) -> str:
     while True:
-        path = f'{contents_dir}/{file_name}'
+        path = os.path.join(contents_dir, file_name)
         with open(path, 'r', encoding='utf-8') as f:
             text = f.readline().rstrip('\r\n')
             if not text.startswith('@'):
                 return path
-            contents_dir = text[1:]
+            contents_dir = os.path.relpath(text[1:])
 
 
 def process_lines(path: str) -> list[list[str]]:
@@ -186,9 +187,18 @@ def make_work_exp(contents_dir: str) -> list[str]:
 
 
 def update_date(contents_dir: str) -> list[str]:
-    date = datetime.datetime.now(datetime.UTC).strftime('%Y-%m-%d %HZ')
+    date = datetime.datetime.fromtimestamp(
+        max(
+            os.path.getmtime(path)
+            for fn in os.listdir(contents_dir)
+            if (path := os.path.join(contents_dir, fn))
+            and path.endswith('.txt')
+        ),
+        tz=datetime.UTC,
+    )
+    date_str = date.strftime('%Y-%m-%d %HZ')
     return [
-        f'<text:p text:style-name="foot-date">{date}</text:p>',
+        f'<text:p text:style-name="foot-date">{date_str}</text:p>',
     ]
 
 

@@ -5,9 +5,10 @@ MongoDB
 Roblox Lua(u)
 Python
 FFmpeg
-PowerShell
+Git; GitHub
 GNU/Linux
 Bash
+PowerShell
 C++
 Android/Linux
 Docker Compose
@@ -18,8 +19,7 @@ Affinity Photo
 FL Studio
 Microsoft Office
 OBS Studio
-Filmora 12
-Shotcut
+Filmora 13
 Blender
 VS Code
 OpenDocument

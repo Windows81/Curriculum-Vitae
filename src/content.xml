@@ -441,7 +441,7 @@
 					</text:list-item>
 					
 					<text:list-item>
-						<text:p text:style-name="tech-skill">PowerShell</text:p>
+						<text:p text:style-name="tech-skill">Git; GitHub</text:p>
 					</text:list-item>
 					
 					<text:list-item>
@@ -450,6 +450,10 @@
 					
 					<text:list-item>
 						<text:p text:style-name="tech-skill">Bash</text:p>
+					</text:list-item>
+					
+					<text:list-item>
+						<text:p text:style-name="tech-skill">PowerShell</text:p>
 					</text:list-item>
 					
 					<text:list-item>
@@ -493,11 +497,7 @@
 					</text:list-item>
 					
 					<text:list-item>
-						<text:p text:style-name="tech-skill">Filmora 12</text:p>
-					</text:list-item>
-					
-					<text:list-item>
-						<text:p text:style-name="tech-skill">Shotcut</text:p>
+						<text:p text:style-name="tech-skill">Filmora 13</text:p>
 					</text:list-item>
 					
 					<text:list-item>
