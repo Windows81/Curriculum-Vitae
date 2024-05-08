@@ -6,18 +6,11 @@
 	"configurations": [
 		{
 			"name": "Python: Patch",
-			"type": "python",
+			"type": "debugpy",
 			"request": "launch",
 			"program": "${workspaceFolder}/patch.py",
 			"console": "integratedTerminal",
 			"justMyCode": true
-		},
-		{
-			"name": "Compile",
-			"type": "PowerShell",
-			"request": "launch",
-			"script": "${workspaceFolder}/compile.ps1",
-			"cwd": "${cwd}"
 		}
 	]
 }

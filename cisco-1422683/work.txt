@@ -4,12 +4,6 @@ Front-end Developer at GameIn
 - Implemented mobile-responsive pages using Next.js (and thus React) from existing mockups
 - Collaborated directly with other developers and C-suite personnel
 
-2016-04 ∕ Present
-Contracted Graphic Designer @ Islamic Institute of Orange County
-et al.
-- Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA
-- Commissioned to design over 20 event fliers for non-profit organizations
-
 2015-06 / Present
 Professional Engineering Course Center
 (on call)
