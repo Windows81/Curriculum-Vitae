@@ -1,20 +1,20 @@
+Network Stack
+TCP/IP
+Python
+FFmpeg
+PowerShell
+Windows
+GNU/Linux
+Android/Linux
+Bash
 Node.JS
 HTML5/CSS3
-React
 NoSQL
 MongoDB
 TOTP auth.
 Docker Compose
 Roblox Lua(u)
-Python
-FFmpeg
-PowerShell
-GNU/Linux
-Network Stack
-Bash
 C++
-PHP
 MySQL
 Documenting stuff
 VS Code
-LabView

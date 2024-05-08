@@ -15,6 +15,6 @@ C++
 Docker Compose
 PHP
 MySQL
-Documentation
+Documenting stuff
 VS Code
 UX Design

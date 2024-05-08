@@ -14,7 +14,7 @@ Android/Linux
 Docker Compose
 PHP
 MySQL
-Documentation
+Documenting stuff
 Affinity Photo
 FL Studio
 Microsoft Office
