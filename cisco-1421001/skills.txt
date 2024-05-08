@@ -3,6 +3,7 @@ HTML5/CSS3
 React
 NoSQL
 MongoDB
+TOTP auth.
 Docker Compose
 Roblox Lua(u)
 Python
@@ -10,7 +11,6 @@ FFmpeg
 PowerShell
 GNU/Linux
 Network Stack
-TCP/IP
 Bash
 C++
 PHP
