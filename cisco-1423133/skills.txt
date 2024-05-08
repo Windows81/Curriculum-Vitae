@@ -1,0 +1,19 @@
+Node.JS
+HTML5/CSS3
+React
+MongoDB
+Roblox Lua(u)
+Python
+FFmpeg
+PowerShell
+GNU/Linux
+Network Stack
+TCP/IP
+Bash
+C++
+Docker Compose
+PHP
+MySQL
+Documentation
+VS Code
+UX Design
