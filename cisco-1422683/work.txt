@@ -1,15 +1,14 @@
+2023-09 / 2024-03
+Front-end Developer at GameIn
+— a tool to match e-sports streamers and paying sponsors
+- Implemented mobile-responsive pages using Next.js (and thus React) from existing mockups
+- Collaborated directly with other developers and C-suite personnel
+
 2016-04 ∕ Present
 Contracted Graphic Designer @ Islamic Institute of Orange County
 et al.
 - Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA
 - Commissioned to design over 20 event fliers for non-profit organizations
-
-2017-09 ∕ 2018-05
-Internship @ CSU Fullerton
-under the Val Tech Program
-- Assisted in the development of a brain-computer interface with graduate students
-- Designed user interface for mock-up calibration procedure
-- Project coordinated by Professor Kiran George, PhD
 
 2015-06 / Present
 Professional Engineering Course Center

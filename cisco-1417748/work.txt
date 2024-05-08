@@ -1,12 +1,11 @@
 2016-04 ∕ Present
 Contracted Graphic Designer @ Islamic Institute of Orange County
-et al
+et al.
 - Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA
 - Commissioned to design over 20 event fliers for non-profit organizations
 
-2017-09 ∕ 2018-05
-Internship @ CSU Fullerton
-under the Val Tech Program
-- Assisted in the development of a brain-computer interface with graduate students
-- Designed user interface for mock-up calibration procedure
-- Project coordinated by Professor Kiran George, PhD
+2015-06 / Present
+Professional Engineering Course Center
+(on call)
+- Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
+- Assisted in architectural and structural design plans of commercial and industrial sites

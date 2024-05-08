@@ -1,0 +1,25 @@
+2021-03 / 2021-04
+Bring Back Buffets
+https://github.com/Windows81/Bring-Back-Buffets
+was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.
+- Engineered separate user interfaces for customers, cashiers, and kitchen staff
+- Streamlined the Covid dining experience UX with mobile device ordering
+- Developed a cashier system for efficient order tracking
+- Built a front-end for bussers to ensure timely order preparation and delivery
+
+2019-12 / 2020-11
+GoAnimate Wrapper
+https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
+is a locally-hosted project with product features to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became my most significant production-level full-stack web infrastructure project.
+- Created and scaled a modern Node.JS interface replicating GoAnimate's back-end functionalities
+- Reverse-engineered Shockwave Flash files and analyzed legacy ActionScript code
+- Delivered hundreds of engaging video experiences by May 2021
+- Over 21,000 results on a YouTube query for Wrapper and derivative works
+
+2023-08
+Tubeup
+https://github.com/bibanon/tubeup
+is a project I reviewed and contributed code to re-upload videos from my YouTube chanel to the Internet Archive.
+- Addressed apparent bugs within a payload of 234 YouTube videos
+- Implemented fixes on GitHub to account for deleted assets
+- Intuited yt-dlp's Python interface

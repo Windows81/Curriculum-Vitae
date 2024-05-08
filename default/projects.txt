@@ -11,7 +11,7 @@ was a mobile web app written in JavaScript with the objective to revive buffets 
 GoAnimate Wrapper
 https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
 is a locally-hosted project with product features to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became my most significant production-level full-stack web infrastructure project.
-- Created a modern Node.JS interface replicating GoAnimate's back-end functionalities
+- Created and scaled a modern Node.JS interface replicating GoAnimate's back-end functionalities
 - Reverse-engineered Shockwave Flash files and analyzed legacy ActionScript code
 - Delivered hundreds of engaging video experiences by May 2021
 - Over 21,000 results on a YouTube query for Wrapper and derivative works
@@ -27,7 +27,7 @@ was a command-line interface facilitating script execution on Rōblox.
 2023-08
 Tubeup
 https://github.com/bibanon/tubeup
-is a project I reviewed and contributed code to re-upload videos from  my YouTube chanel to the Internet Archive.
+is a project I reviewed and contributed code to re-upload videos from my YouTube chanel to the Internet Archive.
 - Addressed apparent bugs within a payload of 234 YouTube videos
 - Implemented fixes on GitHub to account for deleted assets
 - Intuited yt-dlp's Python interface
