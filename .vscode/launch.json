@@ -2,12 +2,23 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"name": "Python: Patch",
+			"name": "Python: Patch All",
 			"type": "debugpy",
 			"request": "launch",
 			"program": "${workspaceFolder}/patch.py",
 			"console": "integratedTerminal",
-			"justMyCode": true
+			"justMyCode": true,
+		},
+		{
+			"name": "Python: Patch Current",
+			"type": "debugpy",
+			"request": "launch",
+			"program": "${workspaceFolder}/patch.py",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			"args": [
+				"${relativeFileDirname}",
+			]
 		}
 	]
 }

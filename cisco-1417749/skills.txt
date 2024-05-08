@@ -16,5 +16,5 @@ Docker Compose
 Roblox Lua(u)
 C++
 MySQL
-Documenting stuff
+Documenting Stuff
 VS Code

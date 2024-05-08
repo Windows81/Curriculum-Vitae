@@ -14,6 +14,6 @@ C++
 Docker Compose
 PHP
 MySQL
-Documenting stuff
+Documenting Stuff
 VS Code
 LabView

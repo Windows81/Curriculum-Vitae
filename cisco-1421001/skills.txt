@@ -15,6 +15,6 @@ Bash
 C++
 PHP
 MySQL
-Documenting stuff
+Documenting Stuff
 VS Code
 LabView
