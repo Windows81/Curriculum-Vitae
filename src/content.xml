@@ -449,6 +449,14 @@
 					</text:list-item>
 					
 					<text:list-item>
+						<text:p text:style-name="tech-skill">Network Stack</text:p>
+					</text:list-item>
+					
+					<text:list-item>
+						<text:p text:style-name="tech-skill">TCP/IP</text:p>
+					</text:list-item>
+					
+					<text:list-item>
 						<text:p text:style-name="tech-skill">Bash</text:p>
 					</text:list-item>
 					
@@ -473,39 +481,11 @@
 					</text:list-item>
 					
 					<text:list-item>
-						<text:p text:style-name="tech-skill">Testing</text:p>
-					</text:list-item>
-					
-					<text:list-item>
-						<text:p text:style-name="tech-skill">Affinity Photo</text:p>
-					</text:list-item>
-					
-					<text:list-item>
-						<text:p text:style-name="tech-skill">FL Studio</text:p>
-					</text:list-item>
-					
-					<text:list-item>
-						<text:p text:style-name="tech-skill">Microsoft Office</text:p>
-					</text:list-item>
-					
-					<text:list-item>
-						<text:p text:style-name="tech-skill">OBS Studio</text:p>
-					</text:list-item>
-					
-					<text:list-item>
-						<text:p text:style-name="tech-skill">Blender</text:p>
-					</text:list-item>
-					
-					<text:list-item>
 						<text:p text:style-name="tech-skill">VS Code</text:p>
 					</text:list-item>
 					
 					<text:list-item>
-						<text:p text:style-name="tech-skill">OpenDocument</text:p>
-					</text:list-item>
-					
-					<text:list-item>
-						<text:p text:style-name="tech-skill">LabView</text:p>
+						<text:p text:style-name="tech-skill">UX Design</text:p>
 					</text:list-item>
 					
 					<!-- SKILLS END -->
@@ -531,43 +511,22 @@
 								<text:p text:style-name="edu-desc">Completed a B.S. in Software Engineering</text:p>
 							</text:list-item>
 							<text:list-item>
+								<text:p text:style-name="edu-desc">Demonstrated strong proficiency in courses relating to the network stack</text:p>
+							</text:list-item>
+							<text:list-item>
 								<text:p text:style-name="edu-desc">Enrolled at the school of Informatics &amp; Computer Science</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="edu-desc">Participated at ACM; devised and presented solutions for LeetCode problems</text:p>
 							</text:list-item>
 							<text:list-item>
-								<text:p text:style-name="edu-desc">Started course track for an MSE in Computer Engineering at CSUF</text:p>
+								<text:p text:style-name="edu-desc">Started course track for MS in Software Engineering programme at CSUF</text:p>
 							</text:list-item>
 				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">March 2024</text:p>
-					</table:table-cell>
-				</table:table-row>
-				
-				<table:table-row table:style-name="sect-row">
-					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="edu-title">Santiago Canyon College<text:span text:style-name="edu-sub"> – 3.6 GPA</text:span>
-						</text:p>
-						<text:list
-							text:style-name="edu-list"
-							text:continue-numbering="true">
-							<text:list-item>
-								<text:p text:style-name="edu-desc">Majored in Computer Science; graduated with an A.A. in Liberal Arts</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="edu-desc">Re-took courses in data structures; enrolled in S.T.E.M. Academy</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="edu-desc">Earnt a 4.0 GPA for major-related courses</text:p>
-							</text:list-item>
-				
-						</text:list>
-					</table:table-cell>
-					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">May 2020</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -581,30 +540,6 @@
 					<table:table-column table:style-name="sect-date"/>
 				</table:table-columns>
 				<!-- PROJECTS START -->
-				<table:table-row table:style-name="sect-row">
-					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="proj-head">
-							<text:a xlink:href="https://github.com/Windows81/Screwdja-YuJa">
-								<text:span text:style-name="proj-title">
-								Screwdja-YuJa</text:span>
-							</text:a>was a severe vulnerability in YuJa's API that I identified and reported.</text:p>
-						<text:list
-							text:style-name="proj-list"
-							text:continue-numbering="true">
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Bootstrapped effort to release a major security patch after ~2 days</text:p>
-							</text:list-item>
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Exposed saved videos and metadata, resolved after notification</text:p>
-							</text:list-item>
-				
-						</text:list>
-					</table:table-cell>
-					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2022-12</text:p>
-					</table:table-cell>
-				</table:table-row>
-				
 				<table:table-row table:style-name="sect-row">
 					<table:table-cell table:style-name="sect-cell">
 						<text:p text:style-name="proj-head">
@@ -635,6 +570,63 @@
 					</table:table-cell>
 				</table:table-row>
 				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">
+								<text:span text:style-name="proj-title">
+								GoAnimate Wrapper</text:span>
+							</text:a>is a locally-hosted project with product features to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became my most significant production-level full-stack web infrastructure project.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Created a modern Node.JS interface replicating GoAnimate's back-end functionalities</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Reverse-engineered Shockwave Flash files and analyzed legacy ActionScript code</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Delivered hundreds of engaging video experiences by May 2021</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Over 21,000 results on a YouTube query for Wrapper and derivative works</text:p>
+							</text:list-item>
+				
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2019-12 / 2020-11</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/bibanon/tubeup">
+								<text:span text:style-name="proj-title">
+								Tubeup</text:span>
+							</text:a>is a project I reviewed and contributed code to re-upload my YouTube videos to the Internet Archive.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Addressed apparent bugs within a payload of 234 YouTube videos</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Implemented fixes on GitHub to account for deleted assets</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Intuited yt-dlp's Python interface</text:p>
+							</text:list-item>
+				
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2023-08</text:p>
+					</table:table-cell>
+				</table:table-row>
+				
 				<!-- PROJECTS END -->
 			</table:table>
 			<text:soft-page-break/>
@@ -652,9 +644,6 @@
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA
-						</text:p>
-						<text:p text:style-name="work-desc">
-							Designed real-estate marketing materials for Berkshire Hathaway agents
 						</text:p>
 						<text:p text:style-name="work-desc">
 							Commissioned to design over 20 event fliers for non-profit organizations
@@ -684,24 +673,6 @@
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
 						<text:p text:style-name="date">2017-09 ∕ 2018-05</text:p>
-					</table:table-cell>
-				</table:table-row>
-				
-				<table:table-row table:style-name="sect-row">
-					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="work-title">
-							Professional Engineering Course Center<text:span text:style-name="work-sub"> (on call)</text:span>
-						</text:p>
-						<text:p text:style-name="work-desc">
-							Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
-						</text:p>
-						<text:p text:style-name="work-desc">
-							Assisted in architectural and structural design plans of commercial and industrial sites
-						</text:p>
-				
-					</table:table-cell>
-					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2015-06 / Present</text:p>
 					</table:table-cell>
 				</table:table-row>
 				

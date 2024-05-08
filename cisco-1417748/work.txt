@@ -10,9 +10,3 @@ under the Val Tech Program
 - Assisted in the development of a brain-computer interface with graduate students
 - Designed user interface for mock-up calibration procedure
 - Project coordinated by Professor Kiran George, PhD
-
-2015-06 / Present
-Professional Engineering Course Center
-(on call)
-- Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
-- Assisted in architectural and structural design plans of commercial and industrial sites
