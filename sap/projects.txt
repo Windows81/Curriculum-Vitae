@@ -1,0 +1,69 @@
+2023-07 / current  
+Rōblox Freedom Distribution
+https://github.com/Windows81/Roblox-Freedom-Distribution  
+is a streamlined culmination of research to allow users to host and join Rōblox servers in a local- or wide-area network.  
+- Developed a Python bootstrapper for clients and servers, enhancing data connectivity and integration.  
+- Collaborated with a cross-functional team to improve functionality through code reviews and feature development.  
+- Conducted compliance audits to ensure fair-use practices, aligning with data governance standards.  
+
+2021-03 / 2021-04  
+Bring Back Buffets  
+https://github.com/Windows81/Bring-Back-Buffets  
+was a mobile web app written in JavaScript aimed at reviving buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.  
+- Engineered user interfaces for customers, cashiers, and kitchen staff, focusing on user experience and data flow.  
+- Streamlined the Covid dining experience with mobile-device ordering, enhancing customer satisfaction metrics.  
+- Developed a cashier system for efficient order tracking, utilizing data analytics for operational improvements.  
+
+2019-12 / 2020-11  
+GoAnimate Wrapper  
+https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper  
+is a locally-hosted project with product features to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became my most significant production-level full-stack web infrastructure project.  
+- Created and scaled a modern Node.JS interface, replicating back-end functionalities and improving data processing efficiency.  
+- Analyzed legacy ActionScript code to enhance data interoperability and user engagement.  
+- Delivered hundreds of engaging video experiences, utilizing data insights to drive content creation strategies.  
+
+2022-07 / 2023-05  
+Rōblox Script Executor  
+https://github.com/Windows81/Roblox-Script-Executor-CLI  
+was a command-line interface facilitating script execution on Rōblox.  
+- Constructed custom syntax for script execution in Luau, improving user interaction with data-driven scripts.  
+- Introduced per-script parameterization for user ease, enhancing the overall user experience.  
+- Created a repository of 142 predefined scripts, incorporating documentation for data usage best practices.  
+
+2023-08  
+Tubeup  
+https://github.com/bibanon/tubeup  
+is a project I reviewed and contributed code to re-upload videos from my YouTube channel to the Internet Archive.  
+- Addressed bugs within a payload of 234 YouTube videos, applying data analysis to identify and resolve issues.  
+- Implemented fixes on GitHub to account for deleted assets, ensuring data integrity and availability.  
+- Utilized yt-dlp's Python interface to streamline data retrieval processes.  
+
+2022-12  
+Screwdja-YuJa  
+https://github.com/Windows81/Screwdja-YuJa  
+addressed a severe vulnerability in YuJa's API that I identified and reported.  
+- Led the effort to release a major security patch within 48 hours, demonstrating problem-solving and technical skills.  
+- Analyzed saved videos and metadata, ensuring data security and compliance with best practices.  
+
+2021-05 / 2022-02  
+Time is Musical  
+https://github.com/Windows81/Time-Is-Musical  
+is a musical adaptation of the WWV time station.  
+- Streamed live on YouTube using FFmpeg's lavfi filter, applying data analysis to optimize streaming parameters.  
+- Mastered, mixed, and reproduced a composition of five tracks, utilizing data-driven techniques for sound quality enhancement.  
+- Developed an algorithm to uniquely select playing loops per minute, showcasing advanced data manipulation skills.  
+
+2018-02 / 2019-09  
+Webhooky  
+https://github.com/Windows81/Playing-Webhooky  
+was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.  
+- Utilized PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs, enhancing data management capabilities.  
+- Empowered over 200 game developers to transfer data to Discord, demonstrating the impact of data integration solutions.  
+- Monitored and tracked infrastructure usage stats on cPanel, applying data analytics for performance optimization.  
+
+2021-06 / 2022-05  
+Rōblox Custom Catalogue  
+https://www.roblox.com/games/7073192492/UGC-Spr  
+was a prospective Free marketplace licensed under GNU GPL.  
+- Designed a user interface using Rōblox Studio, focusing on data presentation and user engagement.  
+- Enabled users to sell hats,

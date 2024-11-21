@@ -1,8 +1,0 @@
-March 2024
-University of California, Irvine
-3.671 GPA
-- Completed a B.S. in Software Engineering
-- Demonstrated strong proficiency in courses relating to the TCP/IP network stack
-- Enrolled at the school of Informatics &amp; Computer Science
-- Participated at ACM; devised and presented solutions for LeetCode problems, including in C++
-- Started course track for MS in Software Engineering programme at CSUF

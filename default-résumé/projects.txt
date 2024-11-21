@@ -10,6 +10,6 @@ Bring Back Buffets
 https://github.com/Windows81/Bring-Back-Buffets
 was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.
 - Engineered separate user interfaces for customers, cashiers, and kitchen staff
-- Streamlined the Covid dining experience UX with mobile device ordering
+- Streamlined the Covid dining experience UX with mobile-device ordering
 - Developed a cashier system for efficient order tracking
 - Built a front-end for bussers to ensure timely order preparation and delivery

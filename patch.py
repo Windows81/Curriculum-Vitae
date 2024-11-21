@@ -1,4 +1,3 @@
-from genericpath import isfile
 from typing import Callable
 import win32com.client
 import datetime
@@ -56,7 +55,7 @@ def make_skills(contents_dir: str) -> list[str]:
 EDUCATION_TEMPLATE = """
 <table:table-row table:style-name="sect-row">
 	<table:table-cell table:style-name="sect-cell">
-		<text:p text:style-name="edu-title">{educ_title}<text:span text:style-name="edu-sub"> – {educ_sub}</text:span>
+		<text:p text:style-name="edu-title">{educ_title}
 		</text:p>
 		<text:list
 			text:style-name="edu-list"
@@ -84,12 +83,11 @@ def make_education(contents_dir: str) -> list[str]:
         EDUCATION_TEMPLATE.format_map({
             'educ_date': d[0],
             'educ_title': d[1],
-            'educ_sub': d[2],
             'educ_descs': ''.join(
                 EDUCATION_TEMPLATE_DESC.format_map({
                     'educ_desc': desc
                 })
-                for desc in d[3:]
+                for desc in d[2:]
             ),
         })
         for d in data
@@ -151,7 +149,11 @@ WORK_TEMPLATE = """
 		<text:p text:style-name="work-title">
 			{work_title}<text:span text:style-name="work-sub"> {work_sub}</text:span>
 		</text:p>
+		<text:list
+			text:style-name="work-list"
+			text:continue-numbering="true">
 {work_descs}
+		</text:list>
 	</table:table-cell>
 	<table:table-cell table:style-name="date-cell">
 		<text:p text:style-name="date">{work_date}</text:p>
@@ -160,9 +162,11 @@ WORK_TEMPLATE = """
 """.lstrip('\n')
 
 WORK_TEMPLATE_DESC = """
-		<text:p text:style-name="work-desc">
-			{work_desc}
-		</text:p>
+			<text:list-item>
+				<text:p text:style-name="work-desc">
+					{work_desc}
+				</text:p>
+			</text:list-item>
 """.lstrip('\n')
 
 

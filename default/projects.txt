@@ -1,9 +1,17 @@
+2023-07 / current
+Rōblox Freedom Distribution
+https://github.com/Windows81/Roblox-Freedom-Distribution
+is a streamlined culmination of research to allow users to host and join Rōblox servers in a local- or wide-area network.
+- Created a Python bootstrapper, dually for clients and servers, for seamless connectivity
+- Enhanced functionality through team collaboration, code reviews, and feature development
+- Ensured fair-use compliance by auditing business-legal literature
+
 2021-03 / 2021-04
 Bring Back Buffets
 https://github.com/Windows81/Bring-Back-Buffets
 was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.
 - Engineered separate user interfaces for customers, cashiers, and kitchen staff
-- Streamlined the Covid dining experience UX with mobile device ordering
+- Streamlined the Covid dining experience UX with mobile-device ordering
 - Developed a cashier system for efficient order tracking
 - Built a front-end for bussers to ensure timely order preparation and delivery
 
@@ -35,7 +43,7 @@ is a project I reviewed and contributed code to re-upload videos from my YouTube
 2022-12
 Screwdja-YuJa
 https://github.com/Windows81/Screwdja-YuJa
-was a severe vulnerability in YuJa's API that I identified and reported.
+addressed a severe vulnerability in YuJa's API that I identified and reported.
 - Bootstrapped effort to release a major security patch after ~2 days
 - Exposed saved videos and metadata, resolved after notification
 
