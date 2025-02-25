@@ -1,0 +1,14 @@
+<table:table-row table:style-name="sect-row">
+	<table:table-cell table:style-name="sect-cell">
+		<text:p text:style-name="edu-title">{educ_title}
+		</text:p>
+		<text:list
+			text:style-name="edu-list"
+			text:continue-numbering="true">
+{educ_descs}
+		</text:list>
+	</table:table-cell>
+	<table:table-cell table:style-name="date-cell">
+		<text:p text:style-name="date">{educ_date}</text:p>
+	</table:table-cell>
+</table:table-row>

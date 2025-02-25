@@ -1,0 +1,17 @@
+<table:table-row table:style-name="sect-row">
+	<table:table-cell table:style-name="sect-cell">
+		<text:p text:style-name="proj-head">
+			<text:a xlink:href="{proj_link}">
+				<text:span text:style-name="proj-title">
+				{proj_title}</text:span>
+			</text:a>{proj_sub}</text:p>
+		<text:list
+			text:style-name="proj-list"
+			text:continue-numbering="true">
+{proj_descs}
+		</text:list>
+	</table:table-cell>
+	<table:table-cell table:style-name="date-cell">
+		<text:p text:style-name="date">{proj_date}</text:p>
+	</table:table-cell>
+</table:table-row>

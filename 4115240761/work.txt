@@ -1,0 +1,35 @@
+2023-09 / 2024-03
+Front-end Developer at GameIn
+-- a tool to match e-sports streamers and financial sponsors
+- Implemented mobile-responsive pages using Next.js (and thus React) from existing mockups, enhancing user experience.
+- Collaborated directly with developers and C-suite personnel to gather requirements and ensure alignment with business objectives.
+- Contributed to building and presenting a team-wide slide deck in Google Slides, utilizing Figma for design consistency.
+
+2016-04 ∕ Present
+Contracted Graphic Designer @ Islamic Institute of Orange County
+et al.
+- Advertised social events with non-profits, e.g. Islamic Institute of Orange County and Sabil USA, utilizing data-driven design strategies.
+- Designed real-estate marketing materials for Berkshire Hathaway agents, focusing on effective communication of key messages.
+- Commissioned to design over 20 event fliers for non-profit organizations, ensuring alignment with branding and audience engagement.
+
+2017-09 ∕ 2018-05
+Internship @ CSU Fullerton
+under the Val Tech Program
+- Assisted in the development of a brain-computer interface with graduate students, applying analytical skills to support research objectives.
+- Designed user interface for mock-up calibration procedure, enhancing usability and user experience.
+- Project coordinated by Professor Kiran George, PhD, fostering collaboration and communication skills.
+
+2015-06 / Present
+Professional Engineering Course Center
+(on call)
+- Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba, enhancing data management capabilities.
+- Assisted in architectural and structural design plans of commercial and industrial sites, applying analytical thinking to design challenges.
+
+2019-08 / 2021-06
+Raising Cane's; El Pollo Loco
+(customer service, part-time)
+- Effectively communicated with customers and team members in a fast-paced environment, enhancing customer satisfaction.
+- Assumed different roles within the restaurant to support overall operations, demonstrating flexibility and teamwork.
+- Handled cash transactions and utilized point-of-sale systems, ensuring accurate financial reporting.
+- Addressed customer concerns and resolved issues in a positive and efficient manner, contributing to a positive customer experience.
+- Analyzed pricing schemes according to market value, applying basic data analysis skills to support business decisions.

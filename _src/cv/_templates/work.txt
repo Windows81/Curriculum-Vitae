@@ -1,0 +1,15 @@
+<table:table-row table:style-name="sect-row">
+	<table:table-cell table:style-name="sect-cell">
+		<text:p text:style-name="work-title">
+			{work_title}<text:span text:style-name="work-sub"> {work_sub}</text:span>
+		</text:p>
+		<text:list
+			text:style-name="work-list"
+			text:continue-numbering="true">
+{work_descs}
+		</text:list>
+	</table:table-cell>
+	<table:table-cell table:style-name="date-cell">
+		<text:p text:style-name="date">{work_date}</text:p>
+	</table:table-cell>
+</table:table-row>

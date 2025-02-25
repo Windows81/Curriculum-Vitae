@@ -10,7 +10,18 @@
 			"justMyCode": true,
 		},
 		{
-			"name": "Python: Patch Current",
+			"name": "Python: Patch Default",
+			"type": "debugpy",
+			"request": "launch",
+			"program": "${workspaceFolder}/patch.py",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			"args": [
+				"default",
+			]
+		},
+		{
+			"name": "Python: Patch Currently Opened Directory",
 			"type": "debugpy",
 			"request": "launch",
 			"program": "${workspaceFolder}/patch.py",

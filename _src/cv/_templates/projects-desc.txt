@@ -1,0 +1,3 @@
+			<text:list-item>
+				<text:p text:style-name="proj-desc">{proj_desc}</text:p>
+			</text:list-item>

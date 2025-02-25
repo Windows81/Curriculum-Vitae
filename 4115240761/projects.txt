@@ -1,0 +1,71 @@
+2023-07 / Current
+Rōblox Freedom Distribution
+https://github.com/Windows81/Roblox-Freedom-Distribution
+is a platform enabling users to host and connect to Rōblox servers in local or wide-area networks.
+- Designed a Python-based bootstrapper to improve client-server connectivity and protocol handling.
+- Enhanced functionality by performing code reviews and contributing to feature implementation.
+- Conducted compliance audits to ensure adherence to fair-use practices and data security standards.
+
+2021-05 / 2022-02
+Time is Musical
+https://github.com/Windows81/Time-Is-Musical
+is a project streaming real-time audio compositions inspired by the WWV time station.
+- Built an algorithm to dynamically process time-based audio loops for robust real-time playback.
+- Optimized parameters for live streaming using FFmpeg's lavfi filter on Linux systems.
+- Produced and streamed unique musical tracks, applying advanced techniques for sound clarity.
+
+2021-06 / 2022-05
+Rōblox Custom Catalogue
+https://github.com/Windows81/Rōblox-Custom-Catalogue
+was a Free marketplace for sharing and selling user-generated content under GNU GPL.
+- Designed interactive user interfaces using Rōblox Studio to enhance data presentation.
+- Implemented Lua scripting techniques to streamline customization and improve usability.
+- Supported real-time functionality by optimizing database queries and scripting protocols.
+
+2022-12
+Screwdja-YuJa
+https://github.com/Windows81/Screwdja-YuJa
+fixed a vulnerability in the YuJa API, ensuring security and compliance within strict timelines.
+- Delivered a security patch in 48 hours, addressing critical API vulnerabilities.
+- Identified and analyzed risks in saved metadata to prevent further exposure.
+- Demonstrated problem-solving by securing systems while maintaining operational efficiency.
+
+2022-07 / 2023-05
+Rōblox Script Executor
+https://github.com/Windows81/Roblox-Script-Executor-CLI
+is a command-line interface for streamlined execution of Luau scripts on Rōblox.
+- Engineered a custom syntax for executing Lua-based scripts while improving user workflows.
+- Implemented per-script parameterization for flexibility and enhanced usability.
+- Built a repository of 142 documented scripts to ensure user accessibility and best practices.
+
+2018-02 / 2019-09
+Webhooky
+https://github.com/Windows81/Playing-Webhooky
+was a webhook proxy system for Rōblox games communicating with Discord APIs.
+- Developed a PHP and MySQL back end to log and analyze webhook requests.
+- Enabled 200+ developers to integrate their games with Discord's real-time features.
+- Monitored resource usage in cPanel, improving performance with data-driven insights.
+
+2019-12 / 2020-11
+GoAnimate Wrapper
+https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
+is a project that replicated and extended Vyond's Legacy Video Maker functionality.
+- Built a scalable Node.js back end for processing requests and ensuring system reliability.
+- Analyzed ActionScript code to improve interoperability and introduce new features.
+- Generated hundreds of video experiences optimized for performance and user engagement.
+
+2023-08
+Tubeup
+https://github.com/bibanon/tubeup
+is a tool I contributed to for automating YouTube video uploads to the Internet Archive.
+- Solved bugs in a collection of 234 YouTube videos, ensuring consistent performance.
+- Addressed issues caused by deleted assets, preserving critical data for future access.
+- Used yt-dlp’s Python interface to streamline video retrieval processes efficiently.
+
+2021-03 / 2021-04
+Bring Back Buffets
+https://github.com/Windows81/Bring-Back-Buffets
+was a mobile web app aimed at streamlining Covid-safe dining experiences.
+- Designed user interfaces for cashiers, customers, and kitchen staff to enhance usability.
+- Simplified mobile-ordering workflows to improve safety and customer satisfaction.
+- Built a custom cashier system, leveraging analytics for operational efficiency.

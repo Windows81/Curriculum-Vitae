@@ -1,3 +1,5 @@
+from dataclasses import dataclass
+import functools
 from typing import Callable
 import win32com.client
 import datetime
@@ -5,8 +7,11 @@ import zipfile
 import os
 import re
 
+SOURCE_DIR = '_src'
 
-def resolveTextFile(contents_dir: str, file_name: str) -> str:
+
+@functools.cache
+def resolve_text_file(contents_dir: str, file_name: str) -> str:
     while True:
         path = os.path.join(contents_dir, file_name)
         with open(path, 'r', encoding='utf-8') as f:
@@ -16,7 +21,15 @@ def resolveTextFile(contents_dir: str, file_name: str) -> str:
             contents_dir = os.path.relpath(text[1:])
 
 
-def process_lines(path: str) -> list[list[str]]:
+@functools.cache
+def load_template(source_dir: str, file_name: str) -> str:
+    with open(os.path.join(source_dir, '_templates', file_name)) as f:
+        return f.read()
+
+
+@functools.cache
+def load_xml_lines(contents_dir: str, file_name: str) -> list[list[str]]:
+    path = resolve_text_file(contents_dir, file_name)
     with open(path, 'r', encoding='utf-8') as f:
         data_lines = f.readlines() + ['\n']
         data = list[list[str]]()
@@ -33,18 +46,12 @@ def process_lines(path: str) -> list[list[str]]:
     return data
 
 
-SKILL_TEMPLATE = """
-<text:list-item>
-	<text:p text:style-name="tech-skill">{tech_skill}</text:p>
-</text:list-item>
-""".lstrip('\n')
-
-
-def make_skills(contents_dir: str) -> list[str]:
-    data = process_lines(resolveTextFile(contents_dir, 'skills.txt'))
+def make_skills(contents_dir: str, source_dir: str) -> list[str]:
+    template = load_template(source_dir, 'skills.txt')
+    data = load_xml_lines(contents_dir, 'skills.txt')
 
     fill = '\n'.join(
-        SKILL_TEMPLATE.format_map({
+        template.format_map({
             'tech_skill': l,
         })
         for d in data for l in d
@@ -52,39 +59,17 @@ def make_skills(contents_dir: str) -> list[str]:
     return fill.split('\n')
 
 
-EDUCATION_TEMPLATE = """
-<table:table-row table:style-name="sect-row">
-	<table:table-cell table:style-name="sect-cell">
-		<text:p text:style-name="edu-title">{educ_title}
-		</text:p>
-		<text:list
-			text:style-name="edu-list"
-			text:continue-numbering="true">
-{educ_descs}
-		</text:list>
-	</table:table-cell>
-	<table:table-cell table:style-name="date-cell">
-		<text:p text:style-name="date">{educ_date}</text:p>
-	</table:table-cell>
-</table:table-row>
-""".lstrip('\n')
-
-EDUCATION_TEMPLATE_DESC = """
-			<text:list-item>
-				<text:p text:style-name="edu-desc">{educ_desc}</text:p>
-			</text:list-item>
-""".lstrip('\n')
-
-
-def make_education(contents_dir: str) -> list[str]:
-    data = process_lines(resolveTextFile(contents_dir, 'education.txt'))
+def make_education(contents_dir: str, source_dir: str) -> list[str]:
+    template = load_template(source_dir, 'education.txt')
+    template_desc = load_template(source_dir, 'education-desc.txt')
+    data = load_xml_lines(contents_dir, 'education.txt')
 
     fill = '\n'.join(
-        EDUCATION_TEMPLATE.format_map({
+        template.format_map({
             'educ_date': d[0],
             'educ_title': d[1],
             'educ_descs': ''.join(
-                EDUCATION_TEMPLATE_DESC.format_map({
+                template_desc.format_map({
                     'educ_desc': desc
                 })
                 for desc in d[2:]
@@ -95,44 +80,19 @@ def make_education(contents_dir: str) -> list[str]:
     return fill.split('\n')
 
 
-PROJECT_TEMPLATE = """
-<table:table-row table:style-name="sect-row">
-	<table:table-cell table:style-name="sect-cell">
-		<text:p text:style-name="proj-head">
-			<text:a xlink:href="{proj_link}">
-				<text:span text:style-name="proj-title">
-				{proj_title}</text:span>
-			</text:a>{proj_sub}</text:p>
-		<text:list
-			text:style-name="proj-list"
-			text:continue-numbering="true">
-{proj_descs}
-		</text:list>
-	</table:table-cell>
-	<table:table-cell table:style-name="date-cell">
-		<text:p text:style-name="date">{proj_date}</text:p>
-	</table:table-cell>
-</table:table-row>
-""".lstrip('\n')
-
-PROJECT_TEMPLATE_DESC = """
-			<text:list-item>
-				<text:p text:style-name="proj-desc">{proj_desc}</text:p>
-			</text:list-item>
-""".lstrip('\n')
-
-
-def make_projects(contents_dir: str) -> list[str]:
-    data = process_lines(resolveTextFile(contents_dir, 'projects.txt'))
+def make_projects(contents_dir: str, source_dir: str) -> list[str]:
+    template = load_template(source_dir, 'projects.txt')
+    template_desc = load_template(source_dir, 'projects-desc.txt')
+    data = load_xml_lines(contents_dir, 'projects.txt')
 
     fill = '\n'.join(
-        PROJECT_TEMPLATE.format_map({
+        template.format_map({
             'proj_sub': d[3],
             'proj_link': d[2],
             'proj_title': d[1],
             'proj_date': d[0],
             'proj_descs': ''.join(
-                PROJECT_TEMPLATE_DESC.format_map({
+                template_desc.format_map({
                     'proj_desc': desc
                 })
                 for desc in d[4:]
@@ -143,43 +103,18 @@ def make_projects(contents_dir: str) -> list[str]:
     return fill.split('\n')
 
 
-WORK_TEMPLATE = """
-<table:table-row table:style-name="sect-row">
-	<table:table-cell table:style-name="sect-cell">
-		<text:p text:style-name="work-title">
-			{work_title}<text:span text:style-name="work-sub"> {work_sub}</text:span>
-		</text:p>
-		<text:list
-			text:style-name="work-list"
-			text:continue-numbering="true">
-{work_descs}
-		</text:list>
-	</table:table-cell>
-	<table:table-cell table:style-name="date-cell">
-		<text:p text:style-name="date">{work_date}</text:p>
-	</table:table-cell>
-</table:table-row>
-""".lstrip('\n')
-
-WORK_TEMPLATE_DESC = """
-			<text:list-item>
-				<text:p text:style-name="work-desc">
-					{work_desc}
-				</text:p>
-			</text:list-item>
-""".lstrip('\n')
-
-
-def make_work_exp(contents_dir: str) -> list[str]:
-    data = process_lines(resolveTextFile(contents_dir, 'work.txt'))
+def make_work_exp(contents_dir: str, source_dir: str) -> list[str]:
+    template = load_template(source_dir, 'work.txt')
+    template_desc = load_template(source_dir, 'work-desc.txt')
+    data = load_xml_lines(contents_dir, 'work.txt')
 
     project_fill = '\n'.join(
-        WORK_TEMPLATE.format_map({
+        template.format_map({
             'work_date': d[0],
             'work_title': d[1],
             'work_sub': d[2],
             'work_descs': ''.join(
-                WORK_TEMPLATE_DESC.format_map({
+                template_desc.format_map({
                     'work_desc': desc
                 })
                 for desc in d[3:]
@@ -190,7 +125,7 @@ def make_work_exp(contents_dir: str) -> list[str]:
     return project_fill.split('\n')
 
 
-def update_date(contents_dir: str) -> list[str]:
+def update_date(contents_dir: str, source_dir: str) -> list[str]:
     date = datetime.datetime.fromtimestamp(
         max(
             os.path.getmtime(path)
@@ -206,12 +141,23 @@ def update_date(contents_dir: str) -> list[str]:
     ]
 
 
-def xml_mod(contents_dir: str, source_dir: str, file_name: str, methods: dict[str, Callable]):
-    xml_path = f'{source_dir}/{file_name}'
+def modify_xml(
+    contents_dir: str,
+    source_dir: str,
+    file_name: str,
+    methods: dict[str, Callable[[str, str], list[str]]]
+) -> None:
+    @dataclass
+    class Range:
+        start: int
+        end: int
+        tab_prefix: str
+
+    xml_path = os.path.join(source_dir, file_name)
     with open(xml_path, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
-    ranges = {}
+    ranges: dict[str, Range] = {}
     for i, l in enumerate(lines):
 
         # Captures XML comments.
@@ -222,75 +168,92 @@ def xml_mod(contents_dir: str, source_dir: str, file_name: str, methods: dict[st
         mode = m.group(3)
 
         if mode == 'START':
-            ranges[typ] = {
-                'start': i + 1,
-                'end': i + 1,
-                'tab_prefix': m.group(1),
-            }
+            ranges[typ] = Range(
+                start=i + 1,
+                end=i + 1,
+                tab_prefix=m.group(1),
+            )
 
         elif mode == 'END':
-            ranges[typ]['end'] = i
+            ranges[typ].end = i
 
     # Replaces text between the delimiting lines with what we return from calls to functions within METHODS.
     for (i, d) in reversed(ranges.items()):
-        lines[d['start']:d['end']] = [
-            f"{d['tab_prefix']}{l}\n"
-            for l in methods[i](contents_dir)
+        lines[d.start:d.end] = [
+            f"{d.tab_prefix}{l}\n"
+            for l in methods[i](contents_dir, source_dir)
         ]
 
     with open(xml_path, 'w', encoding='utf-8') as f:
         f.writelines(lines)
 
 
-def dir_mod(contents_dir: str, source_dir: str):
-    xml_mod(contents_dir, source_dir, 'content.xml', {
+def modify_dir(contents_dir: str, source_dir: str) -> None:
+    modify_xml(contents_dir, source_dir, 'content.xml', {
         'SKILLS': make_skills,
         'EDUCATION': make_education,
         'PROJECTS': make_projects,
         'WORK': make_work_exp,
     })
-    xml_mod(contents_dir, source_dir, 'styles.xml', {
+    modify_xml(contents_dir, source_dir, 'styles.xml', {
         'UPDATE-DATE': update_date,
     })
 
 
-def dir2odt(contents_dir: str, odt_path: str):
+def dir_to_odt(contents_dir: str, odt_path: str) -> None:
     with zipfile.ZipFile(odt_path, 'w') as archive:
         for f in os.listdir(contents_dir):
-            archive.write(f'{contents_dir}/{f}', f)
+            archive.write(os.path.join(contents_dir, f), f)
 
 
-def odt2pdf(odt_path: str, pdf_path: str):
+def odt_to_pdf(odt_path: str, pdf_path: str):
     word = win32com.client.Dispatch('Word.Application')
-    doc = word.Documents.Open(os.path.abspath(odt_path))
+    doc = word.Documents.Open(odt_path)
 
     # 17 is an alias for PDF.
-    doc.SaveAs(os.path.abspath(pdf_path), 17)
+    doc.SaveAs(pdf_path, 17)
     doc.Close()
     word.Quit()
 
 
 if __name__ == '__main__':
+    module_dir_abs = os.path.abspath(os.path.dirname(__file__))
+
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument(
+    _ = parser.add_argument(
         'contents_dirs',
         default=[
             f.name
-            for f in os.scandir()
+            for f in os.scandir(module_dir_abs)
             if f.is_dir(follow_symlinks=False)
-            and f.name != 'src'
+            and f.name.startswith(SOURCE_DIR)
             and not f.name.startswith('.')
         ],
         nargs='*',
         type=str,
     )
-    args = parser.parse_args()
-    contents_dirs = args.contents_dirs
-    source_dir = f'{os.path.abspath(os.path.dirname(__file__))}/src'
 
-    for contents_dir in contents_dirs:
-        dir_mod(contents_dir, source_dir)
-        dir2odt(source_dir, f'{contents_dir}/cv.odt')
-        odt2pdf(f'{contents_dir}/cv.odt', f'{contents_dir}/cv.pdf')
+    args = parser.parse_args()
+    contents_dirs: list[str] = args.contents_dirs
+
+    source_names = [
+        f.name
+        for f in os.scandir(os.path.join(module_dir_abs, SOURCE_DIR))
+        if f.is_dir(follow_symlinks=False)
+        and not f.name.startswith('.')
+    ]
+
+    def f(source_name: str, contents_dir: str) -> None:
+        contents_dir_abs = os.path.abspath(contents_dir)
+        source_dir = os.path.join(module_dir_abs, SOURCE_DIR, source_name)
+        odt_path = os.path.join(contents_dir_abs, f'{source_name}.odt')
+        pdf_path = os.path.join(contents_dir_abs, f'{source_name}.pdf')
+        modify_dir(contents_dir, source_dir)
+        dir_to_odt(source_dir, odt_path)
+        odt_to_pdf(odt_path, pdf_path)
         print(f'Finished "{contents_dir}"')
+
+    for c in contents_dirs:
+        for s in source_names:
+            f(s, c)

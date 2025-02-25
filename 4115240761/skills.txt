@@ -1,0 +1,12 @@
+Node.JS
+Python
+FFmpeg
+Git; GitHub
+GNU/Linux
+Bash
+C++
+Android/Linux
+Docker Compose
+Documenting Stuff
+PowerShell
+HTML5/CSS3

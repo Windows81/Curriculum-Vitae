@@ -1,0 +1,39 @@
+2023-07 / current
+Rōblox Freedom Distribution
+https://github.com/Windows81/Roblox-Freedom-Distribution
+is a streamlined culmination of research to allow users to host and join Rōblox servers in a local- or wide-area network.
+- Designed and deployed cross-platform network configurations to optimize client-server connectivity
+- Conducted diagnostic programs to monitor server performance and address network issues
+- Troubleshot technical problems for warehouse-style multi-user environments in a LAN/WAN configuration
+
+2018-02 / 2019-09
+Webhooky
+https://github.com/Windows81/Playing-Webhooky
+was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.
+- Developed webhook integrations and API notifications to safely transfer data between multiple platforms
+- Created a backend framework optimized for high database performance using SQL (MySQL), PHP, and RESTful APIs
+- Designed and tested systems for real-time communication and integration error debugging
+
+2023-08
+Tubeup
+https://github.com/bibanon/tubeup
+is a project I reviewed and contributed code to re-upload videos from a YouTube channel to the Internet Archive.
+- Debugged network-interaction code related to video payload delivery, ensuring fault-tolerant operations
+- Built Python tools to enhance compatibility across cloud-hosted infrastructure
+- Contributed fixes toward optimizing file transfer protocols and video metadata archiving
+
+2022-07 / 2023-05
+Rōblox Script Executor
+https://github.com/Windows81/Roblox-Script-Executor-CLI
+was a command-line interface facilitating script execution on Rōblox.
+- Built T-SQL scripts for managing and organizing large-scale database parameters
+- Automated the execution of customizable CLI workflows for server operators across remote APIs
+- Developed operational tooling to streamline backend command operations and debugging efforts
+
+2019-12 / 2020-11
+GoAnimate Wrapper
+https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
+is a locally-hosted project with product features to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became a significant full-stack web infrastructure project.
+- Designed backend tools to improve fault-tolerant server processes for ground-up troubleshooting
+- Provided user-facing logging systems for both network events and asset generation pipelines
+- Conducted performance metrics and led implementation updates for continuous system improvement

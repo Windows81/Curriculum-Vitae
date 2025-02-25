@@ -1,0 +1,12 @@
+Vulnerability Scanning and Analysis Tools
+Network Intrusion Detection
+GNU/Linux Administration
+Python Scripting; Automation
+Public Key Infrastructures
+TCP/IP Networking
+Git; GitHub
+Bash; PowerShell
+Node.js
+MongoDB
+HTML5/CSS3
+Docker Compose

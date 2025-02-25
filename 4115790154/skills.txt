@@ -1,0 +1,13 @@
+MySQL; MongoDB
+Hands-on IT Experience
+API Design
+Network Configuration
+Python; PHP; Node.js
+Collaboration and Cross-team Communication
+Version Control
+Bash/Powershell Automation
+Microsoft Systems
+HTML5/CSS3
+MongoDB
+Docker Compose
+TCP/IP Protocols

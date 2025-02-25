@@ -1,0 +1,38 @@
+2023-07 / current
+Rōblox Freedom Distribution
+https://github.com/Windows81/Roblox-Freedom-Distribution
+is a streamlined culmination of research to allow users to host and join Rōblox servers in a local- or wide-area network.
+- Created a cross-platform Python bootstrapper solution enabling seamless server-client connectivity
+- Collaborated with a team of developers in an agile environment to enhance product functionality through code reviews
+- Conducted audits for fair-use compliance and integrated legal research into the solution
+
+2021-03 / 2021-04
+Bring Back Buffets
+https://github.com/Windows81/Bring-Back-Buffets
+was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid.  This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.
+- Engineered interactive customer and staff interfaces as part of a scalable web app workflow
+- Pioneered a responsive dining user experience (UX), optimized for mobile devices and safe dining practices
+- Designed and developed a cashier system and bussing tool for order preparation tracking in real-time
+
+2019-12 / 2020-11
+GoAnimate Wrapper
+https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
+is a locally-hosted project with product features to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became a significant full-stack web infrastructure project.
+- Developed a scalable Node.js-based interface to replicate a legacy system's back-end functionality
+- Collaborated with the community for rapid prototyping and refinement of ActionScript code
+- Facilitated the development of thousands of engaging video outputs, showcasing scalability in consumer-facing tools
+
+2023-08
+Tubeup
+https://github.com/bibanon/tubeup
+is a project I reviewed and contributed code to re-upload videos from a YouTube channel to the Internet Archive.
+- Utilized Python-based tooling to debug and optimize re-upload tasks for a high volume of digital video assets
+- Conducted repository maintenance to integrate fixes for compatibility and modular performance
+
+2021-05 / 2022-02
+Time is Musical
+https://github.com/Windows81/Time-Is-Musical
+is a musical adaptation of the WWV time station.
+- Developed a live-streaming algorithm using FFmpeg and Python to create generative music experiences
+- Designed a scalable composition framework leveraging Python scripting and media design pipelines
+- Integrated UX-forward features designed to engage live-stream audiences with music interactivity

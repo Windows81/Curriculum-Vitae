@@ -1,0 +1,3 @@
+<text:list-item>
+	<text:p text:style-name="tech-skill">{tech_skill}</text:p>
+</text:list-item>

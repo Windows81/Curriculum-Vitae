@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<office:document-styles
+	xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0"
+	xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+	xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0"
+	xmlns:db="urn:oasis:names:tc:opendocument:xmlns:database:1.0"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+	xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+	xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+	xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+	xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+	xmlns:math="http://www.w3.org/1998/Math/MathML"
+	xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+	xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+	xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+	xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0"
+	xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+	xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0"
+	xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+	xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+	xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+	xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+	xmlns:xforms="http://www.w3.org/2002/xforms"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	office:version="1.3">
+	<office:font-face-decls>
+		<style:font-face
+			style:name="Arial Narrow"
+			svg:font-family="Arial Narrow"/>
+		<style:font-face
+			style:name="SimSun"
+			svg:font-family="SimSun"/>
+		<style:font-face
+			style:name="Times New Roman"
+			svg:font-family="Times New Roman"/>
+		<style:font-face
+			style:name="Calibri"
+			svg:font-family="Calibri"/>
+		<style:font-face
+			style:name="Arial"
+			svg:font-family="Arial"/>
+		<style:font-face
+			style:name="Courier New"
+			svg:font-family="Courier New"/>
+		<style:font-face
+			style:name="Wingdings"
+			svg:font-family="Wingdings"/>
+		<style:font-face
+			style:name="Symbol"
+			svg:font-family="Symbol"/>
+		<style:font-face
+			style:name="Arial Black"
+			svg:font-family="Arial Black"/>
+		<style:font-face
+			style:name="SimHei"
+			svg:font-family="SimHei"/>
+		<style:font-face
+			style:name="Cambria"
+			svg:font-family="Cambria"/>
+	</office:font-face-decls>
+	<office:styles>
+		<style:default-style style:family="table">
+			<style:table-properties
+				fo:margin-left="0.00mm"
+				table:border-model="collapsing"
+				table:align="left"/>
+		</style:default-style>
+		<style:default-style style:family="table-column">
+			<style:table-column-properties style:use-optimal-column-width="true"/>
+		</style:default-style>
+		<style:default-style style:family="table-row">
+			<style:table-row-properties
+				style:min-row-height="0.00mm"
+				style:use-optimal-row-height="true"
+				fo:keep-together="always"/>
+		</style:default-style>
+		<style:default-style style:family="table-cell">
+			<style:table-cell-properties
+				style:glyph-orientation-vertical="auto"
+				style:vertical-align="top"
+				fo:wrap-option="wrap"/>
+		</style:default-style>
+		<style:default-style style:family="paragraph">
+			<style:paragraph-properties
+				fo:keep-with-next="auto"
+				fo:keep-together="auto"
+				fo:widows="2"
+				fo:orphans="2"
+				fo:break-before="auto"
+				text:number-lines="true"
+				fo:border="none"
+				fo:padding="0.00mm"
+				style:shadow="none"
+				style:line-break="strict"
+				style:punctuation-wrap="hanging"
+				style:text-autospace="ideograph-alpha"
+				style:snap-to-layout-grid="true"
+				fo:text-align="start"
+				style:vertical-align="auto"
+				fo:margin-bottom="2.82mm"
+				fo:line-height="104%"
+				style:tab-stop-distance="5.00mm"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				style:font-name-complex="Times New Roman"
+				fo:font-weight="normal"
+				style:font-weight-complex="normal"
+				fo:font-style="normal"
+				style:font-style-complex="normal"
+				fo:text-transform="none"
+				fo:font-variant="normal"
+				style:text-line-through-type="none"
+				style:text-outline="false"
+				style:font-relief="none"
+				style:use-window-font-color="true"
+				fo:letter-spacing="normal"
+				style:text-scale="100%"
+				style:letter-kerning="false"
+				style:text-position="0% 100%"
+				fo:font-size="3.9mm"
+				style:text-underline-type="none"
+				style:text-underline-color="font-color"
+				style:text-emphasize="none"
+				fo:language="en"
+				fo:country="GB"
+				style:language-complex="ar"
+				style:country-complex="SA"
+				style:text-combine="none"
+				fo:hyphenate="true"/>
+		</style:default-style>
+		<style:style
+			style:name="Heading1"
+			style:display-name="Heading 1"
+			style:family="paragraph"
+			style:master-page-name="MP0"
+			style:next-style-name="Normal"
+			style:default-outline-level="1">
+			<style:paragraph-properties
+				fo:break-before="page"
+				style:snap-to-layout-grid="false"
+				fo:margin-left="-0.30mm"
+				fo:text-indent="0.00mm"
+				fo:keep-with-next="always"
+				fo:keep-together="always"
+				fo:margin-bottom="0.00mm"
+				fo:line-height="70%">
+				<style:tab-stops>
+					<style:tab-stop
+						style:type="right"
+						style:position="190.82mm"/>
+				</style:tab-stops>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Black"
+				fo:font-weight="bold"
+				fo:color="#000000"
+				fo:font-size="5.6mm"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"
+				fo:hyphenate="false"/>
+		</style:style>
+		<style:style
+			style:name="Heading2"
+			style:display-name="Heading 2"
+			style:family="paragraph"
+			style:next-style-name="Normal"
+			style:default-outline-level="2">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-top="0.00mm"
+				fo:keep-with-next="always"
+				fo:keep-together="always"
+				fo:margin-bottom="1.00mm"
+				fo:line-height="100%"
+				fo:margin-left="0.00mm"
+				fo:text-indent="-0.18mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Black"
+				fo:font-style="normal"
+				fo:color="#000000"
+				fo:font-size="4.2mm"
+				fo:hyphenate="false"/>
+		</style:style>
+		<style:style
+			style:name="Normal"
+			style:display-name="Normal"
+			style:family="paragraph">
+			<style:text-properties
+				style:font-name="Calibri"
+				style:font-name-complex="Calibri"
+				fo:color="#000000"
+				fo:hyphenate="false"/>
+		</style:style>
+		<style:style
+			style:name="DefaultParagraphFont"
+			style:display-name="Default Paragraph Font"
+			style:family="text"/>
+		<style:style
+			style:name="footnotedescription"
+			style:display-name="footnote description"
+			style:family="paragraph"
+			style:next-style-name="Normal">
+			<style:paragraph-properties fo:margin-bottom="0.00mm"/>
+			<style:text-properties
+				style:font-name="Times New Roman"
+				fo:color="#0000FF"
+				fo:font-size="3.5mm"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#0000FF"
+				fo:hyphenate="false"/>
+		</style:style>
+		<style:style
+			style:name="footnotedescriptionChar"
+			style:display-name="footnote description Char"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Times New Roman"
+				style:font-name-complex="Times New Roman"
+				fo:color="#0000FF"
+				fo:font-size="3.5mm"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#0000FF"/>
+		</style:style>
+		<style:style
+			style:name="footnotemark"
+			style:display-name="footnote mark"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Times New Roman"
+				style:font-name-complex="Times New Roman"
+				fo:color="#000000"
+				style:text-position="super 65%"
+				fo:font-size="3.5mm"/>
+		</style:style>
+		<style:style
+			style:name="ListParagraph"
+			style:display-name="List Paragraph"
+			style:family="paragraph"
+			style:parent-style-name="Normal">
+			<style:paragraph-properties
+				fo:margin-left="12.70mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties fo:hyphenate="false"/>
+		</style:style>
+		<style:style
+			style:name="Hyperlink"
+			style:display-name="Hyperlink"
+			style:family="text"
+			style:parent-style-name="DefaultParagraphFont">
+			<style:text-properties
+				fo:color="#0563C1"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="font-color"/>
+		</style:style>
+		<style:style
+			style:name="UnresolvedMention"
+			style:display-name="Unresolved Mention"
+			style:family="text"
+			style:parent-style-name="DefaultParagraphFont">
+			<style:text-properties
+				fo:color="#605E5C"
+				fo:background-color="#E1DFDD"/>
+		</style:style>
+		<style:style
+			style:name="Header"
+			style:display-name="Header"
+			style:family="paragraph"
+			style:parent-style-name="Normal">
+			<style:paragraph-properties
+				fo:margin-bottom="0.00mm"
+				fo:line-height="100%">
+				<style:tab-stops>
+					<style:tab-stop
+						style:type="center"
+						style:position="79.60mm"/>
+					<style:tab-stop
+						style:type="right"
+						style:position="159.21mm"/>
+				</style:tab-stops>
+			</style:paragraph-properties>
+			<style:text-properties fo:hyphenate="false"/>
+		</style:style>
+		<style:style
+			style:name="HeaderChar"
+			style:display-name="Header Char"
+			style:family="text"
+			style:parent-style-name="DefaultParagraphFont">
+			<style:text-properties
+				style:font-name="Calibri"
+				style:font-name-complex="Calibri"
+				fo:color="#000000"/>
+		</style:style>
+		<style:style
+			style:name="Footer"
+			style:display-name="Footer"
+			style:family="paragraph"
+			style:parent-style-name="Normal">
+			<style:paragraph-properties
+				fo:margin-bottom="0.00mm"
+				fo:line-height="100%">
+				<style:tab-stops>
+					<style:tab-stop
+						style:type="center"
+						style:position="79.60mm"/>
+					<style:tab-stop
+						style:type="right"
+						style:position="159.21mm"/>
+				</style:tab-stops>
+			</style:paragraph-properties>
+			<style:text-properties fo:hyphenate="false"/>
+		</style:style>
+		<style:style
+			style:name="FooterChar"
+			style:display-name="Footer Char"
+			style:family="text"
+			style:parent-style-name="DefaultParagraphFont">
+			<style:text-properties
+				style:font-name="Calibri"
+				style:font-name-complex="Calibri"
+				fo:color="#000000"/>
+		</style:style>
+		<text:notes-configuration
+			text:note-class="footnote"
+			text:start-value="0"
+			style:num-format="1"
+			text:start-numbering-at="page"
+			text:footnotes-position="page"/>
+		<text:notes-configuration
+			text:note-class="endnote"
+			text:start-value="0"
+			style:num-format="i"
+			text:start-numbering-at="document"
+			text:footnotes-position="document"/>
+		<text:outline-style style:name="WW_OutlineListStyle">
+			<text:outline-level-style
+				text:level="1"
+				style:num-format=""/>
+			<text:outline-level-style
+				text:level="2"
+				style:num-format=""/>
+		</text:outline-style>
+		<style:style
+			style:name="WW_CharLFO1LVL1"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Arial"
+				style:font-name-complex="Arial"
+				fo:font-weight="normal"
+				fo:font-style="normal"
+				style:text-line-through-type="none"
+				fo:color="#000000"
+				style:text-position="0% 100%"
+				fo:font-size="3.5mm"
+				style:text-underline-type="none"
+				style:text-underline-color="#000000"/>
+		</style:style>
+		<style:style
+			style:name="WW_CharLFO2LVL1"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				style:font-name-complex="Times New Roman"/>
+		</style:style>
+		<style:default-page-layout>
+			<style:page-layout-properties style:layout-grid-standard-mode="true"/>
+		</style:default-page-layout>
+		<style:default-style style:family="graphic">
+			<style:graphic-properties
+				draw:fill="solid"
+				draw:fill-color="#4472c4"
+				draw:opacity="100%"
+				draw:stroke="solid"
+				svg:stroke-width="0.35mm"
+				svg:stroke-color="#2f528f"
+				svg:stroke-opacity="100%"
+				draw:stroke-linejoin="miter"
+				svg:stroke-linecap="butt"/>
+		</style:default-style>
+	</office:styles>
+	<office:automatic-styles>
+		<style:page-layout style:name="PL0">
+			<style:page-layout-properties
+				fo:page-width="210.00mm"
+				fo:page-height="297.00mm"
+				style:print-orientation="portrait"
+				fo:margin-top="12.70mm"
+				fo:margin-left="12.70mm"
+				fo:margin-bottom="12.70mm"
+				fo:margin-right="12.70mm"
+				style:num-format="1">
+				<style:footnote-sep
+					style:width="0.18mm"
+					style:rel-width="33%"
+					style:color="#000000"
+					style:line-style="solid"
+					style:adjustment="left"/>
+			</style:page-layout-properties>
+			<style:header-style>
+				<style:header-footer-properties
+					style:dynamic-spacing="true"
+					fo:min-height="2.54mm"/>
+			</style:header-style>
+			<style:footer-style>
+				<style:header-footer-properties
+					style:dynamic-spacing="true"
+					fo:min-height="6.35mm"/>
+			</style:footer-style>
+		</style:page-layout>
+		<style:style
+			style:name="foot-date"
+			style:parent-style-name="Footer"
+			style:family="paragraph">
+			<style:text-properties
+				style:font-name="Arial"
+				style:font-name-complex="Arial"
+				fo:font-style="italic"
+				style:font-style-complex="italic"
+				fo:font-size="3.2mm"/>
+		</style:style>
+	</office:automatic-styles>
+	<office:master-styles>
+		<style:master-page
+			style:name="MP0"
+			style:page-layout-name="PL0">
+			<style:footer>
+				<!-- UPDATE-DATE START -->
+				<text:p text:style-name="foot-date">2024-11-21 09Z</text:p>
+				<!-- UPDATE-DATE END -->
+			</style:footer>
+		</style:master-page>
+	</office:master-styles>
+</office:document-styles>
