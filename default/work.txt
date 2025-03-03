@@ -1,31 +1,31 @@
-2023-09 / 2024-03
+Sep 2023 - Mar 2024
 Front-end Developer at GameIn
 - a tool to match e-sports streamers and financial sponsors
 - Implemented mobile-responsive pages using Next.js (and thus React) from existing mockups
 - Collaborated directly with other developers and C-suite personnel
 - Took part in building and presenting a team-wide slide deck in Google Slides; styled with Figma
 
-2016-04 ∕ Present
+Apr 2016 ∕ Present
 Contracted Graphic Designer @ Islamic Institute of Orange County
 et al.
 - Advertised social events with non-profits, e.g. Islamic Institute of Orange County and Sabil USA
 - Additionally, designed real-estate marketing materials for Berkshire Hathaway agents
 - Commissioned to design over 20 event fliers for non-profit organizations
 
-2017-09 ∕ 2018-05
+Sep 2017 ∕ May 2018
 Internship @ CSU Fullerton
 under the Val Tech Program
 - Assisted in the development of a brain-computer interface with graduate students
 - Designed user interface for mock-up calibration procedure
 - Project coordinated by Professor Kiran George, PhD
 
-2015-06 / Present
+Jun 2015 - Present
 Professional Engineering Course Center
 (on call)
 - Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
 - Assisted in architectural and structural design plans of commercial and industrial sites
 
-2019-08 / 2021-06
+Aug 2019 - Jun 2021
 Raising Cane's; El Pollo Loco
 (customer service, part-time)
 - Effectively communicated with customers and team members in a fast-paced environment

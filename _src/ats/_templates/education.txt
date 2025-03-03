@@ -1,0 +1,2 @@
+<text:h text:style-name="Heading3">{educ_title} ({educ_date})</text:h>
+{educ_descs}

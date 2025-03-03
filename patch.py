@@ -1,3 +1,4 @@
+from ast import arg
 from dataclasses import dataclass
 import functools
 from typing import Callable
@@ -226,9 +227,9 @@ if __name__ == '__main__':
         default=[
             f.name
             for f in os.scandir(module_dir_abs)
-            if f.is_dir(follow_symlinks=False)
-            and f.name.startswith(SOURCE_DIR)
-            and not f.name.startswith('.')
+            if f.name != SOURCE_DIR
+            and f.is_dir(follow_symlinks=False)
+            and not f.name.startswith(('.', '_'))
         ],
         nargs='*',
         type=str,
@@ -244,7 +245,7 @@ if __name__ == '__main__':
         and not f.name.startswith('.')
     ]
 
-    def f(source_name: str, contents_dir: str) -> None:
+    def f(contents_dir: str, source_name: str) -> None:
         contents_dir_abs = os.path.abspath(contents_dir)
         source_dir = os.path.join(module_dir_abs, SOURCE_DIR, source_name)
         odt_path = os.path.join(contents_dir_abs, f'{source_name}.odt')
@@ -252,8 +253,8 @@ if __name__ == '__main__':
         modify_dir(contents_dir, source_dir)
         dir_to_odt(source_dir, odt_path)
         odt_to_pdf(odt_path, pdf_path)
-        print(f'Finished "{contents_dir}"')
+        print(f'Finished "{contents_dir}" ({source_name})')
 
     for c in contents_dirs:
         for s in source_names:
-            f(s, c)
+            f(c, s)

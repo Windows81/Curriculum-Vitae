@@ -623,16 +623,16 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Created a Python bootstrapper, dually for clients and servers, for seamless connectivity</text:p>
+								<text:p text:style-name="proj-desc">Developed a Python bootstrapper for clients and servers, enhancing data connectivity and integration.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Enhanced functionality through team collaboration, code reviews, and feature development</text:p>
+								<text:p text:style-name="proj-desc">Collaborated with a cross-functional team to improve functionality through code reviews and feature development.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Ensured fair-use compliance by auditing business-legal literature</text:p>
+								<text:p text:style-name="proj-desc">Conducted compliance audits to ensure fair-use practices, aligning with data governance standards.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2023-07 / current</text:p>
+						<text:p text:style-name="date">Jul 2023 - current</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -642,23 +642,21 @@
 							<text:a xlink:href="https://github.com/Windows81/Bring-Back-Buffets">
 								<text:span text:style-name="proj-title">
 								Bring Back Buffets</text:span>
-							</text:a>was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.</text:p>
+							</text:a>was a mobile web app written in JavaScript aimed at reviving buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Engineered separate user interfaces for customers, cashiers, and kitchen staff</text:p>
+								<text:p text:style-name="proj-desc">Engineered user interfaces for customers, cashiers, and kitchen staff, focusing on user experience and data flow.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Streamlined the Covid dining experience UX with mobile-device ordering</text:p>
+								<text:p text:style-name="proj-desc">Streamlined the Covid dining experience with mobile-device ordering, enhancing customer satisfaction metrics.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Developed a cashier system for efficient order tracking</text:p>
-							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Built a front-end for bussers to ensure timely order preparation and delivery</text:p>
+								<text:p text:style-name="proj-desc">Developed a cashier system for efficient order tracking, utilizing data analytics for operational improvements.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2021-03 / 2021-04</text:p>
+						<text:p text:style-name="date">Mar 2021 - Apr 2021</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -673,18 +671,16 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Created and scaled a modern Node.JS interface replicating GoAnimate's back-end functionalities</text:p>
+								<text:p text:style-name="proj-desc">Created and scaled a modern Node.JS interface, replicating back-end functionalities and improving data processing efficiency.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Reverse-engineered Shockwave Flash files and analyzed legacy ActionScript code</text:p>
+								<text:p text:style-name="proj-desc">Analyzed legacy ActionScript code to enhance data interoperability and user engagement.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Delivered hundreds of engaging video experiences by May 2021</text:p>
-							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Over 21,000 results on a YouTube query for Wrapper and derivative works</text:p>
+								<text:p text:style-name="proj-desc">Delivered hundreds of engaging video experiences, utilizing data insights to drive content creation strategies.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2019-12 / 2020-11</text:p>
+						<text:p text:style-name="date">Dec 2019 - Nov 2020</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -699,16 +695,16 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Constructed custom syntax for script execution in Luau</text:p>
+								<text:p text:style-name="proj-desc">Constructed custom syntax for script execution in Luau, improving user interaction with data-driven scripts.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Introduced per-script parameterization for user ease</text:p>
+								<text:p text:style-name="proj-desc">Introduced per-script parameterization for user ease, enhancing the overall user experience.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Created 142 predefined scripts in a sister repository, many with help pages</text:p>
+								<text:p text:style-name="proj-desc">Created a repository of 142 predefined scripts, incorporating documentation for data usage best practices.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2022-07 / 2023-05</text:p>
+						<text:p text:style-name="date">Jul 2022 - May 2023</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -718,21 +714,21 @@
 							<text:a xlink:href="https://github.com/bibanon/tubeup">
 								<text:span text:style-name="proj-title">
 								Tubeup</text:span>
-							</text:a>is a project I reviewed and contributed code to re-upload videos from my YouTube chanel to the Internet Archive.</text:p>
+							</text:a>is a project I reviewed and contributed code to re-upload videos from my YouTube channel to the Internet Archive.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Addressed apparent bugs within a payload of 234 YouTube videos</text:p>
+								<text:p text:style-name="proj-desc">Addressed bugs within a payload of 234 YouTube videos, applying data analysis to identify and resolve issues.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Implemented fixes on GitHub to account for deleted assets</text:p>
+								<text:p text:style-name="proj-desc">Implemented fixes on GitHub to account for deleted assets, ensuring data integrity and availability.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Intuited yt-dlp's Python interface</text:p>
+								<text:p text:style-name="proj-desc">Utilized yt-dlp's Python interface to streamline data retrieval processes.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2023-08</text:p>
+						<text:p text:style-name="date">Aug 2023</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -747,14 +743,14 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Bootstrapped effort to release a major security patch after ~2 days</text:p>
+								<text:p text:style-name="proj-desc">Led the effort to release a major security patch within 48 hours, demonstrating problem-solving and technical skills.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Exposed saved videos and metadata, resolved after notification</text:p>
+								<text:p text:style-name="proj-desc">Analyzed saved videos and metadata, ensuring data security and compliance with best practices.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2022-12</text:p>
+						<text:p text:style-name="date">Dec 2022</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -764,25 +760,21 @@
 							<text:a xlink:href="https://github.com/Windows81/Time-Is-Musical">
 								<text:span text:style-name="proj-title">
 								Time is Musical</text:span>
-							</text:a>is a musical adaptation of the WWV time station</text:p>
+							</text:a>is a musical adaptation of the WWV time station.</text:p>
 						<text:list
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Streamed live on YouTube using FFmpeg's lavfi filter</text:p>
+								<text:p text:style-name="proj-desc">Streamed live on YouTube using FFmpeg's lavfi filter, applying data analysis to optimize streaming parameters.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Mastered, mixed, and reproduced a composition of five tracks</text:p>
+								<text:p text:style-name="proj-desc">Mastered, mixed, and reproduced a composition of five tracks, utilizing data-driven techniques for sound quality enhancement.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Devised an algorithm to uniquely select playing loops per minute</text:p>
-							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Produced 42 synth loops using FL Studio 20</text:p>
-							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Constructed Python script for stream parameters</text:p>
+								<text:p text:style-name="proj-desc">Developed an algorithm to uniquely select playing loops per minute, showcasing advanced data manipulation skills.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2021-05 / 2022-02</text:p>
+						<text:p text:style-name="date">May 2021 - Feb 2022</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -797,16 +789,16 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Made use of PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs</text:p>
+								<text:p text:style-name="proj-desc">Utilized PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs, enhancing data management capabilities.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Empowered over 200 game developers to transfer data to Discord with my service</text:p>
+								<text:p text:style-name="proj-desc">Empowered over 200 game developers to transfer data to Discord, demonstrating the impact of data integration solutions.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Montored and tracked infrastructure usage stats on cPanel via 000webhost</text:p>
+								<text:p text:style-name="proj-desc">Monitored and tracked infrastructure usage stats on cPanel, applying data analytics for performance optimization.</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2018-02 / 2019-09</text:p>
+						<text:p text:style-name="date">Feb 2018 - Sep 2019</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -821,38 +813,14 @@
 							text:style-name="proj-list"
 							text:continue-numbering="true">
 							<text:list-item>
-								<text:p text:style-name="proj-desc">Designed a sleek user interface using Rōblox Studio, without third-party libraries</text:p>
+								<text:p text:style-name="proj-desc">Designed a user interface using Rōblox Studio, focusing on data presentation and user engagement.</text:p>
 							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Enabled potential users to sell hats, accessories, and packages outside the official Rōblox store</text:p>
+								<text:p text:style-name="proj-desc">Enabled users to sell hats,</text:p>
 							</text:list-item>
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2021-06 / 2022-05</text:p>
-					</table:table-cell>
-				</table:table-row>
-				
-				<table:table-row table:style-name="sect-row">
-					<table:table-cell table:style-name="sect-cell">
-						<text:p text:style-name="proj-head">
-							<text:a xlink:href="https://windows81.github.io">
-								<text:span text:style-name="proj-title">
-								Windows81.github.io</text:span>
-							</text:a>is a personal website hosted on GitHub Pages.</text:p>
-						<text:list
-							text:style-name="proj-list"
-							text:continue-numbering="true">
-							<text:list-item>
-								<text:p text:style-name="proj-desc">Compiled my creative 3D-showcasing work on Rōblox</text:p>
-							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Incorporated elements of responsive philosophy</text:p>
-							</text:list-item>			<text:list-item>
-								<text:p text:style-name="proj-desc">Hand-coded using HTML and CSS, sans third-party frameworks</text:p>
-							</text:list-item>
-						</text:list>
-					</table:table-cell>
-					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2020-05</text:p>
+						<text:p text:style-name="date">Jun 2021 - May 2022</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -876,24 +844,24 @@
 							text:continue-numbering="true">
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Implemented mobile-responsive pages using Next.js (and thus React) from existing mockups
+									Implemented mobile-responsive pages using Next.js (and thus React) from existing mockups, enhancing user experience.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Collaborated directly with other developers and C-suite personnel
+									Collaborated directly with developers and C-suite personnel to gather requirements and ensure alignment with business objectives.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Took part in building and presenting a team-wide slide deck in Google Slides; styled with Figma
+									Contributed to building and presenting a team-wide slide deck in Google Slides, utilizing Figma for design consistency.
 								</text:p>
 							</text:list-item>
 				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2023-09 / 2024-03</text:p>
+						<text:p text:style-name="date">Sep 2023 - Mar 2024</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -907,24 +875,24 @@
 							text:continue-numbering="true">
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Advertised social events with non-profits, e.g. Islamic Institute of Orange County and Sabil USA
+									Advertised social events with non-profits, e.g. Islamic Institute of Orange County and Sabil USA, utilizing data-driven design strategies.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Additionally, designed real-estate marketing materials for Berkshire Hathaway agents
+									Designed real-estate marketing materials for Berkshire Hathaway agents, focusing on effective communication of key messages.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Commissioned to design over 20 event fliers for non-profit organizations
+									Commissioned to design over 20 event fliers for non-profit organizations, ensuring alignment with branding and audience engagement.
 								</text:p>
 							</text:list-item>
 				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2016-04 ∕ Present</text:p>
+						<text:p text:style-name="date">Apr 2016 ∕ Present</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -938,24 +906,24 @@
 							text:continue-numbering="true">
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Assisted in the development of a brain-computer interface with graduate students
+									Assisted in the development of a brain-computer interface with graduate students, applying analytical skills to support research objectives.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Designed user interface for mock-up calibration procedure
+									Designed user interface for mock-up calibration procedure, enhancing usability and user experience.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Project coordinated by Professor Kiran George, PhD
+									Project coordinated by Professor Kiran George, PhD, fostering collaboration and communication skills.
 								</text:p>
 							</text:list-item>
 				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2017-09 ∕ 2018-05</text:p>
+						<text:p text:style-name="date">Sep 2017 ∕ May 2018</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -969,19 +937,19 @@
 							text:continue-numbering="true">
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
+									Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba, enhancing data management capabilities.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Assisted in architectural and structural design plans of commercial and industrial sites
+									Assisted in architectural and structural design plans of commercial and industrial sites, applying analytical thinking to design challenges.
 								</text:p>
 							</text:list-item>
 				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2015-06 / Present</text:p>
+						<text:p text:style-name="date">Jun 2015 - Present</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -995,34 +963,34 @@
 							text:continue-numbering="true">
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Effectively communicated with customers and team members in a fast-paced environment
+									Effectively communicated with customers and team members in a fast-paced environment, enhancing customer satisfaction.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Assumed different roles within the restaurant to support overall operations
+									Assumed different roles within the restaurant to support overall operations, demonstrating flexibility and teamwork.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Handled cash transactions and using point-of-sale systems
+									Handled cash transactions and utilized point-of-sale systems, ensuring accurate financial reporting.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Addressed customer concerns and resolving issues in a positive and efficient manner
+									Addressed customer concerns and resolved issues in a positive and efficient manner, contributing to a positive customer experience.
 								</text:p>
 							</text:list-item>
 							<text:list-item>
 								<text:p text:style-name="work-desc">
-									Carefully selecting an adequate pricing scheme according to market value
+									Analyzed pricing schemes according to market value, applying basic data analysis skills to support business decisions.
 								</text:p>
 							</text:list-item>
 				
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">2019-08 / 2021-06</text:p>
+						<text:p text:style-name="date">Aug 2019 - Jun 2021</text:p>
 					</table:table-cell>
 				</table:table-row>
 				

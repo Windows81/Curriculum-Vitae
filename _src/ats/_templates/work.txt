@@ -1,0 +1,3 @@
+<text:h text:style-name="Heading3">{work_title} ({work_date})</text:h>
+<text:p text:style-name="Normal">{work_sub}</text:p>
+{work_descs}

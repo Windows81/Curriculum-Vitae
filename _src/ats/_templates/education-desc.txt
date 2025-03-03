@@ -1,0 +1,1 @@
+<text:p text:style-name="Normal">{educ_desc}</text:p>

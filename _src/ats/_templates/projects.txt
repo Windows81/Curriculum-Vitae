@@ -1,0 +1,4 @@
+<text:h text:style-name="Heading3">{proj_title} ({proj_date})</text:h>
+<text:p text:style-name="Normal">{proj_link}</text:p>
+<text:p text:style-name="Normal">{proj_title} {proj_sub}</text:p>
+{proj_descs}

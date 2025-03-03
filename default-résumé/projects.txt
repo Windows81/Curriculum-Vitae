@@ -1,11 +1,11 @@
-2022-12
+Dec 2022
 Screwdja-YuJa
 https://github.com/Windows81/Screwdja-YuJa
 was a severe vulnerability in YuJa's API that I identified and reported.
 - Bootstrapped effort to release a major security patch after ~2 days
 - Exposed saved videos and metadata, resolved after notification
 
-2021-03 / 2021-04
+Mar 2021 - Apr 2021
 Bring Back Buffets
 https://github.com/Windows81/Bring-Back-Buffets
 was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.

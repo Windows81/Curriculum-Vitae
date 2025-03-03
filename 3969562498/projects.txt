@@ -1,4 +1,4 @@
-2019-12 / 2020-11
+Dec 2019 - Nov 2020
 GoAnimate Wrapper
 https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper
 is a locally-hosted project with product features to interop with Vyond's Legacy Video Maker. With a team of community experts, Wrapper became a significant full-stack web infrastructure project.
@@ -6,7 +6,7 @@ is a locally-hosted project with product features to interop with Vyond's Legacy
 - Conducted reverse-engineering research using legacy ActionScript, showcasing skills in complex debugging
 - Collaborated with stakeholders to streamline large-scale system workflows and mitigate failures
 
-2022-12
+Dec 2022
 Screwdja-YuJa
 https://github.com/Windows81/Screwdja-YuJa
 addressed a severe vulnerability in YuJa's API that I identified and reported.
@@ -14,7 +14,7 @@ addressed a severe vulnerability in YuJa's API that I identified and reported.
 - Used NIST methodology to document vulnerabilities, enabling secure cloud communication
 - Collaborated with the security engineering team at YuJa to ensure breach mitigation policies
 
-2023-07 / current
+Jul 2023 - current
 Rōblox Freedom Distribution
 https://github.com/Windows81/Roblox-Freedom-Distribution
 is a streamlined culmination of research to allow users to host and join Rōblox servers in a local- or wide-area network.
@@ -22,7 +22,7 @@ is a streamlined culmination of research to allow users to host and join Rōblox
 - Audited system vulnerabilities and implemented processes to comply with standard web security practices
 - Conducted periodic security incident assessments and tested threat prevention simulations
 
-2023-08
+Aug 2023
 Tubeup
 https://github.com/bibanon/tubeup
 is a project I reviewed and contributed code to re-upload videos from a YouTube channel to the Internet Archive.
@@ -30,7 +30,7 @@ is a project I reviewed and contributed code to re-upload videos from a YouTube 
 - Addressed challenges in multi-host data routing performance vulnerabilities
 - Redesigned key areas of the codebase to manage workloads more securely and efficiently
 
-2018-02 / 2019-09
+Feb 2018 - Sep 2019
 Webhooky
 https://github.com/Windows81/Playing-Webhooky
 was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.
