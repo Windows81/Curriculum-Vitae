@@ -222,13 +222,14 @@
 				fo:margin-top="0.00mm"
 				fo:margin-bottom="0.00mm"
 				style:line-height-at-least="0.50mm"
-				fo:margin-left="3.00mm"
+				fo:margin-left="1.00mm"
 				fo:margin-right="-0.35mm">
 				<style:tab-stops/>
 			</style:paragraph-properties>
 			<style:text-properties
+				fo:font-weight="500"
 				style:font-name="Arial Narrow"
-				fo:font-size="4.20mm"/>
+				fo:font-size="3.7mm"/>
 		</style:style>
 		<style:style
 			style:name="edu-title"
@@ -892,7 +893,7 @@
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">Apr 2016 ∕ Present</text:p>
+						<text:p text:style-name="date">Apr 2016 - Present</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
@@ -923,7 +924,7 @@
 						</text:list>
 					</table:table-cell>
 					<table:table-cell table:style-name="date-cell">
-						<text:p text:style-name="date">Sep 2017 ∕ May 2018</text:p>
+						<text:p text:style-name="date">Sep 2017 - May 2018</text:p>
 					</table:table-cell>
 				</table:table-row>
 				
