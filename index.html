@@ -1,0 +1,217 @@
+<header>
+	<h1>Ahmed Abo-Shadi</h1>
+	<sub>alias <i>VisualPlugin</i></sub>
+	<div>
+		<a href="tel:+17144635142">+1 (714) 463 5142</a>
+		<a href="https://linkedin.com/in/visualplugin">https://linkedin.com/in/visualplugin</a>
+		<a href="https://github.com/Windows81">https://github.com/Windows81</a>
+		<a href="mailto:aboshadi.n.ahmed@gmail.com">aboshadi.n.ahmed@gmail.com</a>
+	</div>
+</header>
+<div class="blockContainer" id="cvBody"></div>
+<style>
+	@media print {
+		body {
+			margin: 0;
+		}
+		@page {
+			margin: 0.25in;
+			size: letter;
+		}
+	}
+	body {
+		margin: auto;
+	}
+	* {
+		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	}
+	header {
+		text-align: center;
+		margin: 0;
+	}
+	header > h1 {
+		margin: 0;
+	}
+	header > sub {
+		display: block;
+		font-weight: normal;
+		font-size: 16px;
+		margin: 0;
+		margin-top: 4px;
+		margin-bottom: 6px;
+	}
+	header > div {
+		margin: auto;
+		display: grid;
+		justify-content: center;
+		grid-template-columns: repeat(2, min-content);
+	}
+	header > div > a {
+		margin: 0;
+		margin-left: 8px;
+		margin-right: 8px;
+		display: block;
+	}
+	.blockContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 8px;
+	}
+	.blockContainer > .category {
+		text-align: right;
+		border-bottom: 2px dotted #aaa;
+		padding: 0;
+		margin: 0;
+		margin-top: 16px;
+		flex-basis: 100%;
+		height: fit-content;
+		break-inside: avoid;
+		break-after: avoid;
+	}
+	.education {
+		--box-bullet-leader: hsl(225, 100%, 30%);
+		--background: hsl(225, 100%, 97%);
+	}
+	.projects {
+		--box-bullet-leader: hsl(90, 70%, 30%);
+		--background: hsl(90, 70%, 97%);
+	}
+	.work {
+		--box-bullet-leader: hsl(300, 70%, 30%);
+		--background: hsl(300, 70%, 97%);
+	}
+	.blockContainer > .block {
+		width: min-content;
+		background: var(--background);
+		border: 2px solid color-mix(in srgb, var(--box-bullet-leader) 10%, transparent);
+		/*
+		border: #eee solid 4px;
+		border-top: 0;
+		border-left: 0;
+		*/
+		box-sizing: content-box;
+		border-radius: 8px;
+		padding: 8px;
+		break-inside: avoid;
+		flex-grow: 1;
+	}
+	.blockContainer > .block > div {
+		font-size: 16px;
+		margin-left: 8px;
+		text-wrap-mode: nowrap;
+		width: fit-content;
+	}
+	.blockContainer > .block > div::before {
+		content: "";
+		position: absolute;
+		width: 6px;
+		height: 6px;
+		background-color: var(--box-bullet-leader);
+		border-radius: 6px;
+		margin-left: -10px;
+		margin-top: 5px;
+		box-sizing: border-box;
+	}
+	.blockContainer b,
+	.blockContainer strong {
+		color: var(--box-bullet-leader);
+	}
+	.blockContainer > .block > li {
+		stroke-linecap: round;
+		font-size: 13px;
+		border-left: var(--box-bullet-leader) solid 2px;
+		padding-left: 13px;
+		padding-top: 8px;
+		list-style-type: none;
+	}
+	.blockContainer > .block > li::before {
+		display: list-item;
+		content: "";
+		position: absolute;
+		border-bottom: var(--box-bullet-leader) 2px solid;
+		border-left: var(--box-bullet-leader) 2px solid;
+		width: 10px;
+		height: 30px;
+		background-color: transparent;
+		border-bottom-left-radius: 6px;
+		margin-left: -15px;
+		margin-top: -20px;
+		box-sizing: border-box;
+	}
+	.blockContainer > .block > li.l2 {
+		padding-left: 20px;
+		border-left: var(--box-bullet-leader) dashed 2px;
+	}
+	.blockContainer > .block > li.l2::before {
+		width: 12px;
+		margin-left: -17px;
+		border-left: none;
+	}
+	.blockContainer > .block > li.l2:has(+ li:not(.l2)) {
+		border-left: var(--box-bullet-leader) dotted 2px;
+	}
+	.blockContainer > .block > li:not(:has(+ li)) {
+		border-left: transparent solid 2px !important;
+	}
+</style>
+<script>
+	const LISTED_CATEGORIES = {
+		education: "Education",
+		projects: "Projects",
+		work: "Employment",
+	};
+
+	function loadFile(path) {
+		try {
+			const request = new XMLHttpRequest();
+			request.open("GET", path, false);
+			request.send(null);
+			if (request.status === 200) return request.responseText;
+		} catch (e) {
+			return;
+		}
+	}
+
+	function parseRésuméData(category, itemLines) {
+		var el = document.createElement("div");
+		el.className = `block ${category}`;
+		[date, title] = itemLines.splice(0, 2);
+		var titleEl = document.createElement("div");
+		titleEl.innerHTML = `<b>${title}</b> &ndash; ${date}`;
+		el.append(
+			titleEl,
+			...itemLines.map((data) => {
+				var tag = "li";
+				var cls = "";
+				if (data.startsWith("-")) {
+					data = data.substring("-".length);
+				} else if (data.startsWith("  -")) {
+					data = data.substring("  -".length);
+					cls = "l2";
+				}
+				var el = document.createElement(tag);
+				el.innerHTML = data;
+				el.className = cls;
+				return el;
+			})
+		);
+		return el;
+	}
+
+	const cvName = new URLSearchParams(window.location.search).get("cvProfile") ?? loadFile("_current_cv_profile.txt") ?? "cv";
+	const bodyEl = document.getElementById("cvBody");
+	for (const [category, cName] of Object.entries(LISTED_CATEGORIES)) {
+		var dataStr = loadFile(`./${cvName}/${category}.txt`);
+		var cvData = dataStr.split("\n\n").map((s) => s.split("\n"));
+
+		var catEl = document.createElement("div");
+		catEl.className = "category";
+		catEl.innerText = cName;
+		bodyEl.append(catEl);
+		for (const cvItem of cvData) {
+			let el = parseRésuméData(category, cvItem);
+			bodyEl.append(el);
+		}
+	}
+</script>

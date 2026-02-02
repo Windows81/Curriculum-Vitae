@@ -5,21 +5,15 @@ MongoDB
 Roblox Lua(u)
 Python
 FFmpeg
-Git; GitHub
-GNU/Linux
-Bash
 PowerShell
+GNU/Linux
+Network Stack
+TCP/IP
+Bash
 C++
-Android/Linux
 Docker Compose
 PHP
 MySQL
 Documenting Stuff
-Affinity Photo
-FL Studio
-Microsoft Office
-OBS Studio
-Filmora 13
-Blender
 VS Code
-OpenDocument
+LabView

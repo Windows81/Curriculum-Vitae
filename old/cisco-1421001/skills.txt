@@ -1,0 +1,20 @@
+Node.JS
+HTML5/CSS3
+React
+NoSQL
+MongoDB
+TOTP auth.
+Docker Compose
+Roblox Lua(u)
+Python
+FFmpeg
+PowerShell
+GNU/Linux
+Network Stack
+Bash
+C++
+PHP
+MySQL
+Documenting Stuff
+VS Code
+LabView

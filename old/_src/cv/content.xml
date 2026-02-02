@@ -1,3 +1,4 @@
+<<<<<<<< HEAD:_src/cv/content.xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <office:document-content
 	xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0"
@@ -999,4 +1000,724 @@
 			</table:table>
 		</office:text>
 	</office:body>
+========
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<office:document-content
+	xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0"
+	xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0"
+	xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0"
+	xmlns:db="urn:oasis:names:tc:opendocument:xmlns:database:1.0"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0"
+	xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0"
+	xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0"
+	xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0"
+	xmlns:grddl="http://www.w3.org/2003/g/data-view#"
+	xmlns:math="http://www.w3.org/1998/Math/MathML"
+	xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0"
+	xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0"
+	xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+	xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0"
+	xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0"
+	xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0"
+	xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0"
+	xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0"
+	xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0"
+	xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0"
+	xmlns:xforms="http://www.w3.org/2002/xforms"
+	xmlns:xhtml="http://www.w3.org/1999/xhtml"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	office:version="1.3">
+	<office:font-face-decls>
+		<style:font-face
+			style:name="Arial Narrow"
+			svg:font-family="Arial Narrow"/>
+		<style:font-face
+			style:name="SimSun"
+			svg:font-family="SimSun"/>
+		<style:font-face
+			style:name="Times New Roman"
+			svg:font-family="Times New Roman"/>
+		<style:font-face
+			style:name="Calibri"
+			svg:font-family="Calibri"/>
+		<style:font-face
+			style:name="Arial"
+			svg:font-family="Arial"/>
+		<style:font-face
+			style:name="Courier New"
+			svg:font-family="Courier New"/>
+		<style:font-face
+			style:name="Wingdings"
+			svg:font-family="Wingdings"/>
+		<style:font-face
+			style:name="Symbol"
+			svg:font-family="Symbol"/>
+		<style:font-face
+			style:name="Arial Black"
+			svg:font-family="Arial Black"/>
+		<style:font-face
+			style:name="SimHei"
+			svg:font-family="SimHei"/>
+		<style:font-face
+			style:name="Cambria"
+			svg:font-family="Cambria"/>
+	</office:font-face-decls>
+	<office:automatic-styles>
+		<text:list-style style:name="tech-list">
+			<text:list-level-style-bullet
+				text:style-name="WW_Chartech-listLVL1"
+				text:level="1"
+				text:bullet-char="•">
+				<style:list-level-properties
+					text:space-before="0.00mm"
+					text:min-label-width="6.35mm"
+					text:list-level-position-and-space-mode="label-alignment">
+					<style:list-level-label-alignment
+						text:label-followed-by="listtab"
+						fo:margin-left="12.70mm"
+						fo:text-indent="-6.35mm"/>
+				</style:list-level-properties>
+				<style:text-properties
+					style:font-name="Arial"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+		<style:style
+			style:name="heading-1"
+			style:parent-style-name="Heading1"/>
+		<style:style
+			style:name="heading-2"
+			style:parent-style-name="Heading2"/>
+		<style:style
+			style:name="message"
+			style:family="paragraph">
+			<style:paragraph-properties
+				fo:text-align="center"
+				fo:padding="1.00mm"
+				fo:margin-top="2.00mm"
+				fo:text-indent="0.00mm"
+				fo:border="0.20mm solid #000000">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				fo:font-weight="bold"
+				style:font-name="Arial Narrow"
+				style:font-style="italic"
+				fo:font-size="4.20mm"/>
+		</style:style>
+		<style:style
+			style:name="contact"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:text-align="end"
+				fo:margin-bottom="0.00mm"
+				style:line-height-at-least="0.50mm"
+				fo:margin-left="0.20mm"
+				fo:margin-right="-0.26mm"
+				fo:text-indent="-0.20mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"/>
+		</style:style>
+		<style:style
+			style:name="mobile-link"
+			style:family="text">
+			<style:text-properties/>
+		</style:style>
+		<style:style
+			style:name="head-link"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"
+				fo:font-size="4.20mm"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"/>
+		</style:style>
+		<style:style
+			style:name="buffer"
+			style:family="paragraph">
+			<style:paragraph-properties
+				fo:font-size="30.00mm"
+				fo:margin-bottom="0.00mm"/>
+		</style:style>
+		<style:style
+			style:name="sect-tech"
+			style:family="section">
+			<style:section-properties
+				fo:margin-left="0.00mm"
+				fo:margin-right="0.00mm"
+				fo:padding-bottom="30.00mm"
+			>
+				<style:columns
+					fo:column-count="5"
+					fo:column-gap="1.27mm"/>
+			</style:section-properties>
+		</style:style>
+		<style:style
+			style:name="tech-skill"
+			style:family="paragraph">
+			<style:paragraph-properties
+				fo:margin-bottom="0.00mm"
+				fo:margin-left="2.55mm"
+				fo:text-indent="0.00mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"/>
+		</style:style>
+		<text:list-style style:name="edu-list">
+			<text:list-level-style-bullet
+				text:level="1"
+				text:style-name="WW_Charproj-listLVL1"
+				text:bullet-char="-">
+				<style:list-level-properties
+					text:space-before="0.35mm"
+					text:min-label-width="2.35mm"
+					text:list-level-position-and-space-mode="label-alignment">
+					<style:list-level-label-alignment
+						text:label-followed-by="listtab"
+						fo:margin-left="12.70mm"
+						fo:text-indent="1.00mm"/>
+				</style:list-level-properties>
+				<style:text-properties
+					style:font-name="Arial Narrow"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+		<style:style
+			style:name="edu-desc"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="0.00mm"
+				style:line-height-at-least="0.50mm"
+				fo:margin-left="0mm"
+				fo:margin-right="0.00mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"/>
+		</style:style>
+		<style:style
+			style:name="date-cell"
+			style:family="table-cell">
+			<style:table-cell-properties
+				fo:border-top="none"
+				fo:border-left="0.20mm dashed #000000"
+				fo:border-bottom="none"
+				fo:border-right="none"
+				fo:padding-top="0.00mm"
+				fo:padding-left="2.00mm"
+				fo:padding-bottom="0.00mm"
+				fo:padding-right="0.00mm"/>
+		</style:style>
+		<style:style
+			style:name="date"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-top="0.00mm"
+				fo:margin-bottom="0.00mm"
+				style:line-height-at-least="0.50mm"
+				fo:margin-left="3.00mm"
+				fo:margin-right="-0.35mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"/>
+		</style:style>
+		<style:style
+			style:name="edu-title"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-top="0.00mm"
+				fo:margin-bottom="0.69mm"
+				style:line-height-at-least="0.50mm"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"/>
+		</style:style>
+		<style:style
+			style:name="proj-head"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="1.00mm"
+				style:line-height-at-least="0.50mm"
+				fo:margin-right="5.00mm"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"/>
+		</style:style>
+		<style:style
+			style:name="proj-title"
+			style:family="text">
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"
+				style:text-underline-type="double"
+				style:text-underline-style="solid"
+				style:text-underline-width="bold"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#0078d7"/>
+		</style:style>
+		<text:list-style style:name="proj-list">
+			<text:list-level-style-bullet
+				text:level="1"
+				text:style-name="WW_Charproj-listLVL1"
+				text:bullet-char="-">
+				<style:list-level-properties
+					text:space-before="0.35mm"
+					text:min-label-width="2.35mm"
+					text:list-level-position-and-space-mode="label-alignment">
+					<style:list-level-label-alignment
+						text:label-followed-by="listtab"
+						fo:margin-left="12.70mm"
+						fo:text-indent="1.00mm"/>
+				</style:list-level-properties>
+				<style:text-properties
+					style:font-name="Arial Narrow"/>
+			</text:list-level-style-bullet>
+		</text:list-style>
+		<style:style
+			style:name="proj-desc"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="0.00mm"
+				style:line-height-at-least="0.50mm"
+				fo:margin-left="0mm"
+				fo:margin-right="0.00mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"/>
+		</style:style>
+		<style:style
+			style:name="sect-data"
+			style:family="table-column">
+			<style:table-column-properties style:column-width="150.00mm"/>
+		</style:style>
+		<style:style
+			style:name="sect-date"
+			style:family="table-column">
+			<style:table-column-properties style:column-width="35.00mm"/>
+		</style:style>
+		<style:style
+			style:name="sect-row"
+			style:family="table-row">
+			<style:table-row-properties
+				style:min-row-height="0.35mm"/>
+		</style:style>
+		<style:style
+			style:name="sect-cell"
+			style:family="table-cell">
+			<style:table-cell-properties
+				fo:border-top="none"
+				fo:border-left="none"
+				fo:border-bottom="none"
+				fo:border-right="0.20mm dashed #000000"
+				fo:padding-top="0.00mm"
+				fo:padding-left="2.00mm"
+				fo:padding-bottom="5.08mm"
+				fo:padding-right="0.00mm"/>
+		</style:style>
+		<style:style
+			style:name="work-title"
+			style:family="text">
+			<style:paragraph-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"
+				fo:margin-bottom="0.00mm"
+				style:line-height-at-least="0.50mm"
+				fo:margin-left="0.20mm"
+				fo:margin-right="-0.26mm"
+				fo:text-indent="-0.20mm">
+				<style:tab-stops/>
+			</style:paragraph-properties>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-size="4.20mm"
+				style:text-underline-type="single"
+				style:text-underline-style="solid"
+				style:text-underline-width="auto"
+				style:text-underline-mode="continuous"
+				style:text-underline-color="#000000"
+				style:snap-to-layout-grid="false"/>
+		</style:style>
+		<style:style
+			style:name="work-sub"
+			style:family="text">
+			<style:text-properties
+				style:text-underline-type="none"
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"
+				fo:font-size="3.5mm"/>
+		</style:style>
+		<style:style
+			style:name="work-desc"
+			style:family="paragraph">
+			<style:paragraph-properties
+				style:snap-to-layout-grid="false"
+				fo:margin-bottom="0.00mm"
+				style:line-height-at-least="0.50mm"/>
+			<style:text-properties
+				style:font-name="Arial Narrow"
+				fo:font-style="italic"/>
+		</style:style>
+	</office:automatic-styles>
+	<office:body>
+		<office:text text:use-soft-page-breaks="true">
+			<text:h
+				text:style-name="heading-1"
+				text:outline-level="1">Ahmed "VisualPlugin" Abo-Shadi<text:tab/>
+			</text:h>
+			<text:p text:style-name="contact">
+				<text:a xlink:href="tel:+17144635142">
+					<text:span text:style-name="mobile-link">+1 (714) 463 5142</text:span>
+				</text:a>
+				<text:a xlink:href="http://www.github.com/Windows81">
+					<text:span text:style-name="head-link">www.github.com/Windows81</text:span>
+				</text:a>
+				<text:a xlink:href="mailto:aboshadi.n.ahmed@gmail.com">
+					<text:span text:style-name="head-link">aboshadi.n.ahmed@gmail.com</text:span>
+				</text:a>
+			</text:p>
+			<text:p text:style-name="message">I'm seeking a full- or part-time position in Orange County, California. I can work remotely or in-person.<text:line-break/>My objective is to work for a software company which promotes social good and nurtures coöperative relationships!</text:p>
+			<text:h text:style-name="heading-2">Technical Skills</text:h>
+			<text:section text:style-name="sect-tech">
+				<text:list
+					text:style-name="tech-list"
+					text:continue-numbering="true">
+					<!-- SKILLS START -->
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Node.JS</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">HTML5/CSS3</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">React</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">MongoDB</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Roblox Lua(u)</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Python</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">FFmpeg</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Git; GitHub</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">GNU/Linux</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Bash</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">PowerShell</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">C++</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Android/Linux</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Docker Compose</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">PHP</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">MySQL</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Documenting Stuff</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Affinity Photo</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">FL Studio</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Microsoft Office</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">OBS Studio</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Filmora 13</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">Blender</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">VS Code</text:p>
+					</text:list-item>
+
+					<text:list-item>
+						<text:p text:style-name="tech-skill">OpenDocument</text:p>
+					</text:list-item>
+
+					<!-- SKILLS END -->
+				</text:list>
+			</text:section>
+			<text:p text:style-name="buffer"></text:p>
+			<text:soft-page-break/>
+			<text:h text:style-name="heading-2">Education</text:h>
+			<table:table>
+				<table:table-columns>
+					<table:table-column table:style-name="sect-data"/>
+					<table:table-column table:style-name="sect-date"/>
+				</table:table-columns>
+				<!-- EDUCATION START -->
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="edu-title">California State University, Fullerton
+						</text:p>
+						<text:list
+							text:style-name="edu-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Pursuing a M.S. in Computer Engineering</text:p>
+							</text:list-item>
+
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">prospective</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="edu-title">University of California, Irvine
+						</text:p>
+						<text:list
+							text:style-name="edu-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Completed a BS in Software Engineering with a GPA of 3.671</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Enrolled at the school of Informatics &amp; Computer Science</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Participated at ACM; devised and presented solutions for LeetCode problems</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Started course track for an MSE in Computer Engineering at CSUF</text:p>
+							</text:list-item>
+
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">March 2024</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="edu-title">Santiago Canyon College
+						</text:p>
+						<text:list
+							text:style-name="edu-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Majored in Computer Science; graduated with an AA in Liberal Arts</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Re-took courses in data structures; enrolled in STEM Academy</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="edu-desc">Earnt a 4.0 GPA for major-related courses</text:p>
+							</text:list-item>
+
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">May 2020</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<!-- EDUCATION END -->
+			</table:table>
+			<text:soft-page-break/>
+			<text:h text:style-name="heading-2">Projects</text:h>
+			<table:table>
+				<table:table-columns>
+					<table:table-column table:style-name="sect-data"/>
+					<table:table-column table:style-name="sect-date"/>
+				</table:table-columns>
+				<!-- PROJECTS START -->
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/Windows81/Screwdja-YuJa">
+								<text:span text:style-name="proj-title">
+									Screwdja-YuJa</text:span>
+							</text:a>was a severe vulnerability in YuJa's API that I identified and reported.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Bootstrapped effort to release a major security patch after ~2 days</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Exposed saved videos and metadata, resolved after notification</text:p>
+							</text:list-item>
+
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2022-12</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="proj-head">
+							<text:a xlink:href="https://github.com/Windows81/Bring-Back-Buffets">
+								<text:span text:style-name="proj-title">
+									Bring Back Buffets</text:span>
+							</text:a>was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.</text:p>
+						<text:list
+							text:style-name="proj-list"
+							text:continue-numbering="true">
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Engineered separate user interfaces for customers, cashiers, and kitchen staff</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Streamlined the Covid dining experience UX with mobile-device ordering</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Developed a cashier system for efficient order tracking</text:p>
+							</text:list-item>
+							<text:list-item>
+								<text:p text:style-name="proj-desc">Built a front-end for bussers to ensure timely order preparation and delivery</text:p>
+							</text:list-item>
+
+						</text:list>
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2021-03 / 2021-04</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<!-- PROJECTS END -->
+			</table:table>
+			<text:soft-page-break/>
+			<text:h text:style-name="heading-2">Work/Community Experience</text:h>
+			<table:table>
+				<table:table-columns>
+					<table:table-column table:style-name="sect-data"/>
+					<table:table-column table:style-name="sect-date"/>
+				</table:table-columns>
+				<!-- WORK START -->
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="work-title"> Contracted Graphic Designer @ Islamic Institute of Orange County<text:span text:style-name="work-sub"> et al.</text:span>
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Commissioned to design over 20 event fliers for non-profit organizations
+						</text:p>
+
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2016-04 ∕ Present</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="work-title"> Internship @ CSU Fullerton<text:span text:style-name="work-sub"> under the Val Tech Program</text:span>
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Assisted in the development of a brain-computer interface with graduate students
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Designed user interface for mock-up calibration procedure
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Project coordinated by Professor Kiran George, PhD
+						</text:p>
+
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2017-09 ∕ 2018-05</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<table:table-row table:style-name="sect-row">
+					<table:table-cell table:style-name="sect-cell">
+						<text:p text:style-name="work-title"> Professional Engineering Course Center<text:span text:style-name="work-sub"> (on call)</text:span>
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
+						</text:p>
+						<text:p text:style-name="work-desc">
+							Assisted in architectural and structural design plans of commercial and industrial sites
+						</text:p>
+
+					</table:table-cell>
+					<table:table-cell table:style-name="date-cell">
+						<text:p text:style-name="date">2015-06 / Present</text:p>
+					</table:table-cell>
+				</table:table-row>
+
+				<!-- WORK END -->
+			</table:table>
+		</office:text>
+	</office:body>
+>>>>>>>> 03ac26b (2026-02-02T0542Z):old/src/content.xml
 </office:document-content>

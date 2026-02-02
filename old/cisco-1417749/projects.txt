@@ -1,0 +1,26 @@
+2021-03 / 2021-04
+Bring Back Buffets
+https://github.com/Windows81/Bring-Back-Buffets
+was a mobile web app written in JavaScript with the objective to revive buffets that had to close due to Covid. This project's user-interaction model drew inspiration from how Korean barbecue establishments operate.
+- Engineered separate user interfaces for customers, cashiers, and kitchen staff
+- Streamlined the Covid dining experience UX with mobile-device ordering
+- Developed a cashier system for efficient order tracking
+- Built a front-end for bussers to ensure timely order preparation and delivery
+
+2021-05 / 2022-02
+Time is Musical
+https://github.com/Windows81/Time-Is-Musical
+is a musical adaptation of the WWV time station
+- Streamed live on YouTube using FFmpeg's lavfi filter
+- Mastered, mixed, and reproduced a composition of five tracks
+- Devised an algorithm to uniquely select playing loops per minute
+- Produced 42 synth loops using FL Studio 20
+- Constructed Python script for stream parameters
+
+2023-08
+Tubeup
+https://github.com/bibanon/tubeup
+is a project I reviewed and contributed code to re-upload my YouTube videos to the Internet Archive.
+- Addressed apparent bugs within a payload of 234 YouTube videos
+- Implemented fixes on GitHub to account for deleted assets
+- Intuited yt-dlp's Python interface

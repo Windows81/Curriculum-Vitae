@@ -1,6 +1,9 @@
+<<<<<<< HEAD:patch.py
 from ast import arg
 from dataclasses import dataclass
 import functools
+=======
+>>>>>>> 03ac26b (2026-02-02T0542Z):old/patch.py
 from typing import Callable
 import win32com.client
 import datetime
@@ -60,10 +63,39 @@ def make_skills(contents_dir: str, source_dir: str) -> list[str]:
     return fill.split('\n')
 
 
+<<<<<<< HEAD:patch.py
 def make_education(contents_dir: str, source_dir: str) -> list[str]:
     template = load_template(source_dir, 'education.txt')
     template_desc = load_template(source_dir, 'education-desc.txt')
     data = load_xml_lines(contents_dir, 'education.txt')
+=======
+EDUCATION_TEMPLATE = """
+<table:table-row table:style-name="sect-row">
+	<table:table-cell table:style-name="sect-cell">
+		<text:p text:style-name="edu-title">{educ_title}
+		</text:p>
+		<text:list
+			text:style-name="edu-list"
+			text:continue-numbering="true">
+{educ_descs}
+		</text:list>
+	</table:table-cell>
+	<table:table-cell table:style-name="date-cell">
+		<text:p text:style-name="date">{educ_date}</text:p>
+	</table:table-cell>
+</table:table-row>
+""".lstrip('\n')
+
+EDUCATION_TEMPLATE_DESC = """
+			<text:list-item>
+				<text:p text:style-name="edu-desc">{educ_desc}</text:p>
+			</text:list-item>
+""".lstrip('\n')
+
+
+def make_education(contents_dir: str) -> list[str]:
+    data = process_lines(resolveTextFile(contents_dir, 'education.txt'))
+>>>>>>> 03ac26b (2026-02-02T0542Z):old/patch.py
 
     fill = '\n'.join(
         template.format_map({
