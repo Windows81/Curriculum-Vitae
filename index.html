@@ -1,6 +1,6 @@
 <header>
 	<h1>Ahmed Abo-Shadi</h1>
-	<sub>alias <i>VisualPlugin</i></sub>
+	<sub>alias <i>VisualPlugin</i> &mdash; <span id="date" /></sub>
 	<div>
 		<a href="tel:+17144635142">+1 (714) 463 5142</a>
 		<a href="https://linkedin.com/in/visualplugin">https://linkedin.com/in/visualplugin</a>
@@ -24,6 +24,9 @@
 	}
 	* {
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+	}
+	code {
+		font-family: monospace;
 	}
 	header {
 		text-align: center;
@@ -69,6 +72,10 @@
 		break-inside: avoid;
 		break-after: avoid;
 	}
+	:root {
+		--box-bullet-leader: hsl(0, 0%, 30%);
+		--background: hsla(0, 0%, 97%);
+	}
 	.education {
 		--box-bullet-leader: hsl(225, 100%, 30%);
 		--background: hsl(225, 100%, 97%);
@@ -84,7 +91,7 @@
 	.blockContainer > .block {
 		width: min-content;
 		background: var(--background);
-		border: 2px solid color-mix(in srgb, var(--box-bullet-leader) 10%, transparent);
+		border: 2px solid color-mix(in hsl, var(--box-bullet-leader) 10%, transparent);
 		/*
 		border: #eee solid 4px;
 		border-top: 0;
@@ -125,7 +132,10 @@
 		padding-top: 8px;
 		list-style-type: none;
 	}
-	.blockContainer > .block > li::before {
+	.blockContainer > .block > li:empty {
+		border-bottom: color-mix(in hsl, var(--box-bullet-leader) 10%, transparent) 2px dashed;
+	}
+	.blockContainer > .block > li:not(:empty)::before {
 		display: list-item;
 		content: "";
 		position: absolute;
@@ -154,12 +164,22 @@
 	.blockContainer > .block > li:not(:has(+ li)) {
 		border-left: transparent solid 2px !important;
 	}
+	.blockContainer > .block.skills {
+		padding-left: 24px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.blockContainer > .block.skills > div {
+		flex-basis: 144px;
+	}
 </style>
 <script>
 	const LISTED_CATEGORIES = {
 		education: "Education",
-		projects: "Projects",
+		projects: "Projects & Research",
 		work: "Employment",
+		skills: "Listed Skills",
 	};
 
 	function loadFile(path) {
@@ -173,13 +193,25 @@
 		}
 	}
 
-	function parseRésuméData(category, itemLines) {
-		var el = document.createElement("div");
-		el.className = `block ${category}`;
-		[date, title] = itemLines.splice(0, 2);
+	function genItemElement(category, itemLines) {
+		var mainEl = document.createElement("div");
+		mainEl.className = `block ${category}`;
+
+		if (LISTED_CATEGORIES[category] == LISTED_CATEGORIES.skills) {
+			mainEl.append(
+				...itemLines.map((data) => {
+					var el = document.createElement("div");
+					el.innerHTML = data;
+					return el;
+				})
+			);
+			return mainEl;
+		}
+
+		var [date, title, ...itemLines] = itemLines;
 		var titleEl = document.createElement("div");
 		titleEl.innerHTML = `<b>${title}</b> &ndash; ${date}`;
-		el.append(
+		mainEl.append(
 			titleEl,
 			...itemLines.map((data) => {
 				var tag = "li";
@@ -196,22 +228,25 @@
 				return el;
 			})
 		);
-		return el;
+		return mainEl;
+	}
+
+	function genCategoryElements(cvName, category, cName) {
+		var dataStr = loadFile(`./${cvName}/${category}.txt`);
+		var cvData = dataStr.split("\n\n").map((s) => s.split("\n"));
+
+		var categoryEl = document.createElement("div");
+		categoryEl.className = `category ${category}`;
+		categoryEl.innerText = cName;
+		return [categoryEl, ...cvData.flatMap((cvItem) => genItemElement(category, cvItem))];
 	}
 
 	const cvName = new URLSearchParams(window.location.search).get("cvProfile") ?? loadFile("_current_cv_profile.txt") ?? "cv";
 	const bodyEl = document.getElementById("cvBody");
-	for (const [category, cName] of Object.entries(LISTED_CATEGORIES)) {
-		var dataStr = loadFile(`./${cvName}/${category}.txt`);
-		var cvData = dataStr.split("\n\n").map((s) => s.split("\n"));
 
-		var catEl = document.createElement("div");
-		catEl.className = "category";
-		catEl.innerText = cName;
-		bodyEl.append(catEl);
-		for (const cvItem of cvData) {
-			let el = parseRésuméData(category, cvItem);
-			bodyEl.append(el);
-		}
-	}
+	bodyEl.append(
+		...Object.entries(LISTED_CATEGORIES).flatMap(([category, cName]) => genCategoryElements(cvName, category, cName))
+	);
+
+	document.getElementById("date").innerText = new Date().toISOString();
 </script>

@@ -1,34 +1,35 @@
-2023-09 / 2024-03
-Front-end Developer at GameIn
-— a tool to match e-sports streamers and paying sponsors
-- Implemented mobile-responsive pages using Next.js (and thus React) from existing mockups
-- Collaborated directly with other developers and C-suite personnel
-- Took part in building and presenting a team-wide slide deck in Google Slides with stylistic help from Figma
+April 2016 thru now
+On-call Designer @ Islamic Institute of Orange County et al.
+- Controlling graphic design for print- and digital-based marketing materials, for social events,
+  - Including on behalf of affiliated non-profits such as Sabil USA, BSA Scouts, and Girl Scouts of America.
+  - Responsibilities include matching design language with existing literature and coördinating with print shops.
+- Additionally, designed real-estate copy for Berkshire Hathaway agents.
 
-2016-04 ∕ Present
-Contracted Graphic Designer @ Islamic Institute of Orange County et al.
-- Advertised social events with non-profits, such as Islamic Institute of Orange County and Sabil USA
-- Additionally, designed real-estate marketing materials for Berkshire Hathaway agents
-- Commissioned to design over 20 event fliers for non-profit organizations
-
-2017-09 ∕ 2018-05
+Sep 2017 thru May 2018
 Internship @ CSU Fullerton
-under the Val Tech Program
-- Assisted in the development of a brain-computer interface with graduate students
-- Designed user interface for mock-up calibration procedure
-- Project coordinated by Professor Kiran George, PhD
+- Explored and analysed <i>my first</i> complex code base in Java, enhancing my understanding of large-scale software development.
+- Assisted graduate students in developing a brain-computer interface targeting users with limited mobility.
+- Internship hours were provisioned under the Val Tech Program,  under the guidance of Professor Kiran George, PhD, who coördinated the project.
+- <i>My assigned task:</i> To design a mock user interface for initial calibration procedure.
+-
+- <b>Salient Moment:</b> I took the initiative to solve issues that were outside my purview.
+  - During a meeting, I overheard that the researchers were facing challenges in accessing a specific data structure obscured by dependency code.
+  - I discovered that the data was in a <code>private</code> variable.
+  - To add some spice, I drafted a digital illustration showing the variable's name and presented that to the group.
+  - However, my solution required changes to the dependency code and overlooked other project needs.
 
-2015-06 / Present
-Professional Engineering Course Center
-(on call)
-- Consulted in provisioning GNU/Linux file servers for office use using Ubuntu and Samba
-- Assisted in architectural and structural design plans of commercial and industrial sites
+June 2015 thru now
+Engineering Assistant @ Professional Engineering Center
+- Provisioned sensitive on-site file servers using Ubuntu and Samba.
+- Assisting in architectural and structural design plans of commercial and industrial sites.
 
-2019-08 / 2021-06
-Raising Cane's; El Pollo Loco
-(customer service, part-time)
-- Effectively communicated with customers and team members in a fast-paced environment
-- Assumed different roles within the restaurant to support overall operations
-- Handled cash transactions and using point-of-sale systems
-- Addressed customer concerns and resolving issues in a positive and efficient manner
-- Carefully selecting an adequate pricing scheme according to market value
+Aug 2019 thru June 2021
+Raising Cane's and El Pollo Loco
+- Communicated with customers and team members in a fast-paced environment.
+- Assumed drive-thru and dine-in cashier roles to support overall operations.
+  - Handled cash transactions using point-of-sale systems.
+-
+- <b>Salient Moment:</b> I fixed an issue with a customer whose car engine died <i>in the drive-thru</i>.
+  - One busy evening, I noticed that a car was stuck on the path.
+  - Upon seeing the issue, I approached nearby drivers and asked if any had jumper cables and found one who came prepared.
+  - I began to request that others give way &mdash; when a shift manager was switching to handle drive-thru orders and took over from there.

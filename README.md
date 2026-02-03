@@ -1,3 +1,5 @@
+# VisualPlugin's Cirriculum Vitæ
+
 To render this résumé in PDF format, I use the nearest Chromium browser's headless mode.
 
 You'll need:
