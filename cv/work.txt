@@ -7,7 +7,7 @@ On-call Designer @ Islamic Institute of Orange County et al.
 
 Sep 2017 thru May 2018
 Internship @ CSU Fullerton
-- Explored and analysed <i>my first</i> complex code base in Java, enhancing my understanding of large-scale software development.
+- Explored and analysed <i>my first</i> proper code base in Java, enhancing my understanding of medium-scale software development.
 - Assisted graduate students in developing a brain-computer interface targeting users with limited mobility.
 - Internship hours were provisioned under the Val Tech Program,  under the guidance of Professor Kiran George, PhD, who coördinated the project.
 - <i>My assigned task:</i> To design a mock user interface for initial calibration procedure.
