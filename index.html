@@ -254,11 +254,11 @@
 	);
 
 	// If a job description is provided, looks for words in the CV to replace with what exactly is in that job description, so as to make the applicant-tracking systems happy.
-	// E.g. <choice>default or first choice|second choice|third choice</choice>
+	// E.g. <choice>first choice|second choice|last choice or default</choice>
 	const jobDescription = getJobDescription(cvName);
 	for (const choice of bodyEl.querySelectorAll("choice")) {
 		const options = choice.innerText.split("|");
-		let option = options[0];
+		let option;
 		for (option of options) {
 			const words = option.matchAll(/(\w+)/gi);
 			if (!words.some((e) => jobDescription.has(e))) continue;

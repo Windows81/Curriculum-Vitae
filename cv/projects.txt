@@ -13,7 +13,7 @@ Sep 2023 thru Mar 2024
 <choice>Front-end|Frontend</choice> Developer at GameIn
 — Before graduating from UC Irvine, I took a capstone course where I collaborated, among classmates, with one of a choice of several companies.
 - Owing to my prior experience in videogame development, I chose to work with GameIn, who were building a tool to match e-sports streamers and paying sponsors.
-- Implemented <choice>mobile-responsive|mobile-user‑friendly</choice> pages using Next.js (and thus React) from mockups that we also made.
+- Implemented <choice>mobile-responsive|mobile-user‑friendly</choice> pages<choice> using|; leveraged</choice> Next.js (and thus React) from mockups that we also made.
 - Arranged, as part of a team, a slide deck with stylistic help from Figma.
   - The slide deck was presented to an audience of approx. 50 other students and their families.
 
@@ -34,7 +34,7 @@ GoAnimate Wrapper
   - A newer version of the program existed, but lacked crucial animation assets and effects.
 - GoAnimate Wrapper is a server-backend application designed to interop with Vyond's Legacy Video Maker.
   - Reverse-engineered Flash files and analysed legacy ActionScript code.
-  - Created and scaled a modern Node.js interface replicating GoAnimate's back-end functionalities.
+  - Created and scaled a modern <choice>Node.js|JavaScript</choice> interface replicating GoAnimate's back-end functionalities.
 - With a team of experts managing the community up to this day, Wrapper became my most popular application.
 - Because of the need that it filled, my tool delivered hundreds of engaging video experiences.
   - By May 2021, over 21,000 results would appear on a YouTube query for Wrapper and its successors.
@@ -61,7 +61,7 @@ Dec 2022
 "Screwdja YuJa"
 <a href="https://github.com/Windows81/Screwdja-YuJa">https://github.com/Windows81/Screwdja-YuJa</a>
 - I discovered and disclosed a severe vulnerability in YuJa's API.
-- <i>Millions</i> of private videos, including recordings of students taking proctored exams, were exposed on the open net.
+- <i>Millions</i> of private academic videos, including recordings of students taking proctored exams, were exposed on the open net.
 - After sending the initial message, I was put directly in touch with the Chief Business Officer.
 - YuJa released a security patch after ~2 days, closing the loop-hole for good.
 
