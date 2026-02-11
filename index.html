@@ -194,8 +194,13 @@
 	}
 
 	function getJobDescription(cvName) {
-		const fileData = loadFile(`./${cvName}/_job_desc.txt`).toLowerCase();
-		return new Set(fileData.matchAll(/(\w+)/gi).map(([e, ..._]) => e));
+		const fileData = loadFile(`./${cvName}/_job_desc.txt`) ?? "";
+		return new Set(
+			fileData
+				.toLowerCase()
+				.matchAll(/(\w+)/gi)
+				.map(([e, ..._]) => e)
+		);
 	}
 
 	function genItemElement(category, itemLines) {
