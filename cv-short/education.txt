@@ -10,8 +10,3 @@ University of California, Irvine
 - Completed a BS in Software Engineering with a GPA of 3.671.
 - For a year in 2022, I participated at ACM club meetings,
   - Where I presented (at times) my solutions for <i>easy</i> and <i>medium</i> LeetCode problems to an audience of various skill levels.
-
-2018 thru 2020
-Santiago Canyon College
-- Majored in Computer Science in preparation for a transfer to UC Irvine; graduated with an AA in Liberal Arts.
-- Achieved a 4.0 GPA for major-related courses.

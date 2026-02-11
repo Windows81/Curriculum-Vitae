@@ -1,35 +1,36 @@
 April 2016 thru now
 On-call Designer @ Islamic Institute of Orange County et al.
-- Controlling graphic design for print- and digital-based marketing materials, for social events,
-  - Including on behalf of affiliated non-profits such as Sabil USA, BSA Scouts, and Girl Scouts of America.
-  - Responsibilities include matching design language with existing literature and coördinating with print shops.
-- Additionally, designed real-estate copy for Berkshire Hathaway agents.
+- Controlling graphic design for printed and digital materials for social events using Affinity Photo and Canva, ensuring brand consistency and on‑time delivery.
+  - Creating marketing copy for affiliated non-profits such as Sabil USA, BSA Scouts, and Girl Scouts of America.
+  - Matching design language with existing literature and coördinating with print shops, reducing revision.
+- Additionally, designed real-estate visuals for agents contracted by Berkshire Hathaway.
 
 Sep 2017 thru May 2018
 Internship @ CSU Fullerton
-- Explored and analysed <i>my first</i> proper code base in Java, enhancing my understanding of medium-scale software development.
-- Assisted graduate students in developing a brain-computer interface targeting users with limited mobility.
-- Internship hours were provisioned under the Val Tech Program,  under the guidance of Professor Kiran George, PhD, who coördinated the project.
+- Analysed <i>my first</i> proper code base and documented findings that helped the team streamline future development.
+- Supported graduate students in building a Java-based brain-computer interface targeting users with limited mobility.
+- Coordinated with Professor Kiran George under the Val Tech Program to log internship hours, ensuring that I and the research team met our reporting requirements.
 - <i>My assigned task:</i> To design a mock user interface for initial calibration procedure.
 -
-- <b>Salient Moment:</b> I took the initiative to solve issues that were outside my purview.
-  - During a meeting, I overheard that the researchers were facing challenges in accessing a specific data structure obscured by dependency code.
-  - I discovered that the data was in a <code>private</code> variable.
+- <b>Salient Moment:</b> I identified and took the initiative to solve issues which were outside my purview.
+  - During a meeting, I overheard that the researchers were facing challenges in accessing a specific data structure obscured by dependency code, which blocked their analysis.
+  - I located the data structure in a <code>private</code> variable buried in a library class.
   - To add some spice, I drafted a digital illustration showing the variable's name and presented that to the group.
-  - However, my solution required changes to the dependency code and overlooked other project needs.
+  - However, my solution was not actionable as it required changes to the dependency code and overlooked other project needs.
 
 June 2015 thru now
 Engineering Assistant @ Professional Engineering Center
-- Provisioned sensitive on-site file servers using Ubuntu and Samba.
-- Assisting in architectural and structural design plans of commercial and industrial sites.
+- Provisioned and responsible for maintaining sensitive on‑site file servers with Samba, enabling secure file access for the engineering team.
+- Additionally, digitising drawings to AutoCAD, which are then reviewed and analysed by a licensed civil engineer.
+- Supporting the construction and repair of commercial and industrial sites by clients, including multi-national manufacturers and regional utility providers.
 
 Aug 2019 thru June 2021
 Raising Cane's and El Pollo Loco
 - Communicated with customers and team members in a fast-paced environment.
-- Assumed drive-thru and dine-in cashier roles to support overall operations.
-  - Handled cash transactions using point-of-sale systems.
+- Operated drive‑thru and dine‑in cash registers, processing orders through the POS system and supporting overall restaurant operations.
+  - Helped maintain steady order throughput during peak hours.
 -
-- <b>Salient Moment:</b> I fixed an issue with a customer whose car engine died <i>in the drive-thru</i>.
+- <b>Salient Moment:</b> I resolved a customer's vehicle breakdown in the drive‑thru lane by coordinating with staff and safely clearing the path, allowing service to resume promptly and preventing service delays.
   - One busy evening, I noticed that a car was stuck on the path.
   - Upon seeing the issue, I approached nearby drivers and asked if any had jumper cables and found one who came prepared.
-  - I began to request that others give way &mdash; when a shift manager was switching to handle drive-thru orders and took over from there.
+  - I requested that other customers yield before a shift manager transitioned to handle drive-thru orders and took over from there.
