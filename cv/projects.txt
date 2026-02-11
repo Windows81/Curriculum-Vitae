@@ -1,19 +1,19 @@
 July 2023 thru now
 Rōblox Freedom Distribution
 <a href="https://github.com/Windows81/Roblox-Freedom-Distribution">https://github.com/Windows81/Roblox-Freedom-Distribution</a>
-- I have been developing games on Rōblox from2013, having had an account since 2008.
+- I have been developing games on Rōblox from 2013, having had an account since 2008.
   - At the time, the company was a small Silicon-Valley start-up.
   - Over the years, its developer-friendly tools led me to take up my current-day career as a programmer.
-- From 2023, I've built a full-stack application for users to <i>host</i> and <i>join</i> self-hosted, historic versions of Rōblox in a local- or wide-area network.
-  - Created a Python bootstrapper, dually for clients and servers, for seamless connectivity
+- From 2023, I've built a <choice>full-stack|scalable</choice> application for users to <i>host</i> and <i>join</i> self-hosted, historic versions of Rōblox in a local- or wide-area network.
+  - Created a Python bootstrapper, dually for <choice>clients|end users</choice> and <choice>servers|custom backends</choice>, for seamless connectivity
 - Enhanced functionality through team collaboration, code reviews, and feature development.
 - Evaluated fair-use compliance by auditing business-legal literature.
 
 Sep 2023 thru Mar 2024
-Front-end Developer at GameIn
+<choice>Front-end|Frontend</choice> Developer at GameIn
 — Before graduating from UC Irvine, I took a capstone course where I collaborated, among classmates, with one of a choice of several companies.
 - Owing to my prior experience in videogame development, I chose to work with GameIn, who were building a tool to match e-sports streamers and paying sponsors.
-- Implemented mobile-responsive pages using Next.js (and thus React) from mockups that we also made.
+- Implemented <choice>mobile-responsive|mobile-user‑friendly</choice> pages using Next.js (and thus React) from mockups that we also made.
 - Arranged, as part of a team, a slide deck with stylistic help from Figma.
   - The slide deck was presented to an audience of approx. 50 other students and their families.
 

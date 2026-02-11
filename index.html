@@ -193,6 +193,11 @@
 		}
 	}
 
+	function getJobDescription(cvName) {
+		const fileData = loadFile(`./${cvName}/_job_desc.txt`).toLowerCase();
+		return new Set(fileData.matchAll(/(\w+)/gi).map(([e, ..._]) => e));
+	}
+
 	function genItemElement(category, itemLines) {
 		var mainEl = document.createElement("div");
 		mainEl.className = `block ${category}`;
@@ -247,6 +252,20 @@
 	bodyEl.append(
 		...Object.entries(LISTED_CATEGORIES).flatMap(([category, cName]) => genCategoryElements(cvName, category, cName))
 	);
+
+	// If a job description is provided, looks for words in the CV to replace with what exactly is in that job description, so as to make the applicant-tracking systems happy.
+	// E.g. <choice>default or first choice|second choice|third choice</choice>
+	const jobDescription = getJobDescription(cvName);
+	for (const choice of bodyEl.querySelectorAll("choice")) {
+		const options = choice.innerText.split("|");
+		let option = options[0];
+		for (option of options) {
+			const words = option.matchAll(/(\w+)/gi);
+			if (!words.some((e) => jobDescription.has(e))) continue;
+			break;
+		}
+		choice.innerText = option;
+	}
 
 	document.getElementById("date").innerText = new Date().toISOString();
 </script>
