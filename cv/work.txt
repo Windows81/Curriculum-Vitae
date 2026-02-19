@@ -1,3 +1,16 @@
+June 2015 thru now
+Engineering Assistant @ Professional Engineering Center
+- Responsible for maintaining on‑site SMB-compatible file servers with sensitive data going back since 2003, enabling reliable file access for the engineering team.
+- Additionally, leveraging AutoCAD to transform sketches into digitised drawings, which are then reviewed and signed by a licensed civil engineer.
+- Supporting commercial and industrial construction projects for multi-national manufacturers and regional utility providers.
+- Reverse-engineered and modified legacy plugins to fully support modern versions of AutoCAD, allowing company operations to fully migrate to a updated tool suite.
+
+Aug 2019 thru June 2021
+Raising Cane's and El Pollo Loco
+- Communicated with customers and team members in a fast-paced environment.
+- Operated drive‑thru and dine‑in cash registers with total revenue exceeding $3000 per day; processing orders through the POS system and supporting overall restaurant operations.
+  - Helped maintain steady order throughput during peak hours.
+
 April 2016 thru now
 On-call Designer @ Islamic Institute of Orange County et al.
 - Controlling graphic design for printed and digital materials for social events <choice>using|leveraging</choice> Affinity Photo and Canva, ensuring brand consistency and on‑time delivery.
@@ -6,10 +19,10 @@ On-call Designer @ Islamic Institute of Orange County et al.
 - Additionally, designed real-estate visuals for agents contracted by Berkshire Hathaway.
 
 Sep 2017 thru May 2018
-Internship @ CSU Fullerton
-- Analysed <i>my first</i> proper code base and documented findings that helped the team streamline future development.
+Research Internship @ CSU Fullerton
+- Analysed <i>my first</i> proper code base and documented findings that helped the research team streamline future development.
 - Supported graduate students in building a Java-based brain-computer interface targeting users with limited mobility.
-- Coordinated with Professor Kiran George under the Val Tech Program to log internship hours, ensuring that I and the research team met our reporting requirements.
+- Coordinated with Professor Kiran George under the Val Tech Program to log internship hours, ensuring that I and the team met our reporting requirements.
 - <i>My assigned task:</i> To design a mock user interface for initial calibration procedure.
 -
 - <b>Salient Moment:</b> I identified and took the initiative to solve issues which were outside my purview.
@@ -17,20 +30,3 @@ Internship @ CSU Fullerton
   - I located the data structure in a <code>private</code> variable buried in a library class.
   - To add some spice, I drafted a digital illustration showing the variable's name and presented that to the group.
   - However, my solution was not actionable as it required changes to the dependency code and overlooked other project needs.
-
-June 2015 thru now
-Engineering Assistant @ Professional Engineering Center
-- Provisioned and responsible for maintaining sensitive on‑site file servers with Samba, enabling secure file access for the engineering team.
-- Additionally, levergaing AutoCAD to digitise drawings, which are then reviewed and analysed by a licensed civil engineer.
-- Supporting the construction and repair of commercial and industrial sites by clients, including multi-national manufacturers and regional utility providers.
-
-Aug 2019 thru June 2021
-Raising Cane's and El Pollo Loco
-- Communicated with customers and team members in a fast-paced environment.
-- Operated drive‑thru and dine‑in cash registers, processing orders through the POS system and supporting overall restaurant operations.
-  - Helped maintain steady order throughput during peak hours.
--
-- <b>Salient Moment:</b> I resolved a customer's vehicle breakdown in the drive‑thru lane by coordinating with staff and safely clearing the path, allowing service to resume promptly and preventing service delays.
-  - One busy evening, I noticed that a car was stuck on the path.
-  - Upon seeing the issue, I approached nearby drivers and asked if any had jumper cables and found one who came prepared.
-  - I requested that other customers yield before a shift manager transitioned to handle drive-thru orders and took over from there.

@@ -1,2 +1,7 @@
 _current_cv_profile.txt
 */_job_desc.txt
+*.pdf
+cv.pdf
+cv-short.pdf
+__*.pdf
+__*/

@@ -1,12 +1,12 @@
 <header>
 	<h1>Ahmed Abo-Shadi</h1>
-	<sub>alias <i>VisualPlugin</i> &mdash; <span id="date" /></sub>
 	<div>
 		<a href="tel:+17144635142">+1 (714) 463 5142</a>
 		<a href="https://linkedin.com/in/visualplugin">https://linkedin.com/in/visualplugin</a>
 		<a href="https://github.com/Windows81">https://github.com/Windows81</a>
 		<a href="mailto:aboshadi.n.ahmed@gmail.com">aboshadi.n.ahmed@gmail.com</a>
 	</div>
+	<sub><span id="date" /></sub>
 </header>
 <div class="blockContainer" id="cvBody"></div>
 <style>
@@ -37,11 +37,12 @@
 	}
 	header > sub {
 		display: block;
-		font-weight: normal;
-		font-size: 16px;
+		font-size: 13px;
 		margin: 0;
 		margin-top: 4px;
-		margin-bottom: 6px;
+		margin-bottom: -20px;
+		font-style: italic;
+		color: #aaa;
 	}
 	header > div {
 		margin: auto;
@@ -90,6 +91,7 @@
 	}
 	.blockContainer > .block {
 		width: min-content;
+		flex-basis: 500px;
 		background: var(--background);
 		border: 2px solid color-mix(in hsl, var(--box-bullet-leader) 10%, transparent);
 		/*
@@ -171,15 +173,16 @@
 		justify-content: space-between;
 	}
 	.blockContainer > .block.skills > div {
+		font-size: 14px;
 		flex-basis: 144px;
 	}
 </style>
 <script>
 	const LISTED_CATEGORIES = {
 		education: "Education",
-		projects: "Projects & Research",
-		work: "Employment",
 		skills: "Listed Skills",
+		work: "Employment",
+		projects: "Projects & Research",
 	};
 
 	function loadFile(path) {
@@ -272,5 +275,8 @@
 		choice.innerText = option;
 	}
 
-	document.getElementById("date").innerText = new Date().toISOString();
+	document.getElementById("date").innerText = new Intl.DateTimeFormat("en-SE", {
+		dateStyle: "full",
+		timeStyle: "long",
+	}).format(new Date());
 </script>

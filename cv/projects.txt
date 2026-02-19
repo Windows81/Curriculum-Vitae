@@ -5,9 +5,9 @@ Rōblox Freedom Distribution
   - At the time, the company was a small Silicon-Valley start-up.
   - Over the years, its developer-friendly tools led me to take up my current-day career as a programmer.
 - From 2023, I've built a <choice>full-stack|scalable</choice> application for users to <i>host</i> and <i>join</i> self-hosted, historic versions of Rōblox in a local- or wide-area network.
-  - Created a Python bootstrapper, dually for <choice>clients|end users</choice> and <choice>servers|custom backends</choice>, for seamless connectivity
+  - Created a Python bootstrapper, dually for <choice>clients|end users</choice> and <choice>servers|custom backends</choice>, for seamless connectivity.
 - Enhanced functionality through team collaboration, code reviews, and feature development.
-- Evaluated fair-use compliance by auditing business-legal literature.
+- Evaluated fair-use compliance by auditing business-legal literature, publicly disclosing analysis of legal risks and benefits of various intended use cases.
 
 Sep 2023 thru Mar 2024
 <choice>Front-end|Frontend</choice> Developer at GameIn
@@ -43,42 +43,36 @@ July 2022 thru May 2023
 Rōblox Script Executor
 <a href="https://github.com/Windows81/Roblox-Script-Executor-CLI">https://github.com/Windows81/Roblox-Script-Executor-CLI</a>
 was a command-line interface facilitating script execution on Rōblox.
-- Constructed custom syntax for script execution in Luau
-- Introduced per-script parameterization for user ease
-- Created 142 predefined scripts in a sister repository, many with help pages
-
-Aug 2023
-Tubeup
-<a href="https://github.com/bibanon/tubeup">https://github.com/bibanon/tubeup</a>
-- I use a variety of tools, most of which I install from GitHub, to automate tasks that would otherwise take me months to complete.
-  - Though, some do have bugs requiring manual intervention.
-- To mitigate the risk of losing my YouTube videos due to shifting policies, I used a program to re-upload my YouTube videos to the Internet Archive.
-- I reviewed and contributed code to facilitate this process.
-  - After exploring <code>yt-dlp</code>'s Python interface and fixing bugs for a batch of 234 videos, I developed a mechanism to skip deleted videos.
-  - Unlike most of my other contributions, these fixes were quickly accepted in a pull request.
+- Constructed custom syntax for script execution in Luau.
+- Introduced per-script parameterization for user ease.
+- Created 142 predefined scripts in a sister repository, many with help pages.
 
 Dec 2022
 "Screwdja YuJa"
 <a href="https://github.com/Windows81/Screwdja-YuJa">https://github.com/Windows81/Screwdja-YuJa</a>
 - I discovered and disclosed a severe vulnerability in YuJa's API.
-- <i>Millions</i> of private academic videos, including recordings of students taking proctored exams, were exposed on the open net.
+- Over 6,000,000 academic videos, including private recordings of students taking proctored exams, were exposed on the open net.
 - After sending the initial message, I was put directly in touch with the Chief Business Officer.
 - YuJa released a security patch after ~2 days, closing the loop-hole for good.
-
-May 2021, Feb 2022
-Time is Musical
-<a href="https://github.com/Windows81/Time-Is-Musical">https://github.com/Windows81/Time-Is-Musical</a>
-is a musical adaptation of the WWV time station
-- Streamed live on YouTube using FFmpeg's lavfi filter
-- Mastered, mixed, and reproduced a composition of five tracks
-- Devised an algorithm to uniquely select playing loops per minute
-- Produced 42 synth loops using FL Studio 20
-- Constructed Python script for stream parameters
 
 Feb 2018 thru Sep 2019
 Webhooky
 <a href="https://github.com/Windows81/Playing-Webhooky">https://github.com/Windows81/Playing-Webhooky</a>
-was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.
-- Made use of PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs
-- Empowered over 200 game developers to transfer data to Discord with my service
-- Montored and tracked infrastructure usage stats on cPanel via 000webhost
+- Discord's webhook API allows developers to easily send custom messages from live Rōblox games to a shared space on Discord, where data persistence is more accessible than on Rōblox's servers.
+- In 2018, when Discord abruptly blocked all webhook activity from Rōblox servers, I built a lightweight proxy to suit that need.
+  - Made use of PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs.
+- Served over 200 distinct games, including from major studios such as ROLVe.
+- Monitored and tracked infrastructure usage stats on cPanel via 000webhost, avoiding excessive downtime.
+
+Aug 2023
+Tubeup
+  - I use a variety of tools, most of which I install from GitHub, to automate tasks that would otherwise take me months to complete.
+  - However, some of these tools are missing features or contain bugs which are trivial to fix.
+-
+<a href="https://github.com/bibanon/tubeup">https://github.com/bibanon/tubeup</a>
+- Tubeup is a Python utility with 478 stars and new versions being released as of Feburary 2026.
+  - It uses the <code>yt-dlp</code> and <code>internetarchive</code> libraries to download videos from YouTube to re-upload to the Internet Archive.
+  - I discovered Tubeup in 2023 to help mitigate the risk of my prior work on YouTube being undiscoverable due to shifting policies.
+- On a batch of 234 videos, the program crashed on attempting to download deleted or invalid media.
+- I patched Tubeup to alleviate the issue, then I submitted my changes via a pull request on the official project page.
+- Unlike most other projects to which I contributed, the author quickly accepted my changes.
