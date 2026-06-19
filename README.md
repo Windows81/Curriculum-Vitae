@@ -10,5 +10,5 @@ You'll need:
 - A Bash-like shell to run [`_.sh`](_.sh)
 
 ```
-pip3 install git+https://github.com/Windows81/sqlite-worker.git@main
+pip3 install git+https://github.com/Windows81/Get-Chrome-Paths.git
 ```

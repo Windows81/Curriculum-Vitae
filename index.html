@@ -196,37 +196,73 @@
 		}
 	}
 
-	function getJobDescription(cvName) {
-		const fileData = loadFile(`./${cvName}/_job_desc.txt`) ?? "";
-		return new Set(
-			fileData
-				.toLowerCase()
-				.matchAll(/(\w+)/gi)
-				.map(([e, ..._]) => e)
-		);
+	function splatArray(words) {
+		return words
+			.toLowerCase()
+			.matchAll(/([0-9a-z]+)/gi)
+			.map(([e, ..._]) => e);
 	}
 
-	function genItemElement(category, itemLines) {
+	function getJobDescription(cvName) {
+		const fileData = loadFile(`./${cvName}/_job_desc.txt`) ?? "";
+		return new Set(splatArray(fileData));
+	}
+
+	function pickBestOption(jobDescription, options) {
+		let option;
+		for (option of options) {
+			const words = splatArray(option);
+			const wordExists = words.some((e) => jobDescription.has(e));
+			if (!wordExists) continue;
+			return [true, option];
+		}
+		return [false, option];
+	}
+
+	function processOptions(jobDescription, element) {
+		// E.g. <choice>first choice|second choice|last choice or default</choice>
+		for (const choice of element.querySelectorAll("choice")) {
+			const options = choice.innerText.split("|");
+			let [included, option] = pickBestOption(jobDescription, options);
+			choice.innerText = option;
+		}
+	}
+
+	function scoreElement(jobDescription, element) {
+		var score = 0;
+		for (var word of splatArray(element.innerHTML)) if (jobDescription.has(word)) score++;
+		return score;
+	}
+
+	function mapSortedElements(jobDescription, arr, pred) {
+		var scoresAndElements = arr.map(pred).map((elem) => {
+			var score = scoreElement(jobDescription, elem);
+			return [-1 * score, elem];
+		});
+		scoresAndElements.sort();
+		return scoresAndElements.map(([s, e]) => e);
+	}
+
+	function genItemElement(category, itemData, jobDescription) {
 		var mainEl = document.createElement("div");
 		mainEl.className = `block ${category}`;
 
 		if (LISTED_CATEGORIES[category] == LISTED_CATEGORIES.skills) {
-			mainEl.append(
-				...itemLines.map((data) => {
-					var el = document.createElement("div");
-					el.innerHTML = data;
-					return el;
-				})
-			);
+			var skillBlocks = mapSortedElements(jobDescription, itemData, (data) => {
+				var el = document.createElement("div");
+				el.innerHTML = data;
+				return el;
+			});
+			mainEl.append(...skillBlocks);
 			return mainEl;
 		}
 
-		var [date, title, ...itemLines] = itemLines;
+		var [date, title, ...itemData] = itemData;
 		var titleEl = document.createElement("div");
 		titleEl.innerHTML = `<b>${title}</b> &ndash; ${date}`;
 		mainEl.append(
 			titleEl,
-			...itemLines.map((data) => {
+			...itemData.map((data) => {
 				var tag = "li";
 				var cls = "";
 				if (data.startsWith("-")) {
@@ -239,7 +275,7 @@
 				el.innerHTML = data;
 				el.className = cls;
 				return el;
-			})
+			}),
 		);
 		return mainEl;
 	}
@@ -251,29 +287,18 @@
 		var categoryEl = document.createElement("div");
 		categoryEl.className = `category ${category}`;
 		categoryEl.innerText = cName;
-		return [categoryEl, ...cvData.flatMap((cvItem) => genItemElement(category, cvItem))];
+
+		const jobDescription = getJobDescription(cvName);
+		var itemElements = mapSortedElements(jobDescription, cvData, (cvItem) => genItemElement(category, cvItem, jobDescription));
+		return [categoryEl, ...itemElements];
 	}
 
 	const cvName = new URLSearchParams(window.location.search).get("cvProfile") ?? loadFile("_current_cv_profile.txt") ?? "cv";
 	const bodyEl = document.getElementById("cvBody");
 
 	bodyEl.append(
-		...Object.entries(LISTED_CATEGORIES).flatMap(([category, cName]) => genCategoryElements(cvName, category, cName))
+		...Object.entries(LISTED_CATEGORIES).flatMap(([category, cName]) => genCategoryElements(cvName, category, cName)),
 	);
-
-	// If a job description is provided, looks for words in the CV to replace with what exactly is in that job description, so as to make the applicant-tracking systems happy.
-	// E.g. <choice>first choice|second choice|last choice or default</choice>
-	const jobDescription = getJobDescription(cvName);
-	for (const choice of bodyEl.querySelectorAll("choice")) {
-		const options = choice.innerText.split("|");
-		let option;
-		for (option of options) {
-			const words = option.matchAll(/(\w+)/gi);
-			if (!words.some((e) => jobDescription.has(e))) continue;
-			break;
-		}
-		choice.innerText = option;
-	}
 
 	document.getElementById("date").innerText = new Intl.DateTimeFormat("en-SE", {
 		dateStyle: "full",

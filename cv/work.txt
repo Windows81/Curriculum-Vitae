@@ -1,9 +1,9 @@
 June 2015 thru now
 Engineering Assistant @ Professional Engineering Center
-- Responsible for maintaining on‑site SMB-compatible file servers with sensitive data going back since 2003, enabling reliable file access for the engineering team.
-- Additionally, leveraging AutoCAD to transform sketches into digitised drawings, which are then reviewed and signed by a licensed civil engineer.
-- Supporting commercial and industrial construction projects for multi-national manufacturers and regional utility providers.
-- Reverse-engineered and modified legacy plugins to fully support modern versions of AutoCAD, allowing company operations to fully migrate to a updated tool suite.
+- Safely managing mission-critical on‑site SMB-compatible file servers with sensitive data going back since 2003, enabling reliable file access for the engineering team.
+- Translating hand-drawn sketches into production-ready AutoCAD drawings for licensed engineer review and sign-off, accelerating project turnaround.
+- Directly contributed to the organisational design of high-stakes commercial and industrial projects for multi-national manufacturers and regional utility providers.
+- Reverse-engineered and modified legacy plugins to fully support modern versions of AutoCAD, enabling full migration to an updated toolchain and reducing operational risk.
 
 Aug 2019 thru June 2021
 Raising Cane's and El Pollo Loco
