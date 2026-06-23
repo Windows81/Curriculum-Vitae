@@ -239,6 +239,7 @@
 			var score = scoreElement(jobDescription, elem);
 			return [-1 * score, elem];
 		});
+
 		scoresAndElements.sort();
 		return scoresAndElements.map(([s, e]) => e).slice(0, limit);
 	}
@@ -283,8 +284,8 @@
 	}
 
 	function getLimit(category, jobDescription) {
-		if (!jobDescription) return -1;
-		switch (category) {
+		if (!jobDescription.size) return -1;
+		switch (LISTED_CATEGORIES[category]) {
 			case LISTED_CATEGORIES.projects:
 				return 2;
 			case LISTED_CATEGORIES.work:
@@ -306,8 +307,11 @@
 
 		const jobDescription = getJobDescription(cvName);
 		var limit = getLimit(category, jobDescription);
-		var itemElements = mapSortedElements(jobDescription, cvData, (cvItem) =>
-			genItemElement(category, cvItem, jobDescription, limit),
+		var itemElements = mapSortedElements(
+			jobDescription,
+			cvData,
+			(cvItem) => genItemElement(category, cvItem, jobDescription),
+			limit,
 		);
 		return [categoryEl, ...itemElements];
 	}
