@@ -208,23 +208,23 @@
 		return new Set(splatArray(fileData));
 	}
 
-	function pickBestOption(jobDescription, options) {
-		let option;
-		for (option of options) {
-			const words = splatArray(option);
+	function pickBestChoice(jobDescription, choices) {
+		let choice;
+		for (choice of choices) {
+			const words = splatArray(choice);
 			const wordExists = words.some((e) => jobDescription.has(e));
 			if (!wordExists) continue;
-			return [true, option];
+			return [true, choice];
 		}
-		return [false, option];
+		return [false, choice];
 	}
 
-	function processOptions(jobDescription, element) {
+	function processChoices(jobDescription, element) {
 		// E.g. <choice>first choice|second choice|last choice or default</choice>
-		for (const choice of element.querySelectorAll("choice")) {
-			const options = choice.innerText.split("|");
-			let [included, option] = pickBestOption(jobDescription, options);
-			choice.innerText = option;
+		for (const tag of element.querySelectorAll("choice")) {
+			const choices = tag.innerText.split("|");
+			let [included, choice] = pickBestChoice(jobDescription, choices);
+			tag.innerText = choice;
 		}
 	}
 
@@ -234,13 +234,13 @@
 		return score;
 	}
 
-	function mapSortedElements(jobDescription, arr, pred) {
+	function mapSortedElements(jobDescription, arr, pred, limit = -1) {
 		var scoresAndElements = arr.map(pred).map((elem) => {
 			var score = scoreElement(jobDescription, elem);
 			return [-1 * score, elem];
 		});
 		scoresAndElements.sort();
-		return scoresAndElements.map(([s, e]) => e);
+		return scoresAndElements.map(([s, e]) => e).slice(0, limit);
 	}
 
 	function genItemElement(category, itemData, jobDescription) {
@@ -251,6 +251,7 @@
 			var skillBlocks = mapSortedElements(jobDescription, itemData, (data) => {
 				var el = document.createElement("div");
 				el.innerHTML = data;
+				processChoices(jobDescription, el);
 				return el;
 			});
 			mainEl.append(...skillBlocks);
@@ -273,11 +274,26 @@
 				}
 				var el = document.createElement(tag);
 				el.innerHTML = data;
+				processChoices(jobDescription, el);
 				el.className = cls;
 				return el;
 			}),
 		);
 		return mainEl;
+	}
+
+	function getLimit(category, jobDescription) {
+		if (!jobDescription) return -1;
+		switch (category) {
+			case LISTED_CATEGORIES.projects:
+				return 2;
+			case LISTED_CATEGORIES.work:
+				return 2;
+			case LISTED_CATEGORIES.skills:
+				return 2;
+			default:
+				return -1;
+		}
 	}
 
 	function genCategoryElements(cvName, category, cName) {
@@ -289,7 +305,10 @@
 		categoryEl.innerText = cName;
 
 		const jobDescription = getJobDescription(cvName);
-		var itemElements = mapSortedElements(jobDescription, cvData, (cvItem) => genItemElement(category, cvItem, jobDescription));
+		var limit = getLimit(category, jobDescription);
+		var itemElements = mapSortedElements(jobDescription, cvData, (cvItem) =>
+			genItemElement(category, cvItem, jobDescription, limit),
+		);
 		return [categoryEl, ...itemElements];
 	}
 
