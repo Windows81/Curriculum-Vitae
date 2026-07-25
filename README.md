@@ -12,3 +12,17 @@ You'll need:
 ```
 pip3 install git+https://github.com/Windows81/Get-Chrome-Paths.git
 ```
+
+## [`_.sh`](_.sh): How to Use
+
+```
+./_.sh gen
+```
+
+Paste a job description here, and receive a PDF file matching `./__cv_*.pdf` with its `<choice>` tags adjusted to reflect the word frequencies. Derived from the contents of `./cv/`.
+
+```
+./_.sh
+```
+
+Receive PDF files corresponding to the names and contents of relevant top-level directories (such as `./cv/` and `./cv-short/`).
