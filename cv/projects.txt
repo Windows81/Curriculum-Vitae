@@ -1,19 +1,19 @@
 July 2023 thru now
 Rōblox Freedom Distribution
 <a href="https://github.com/Windows81/Roblox-Freedom-Distribution">https://github.com/Windows81/Roblox-Freedom-Distribution</a>
-- I have been developing games on Rōblox from 2013, having had an account since 2008.
+- I have been <choice>developing|building</choice> games on Rōblox from 2013, having had an account since 2008.
   - At the time, the company was a small Silicon-Valley start-up.
-  - Over the years, its developer-friendly tools led me to take up my current-day career as a programmer.
+  - Over the years, its developer-friendly tools led me to take up my current-day career as a <choice>programmer|developer</choice>.
 - From 2023, I've built a <choice>full-stack|scalable</choice> application for users to <i>host</i> and <i>join</i> self-hosted, historic versions of Rōblox in a local- or wide-area network.
   - Created a Python bootstrapper, dually for <choice>clients|end users</choice> and <choice>servers|custom backends</choice>, to enable seamless connectivity.
-- Enhanced functionality through team collaboration, lots and lots of code reviews, and feature development
+- Enhanced <choice>functionality|performance</choice> through team collaboration, lots and lots of code reviews, and feature development
   - <choice>Consulted cutting-edge academic papers to validate my Python re-write of Edgebreaker geometry-compression.</choice>
-- Built a <choice>minimally-invasive|automation</choice> asset-processing pipeline for<choice>DCC|proprietary</choice> <choice>3D|3-dimensional</choice> mesh and <choice>place-archive|<code>rbxl</code></choice> formats, promoting <choice>hygiene</choice>.
+- Built a <choice>minimally-invasive|automation</choice> asset-processing pipeline for<choice>DCC|proprietary</choice> <choice>3D|3-dimensional</choice> mesh and <choice>place-archive|<code>rbxl</code></choice> formats, promoting <choice>hygiene|quality</choice>.
 - Evaluated fair-use compliance by auditing business-legal literature, publicly disclosing some analysis of legal risks and benefits of various intended use cases.
 
 Sep 2023 thru Mar 2024
 <choice>Front-end|Frontend</choice> Developer at GameIn
-— Before graduating from UC Irvine, I took a capstone course where I collaborated, among classmates, with one of a choice of several companies.
+- Before graduating from UC Irvine, I took a capstone course where I collaborated, among classmates, with one of a choice of several companies.
 - Owing to my prior experience in videogame development, I chose to work with GameIn, who were building a tool to match e-sports streamers and paying sponsors.
 - Implemented <choice>mobile-responsive|mobile-user‑friendly</choice> pages<choice> using|; leveraged</choice> Next.js (and thus React) from mockups that we also made.
 - Arranged, as part of a team, a slide deck with stylistic help from Figma.
@@ -60,7 +60,7 @@ Webhooky
 
 Aug 2023
 Tubeup
-  - I use a variety of tools, most of which I install from GitHub, to automate tasks that would otherwise take me months to complete.
+- I use a variety of tools, most of which I install from GitHub, to automate tasks that would otherwise take me months to complete.
   - However, some of these tools are missing features or contain bugs which are trivial to fix.
 -
 <a href="https://github.com/bibanon/tubeup">https://github.com/bibanon/tubeup</a>

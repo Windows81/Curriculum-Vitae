@@ -219,7 +219,7 @@
 		return [false, choice];
 	}
 
-	function processChoices(jobDescription, element) {
+	function collapseChoices(jobDescription, element) {
 		// E.g. <choice>first choice|second choice|last choice or default</choice>
 		for (const tag of element.querySelectorAll("choice")) {
 			const choices = tag.innerText.split("|");
@@ -252,7 +252,7 @@
 			var skillBlocks = mapSortedElements(jobDescription, itemData, (data) => {
 				var el = document.createElement("div");
 				el.innerHTML = data;
-				processChoices(jobDescription, el);
+				collapseChoices(jobDescription, el);
 				return el;
 			});
 			mainEl.append(...skillBlocks);
@@ -262,24 +262,49 @@
 		var [date, title, ...itemData] = itemData;
 		var titleEl = document.createElement("div");
 		titleEl.innerHTML = `<b>${title}</b> &ndash; ${date}`;
-		mainEl.append(
-			titleEl,
-			...itemData.map((data) => {
-				var tag = "li";
-				var cls = "";
-				if (data.startsWith("-")) {
-					data = data.substring("-".length);
-				} else if (data.startsWith("  -")) {
-					data = data.substring("  -".length);
-					cls = "l2";
-				}
-				var el = document.createElement(tag);
-				el.innerHTML = data;
-				processChoices(jobDescription, el);
-				el.className = cls;
-				return el;
-			}),
-		);
+		mainEl.append(titleEl);
+
+		const elemGroups = [];
+		const elemScores = [];
+		for (let data of itemData) {
+			let tag = "li";
+			let cls = "";
+			var newGroup = true;
+			if (data.startsWith("-")) {
+				data = data.substring("-".length);
+				newGroup = true;
+			} else if (data.startsWith("  -")) {
+				data = data.substring("  -".length);
+				cls = "l2";
+				newGroup = false;
+			}
+
+			let el = document.createElement(tag);
+			el.innerHTML = data;
+			collapseChoices(jobDescription, el);
+			el.className = cls;
+
+			if (newGroup) {
+				elemGroups.push([]);
+				elemScores.push(0);
+			}
+
+			let i = elemGroups.length - 1;
+			elemGroups[i].push(el);
+			elemScores[i] += scoreElement(jobDescription, el);
+		}
+
+		// Generates a negative-score map so that sorting is essentially done in descending order.
+		var scoreEntries = elemScores.map((s, i) => [-1 * s, i, elemGroups[i]]);
+		scoreEntries.sort();
+
+		// Adds the top scoring elements, along with any options tied with index [2].
+		let scoreThresh = 0;
+		for (let [neg_s, i, g] of scoreEntries) {
+			if (i == 2) scoreThresh = neg_s;
+			if (neg_s > scoreThresh) break;
+			mainEl.append(...g);
+		}
 		return mainEl;
 	}
 
