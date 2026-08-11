@@ -1,6 +1,6 @@
 July 2023 thru now
 Rōblox Freedom Distribution
-<a href="https://github.com/Windows81/Roblox-Freedom-Distribution">https://github.com/Windows81/Roblox-Freedom-Distribution</a>
+- <a href="https://github.com/Windows81/Roblox-Freedom-Distribution">https://github.com/Windows81/Roblox-Freedom-Distribution</a>
 - I have been <choice>developing|building</choice> games on Rōblox from 2013, having had an account since 2008.
   - At the time, the company was a small Silicon-Valley start-up.
   - Over the years, its developer-friendly tools led me to take up my current-day career as a <choice>programmer|developer</choice>.
@@ -21,7 +21,7 @@ Sep 2023 thru Mar 2024
 
 March & April 2021
 Bring Back Buffets
-<a href="https://github.com/Windows81/Bring-Back-Buffets">https://github.com/Windows81/Bring-Back-Buffets</a>
+- <a href="https://github.com/Windows81/Bring-Back-Buffets">https://github.com/Windows81/Bring-Back-Buffets</a>
 - During the Covid lockdowns, I engineered a mobile web app to revive buffets whilst minimising inflection risk.
 - This project's user-interaction model drew inspiration from how some Korean barbecue establishments operate:
   - Where dine-in customers can order food directly from a website they can access from their phones.
@@ -30,7 +30,7 @@ Bring Back Buffets
 
 Dec 2019 thru Nov 2020
 GoAnimate Wrapper
-<a href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper</a>
+- <a href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper</a>
 - Using GoAnimate's <i>Legacy Video Maker</i>, I animated some engaging videos on my YouTube channel, often satirising trends set forth by other publishers who use the same tool.
   - However, it needed a remote server for file persistence and access to crucial assets, which was being discontinued after 2019.
   - A newer version of the program existed, but lacked crucial animation assets and effects.
@@ -43,7 +43,7 @@ GoAnimate Wrapper
 
 Dec 2022
 "Screwdja YuJa"
-<a href="https://github.com/Windows81/Screwdja-YuJa">https://github.com/Windows81/Screwdja-YuJa</a>
+- <a href="https://github.com/Windows81/Screwdja-YuJa">https://github.com/Windows81/Screwdja-YuJa</a>
 - I discovered and disclosed a severe vulnerability in YuJa's API.
 - Over 6,000,000 academic videos, including private recordings of students taking proctored exams, were exposed on the open net.
 - After sending the initial message, I was put directly in touch with the Chief Business Officer.
@@ -51,7 +51,7 @@ Dec 2022
 
 Feb 2018 thru Sep 2019
 Webhooky
-<a href="https://github.com/Windows81/Playing-Webhooky">https://github.com/Windows81/Playing-Webhooky</a>
+- <a href="https://github.com/Windows81/Playing-Webhooky">https://github.com/Windows81/Playing-Webhooky</a>
 - Discord's webhook API allows developers to easily send custom messages from live Rōblox games to a shared space on Discord, where data persistence is more accessible than on Rōblox's servers.
 - In 2018, when Discord abruptly blocked all webhook activity from Rōblox servers, I built a lightweight proxy to suit that need.
   - Made use of PHP, SQL (MySQL), and PHPMyAdmin to process and store request logs.
@@ -63,7 +63,7 @@ Tubeup
 - I use a variety of tools, most of which I install from GitHub, to automate tasks that would otherwise take me months to complete.
   - However, some of these tools are missing features or contain bugs which are trivial to fix.
 -
-<a href="https://github.com/bibanon/tubeup">https://github.com/bibanon/tubeup</a>
+- <a href="https://github.com/bibanon/tubeup">https://github.com/bibanon/tubeup</a>
 - Tubeup is a Python utility with 478 stars and new versions being released as of Feburary 2026.
   - It uses the <code>yt-dlp</code> and <code>internetarchive</code> libraries to download videos from YouTube to re-upload to the Internet Archive.
   - I discovered Tubeup in 2023 to help mitigate the risk of my prior work on YouTube being undiscoverable due to shifting policies.

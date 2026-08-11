@@ -25,6 +25,9 @@
 	* {
 		font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 	}
+	a {
+		color: #0078d7;
+	}
 	code {
 		font-family: monospace;
 	}
@@ -91,7 +94,7 @@
 	}
 	.blockContainer > .block {
 		width: min-content;
-		flex-basis: 350px;
+		height: min-content;
 		background: var(--background);
 		border: 2px solid color-mix(in hsl, var(--box-bullet-leader) 10%, transparent);
 		/*
@@ -137,7 +140,11 @@
 	.blockContainer > .block > li:empty {
 		border-bottom: color-mix(in hsl, var(--box-bullet-leader) 10%, transparent) 2px dashed;
 	}
-	.blockContainer > .block > li:not(:empty)::before {
+	.blockContainer > .block > li:empty::before {
+		content: none;
+		border: none;
+	}
+	.blockContainer > .block > li::before {
 		display: list-item;
 		content: "";
 		position: absolute;
@@ -147,23 +154,40 @@
 		height: 28px;
 		background-color: transparent;
 		border-bottom-left-radius: 6px;
+		stroke-linecap: round;
 		margin-left: -15px;
 		margin-top: -20px;
 		box-sizing: border-box;
 	}
-	.blockContainer > .block > li.l2 {
-		padding-left: 20px;
-		border-left: var(--box-bullet-leader) dashed 2px;
+	.blockContainer > .block > li > ul {
+		margin: 0;
+		padding: 0;
 	}
-	.blockContainer > .block > li.l2::before {
-		width: 12px;
-		margin-left: -17px;
+	.blockContainer > .block > li > ul > li {
+		stroke-linecap: round;
+		font-size: 12px;
+		padding-left: 7px;
+		padding-top: 7px;
+		list-style-type: none;
+	}
+	.blockContainer > .block > li > ul > li::before {
+		display: list-item;
+		content: "";
+		position: absolute;
+		border-bottom: var(--box-bullet-leader) 2px solid;
 		border-left: none;
+		width: 12px;
+		height: 28px;
+		background-color: transparent;
+		border-bottom-left-radius: 6px;
+		margin-left: -17px;
+		margin-top: -20px;
+		box-sizing: border-box;
 	}
-	.blockContainer > .block > li.l2:has(+ li:not(.l2)) {
-		border-left: var(--box-bullet-leader) dotted 2px;
+	.blockContainer > .block > li:not(:has(> ul:empty)) {
+		border-left: color-mix(in hsl, var(--box-bullet-leader) 20%, transparent) solid 2px;
 	}
-	.blockContainer > .block > li:not(:has(+ li)) {
+	.blockContainer > .block > li:last-child {
 		border-left: transparent solid 2px !important;
 	}
 	.blockContainer > .block.skills {
@@ -219,7 +243,8 @@
 		return [false, choice];
 	}
 
-	function collapseChoices(jobDescription, element) {
+	function collapseChoices(jobDescription, element, item_text = undefined) {
+		if (item_text !== undefined) element.innerHTML = item_text;
 		// E.g. <choice>first choice|second choice|last choice or default</choice>
 		for (const tag of element.querySelectorAll("choice")) {
 			const choices = tag.innerText.split("|");
@@ -234,14 +259,41 @@
 		return score;
 	}
 
-	function mapSortedElements(jobDescription, arr, pred, limit = -1) {
-		var scoresAndElements = arr.map(pred).map((elem) => {
+	function mapElementsToSort(jobDescription, arr, pred, limit = -1, keepTies = false) {
+		var scoresAndElements = arr.map(pred).map((elem, i) => {
 			var score = scoreElement(jobDescription, elem);
-			return [-1 * score, elem];
+			return [-1 * score, i, elem];
 		});
 
 		scoresAndElements.sort();
-		return scoresAndElements.map(([s, e]) => e).slice(0, limit);
+		var result = [];
+
+		// Adds the top scoring elements.
+		if (keepTies) {
+			let scoreThresh = 0;
+			for (let [neg_s, i, e] of scoresAndElements) {
+				if (neg_s > scoreThresh) break;
+				if (i == limit) scoreThresh = neg_s;
+				result.push(e);
+			}
+		} else {
+			for (let [neg_s, i, e] of scoresAndElements) {
+				result.push(e);
+				if (i == limit) break;
+			}
+		}
+		return result;
+	}
+	function getLimitOfBulletPoints(category, jobDescription) {
+		if (!jobDescription.size) return -1;
+		switch (LISTED_CATEGORIES[category]) {
+			case LISTED_CATEGORIES.projects:
+				return 3;
+			case LISTED_CATEGORIES.work:
+				return 3;
+			default:
+				return -1;
+		}
 	}
 
 	function genItemElement(category, itemData, jobDescription) {
@@ -249,10 +301,9 @@
 		mainEl.className = `block ${category}`;
 
 		if (LISTED_CATEGORIES[category] == LISTED_CATEGORIES.skills) {
-			var skillBlocks = mapSortedElements(jobDescription, itemData, (data) => {
+			var skillBlocks = mapElementsToSort(jobDescription, itemData, (data) => {
 				var el = document.createElement("div");
-				el.innerHTML = data;
-				collapseChoices(jobDescription, el);
+				collapseChoices(jobDescription, el, data);
 				return el;
 			});
 			mainEl.append(...skillBlocks);
@@ -264,51 +315,39 @@
 		titleEl.innerHTML = `<b>${title}</b> &ndash; ${date}`;
 		mainEl.append(titleEl);
 
-		const elemGroups = [];
-		const elemScores = [];
+		const bulletPointElems = [];
 		for (let data of itemData) {
-			let tag = "li";
-			let cls = "";
-			var newGroup = true;
-			if (data.startsWith("-")) {
-				data = data.substring("-".length);
-				newGroup = true;
-			} else if (data.startsWith("  -")) {
-				data = data.substring("  -".length);
-				cls = "l2";
-				newGroup = false;
+			let dash_index = data.indexOf("-");
+			let padded_text = data.slice(dash_index + 1);
+			let text = padded_text.trim();
+
+			switch (dash_index) {
+				case 0: {
+					let el = document.createElement("li");
+					collapseChoices(jobDescription, el, text);
+					bulletPointElems.push(el);
+					if (padded_text !== "") el.appendChild(document.createElement("ul"));
+					break;
+				}
+
+				case 2: {
+					data = data.substring("  -".length);
+					let el = document.createElement("li");
+					collapseChoices(jobDescription, el, text);
+					bulletPointElems.at(-1).lastElementChild.appendChild(el);
+				}
+
+				default:
+					break;
 			}
-
-			let el = document.createElement(tag);
-			el.innerHTML = data;
-			collapseChoices(jobDescription, el);
-			el.className = cls;
-
-			if (newGroup) {
-				elemGroups.push([]);
-				elemScores.push(0);
-			}
-
-			let i = elemGroups.length - 1;
-			elemGroups[i].push(el);
-			elemScores[i] += scoreElement(jobDescription, el);
 		}
 
-		// Generates a negative-score map so that sorting is essentially done in descending order.
-		var scoreEntries = elemScores.map((s, i) => [-1 * s, i, elemGroups[i]]);
-		scoreEntries.sort();
-
-		// Adds the top scoring elements, along with any options tied with index [2].
-		let scoreThresh = 0;
-		for (let [neg_s, i, g] of scoreEntries) {
-			if (i == 2) scoreThresh = neg_s;
-			if (neg_s > scoreThresh) break;
-			mainEl.append(...g);
-		}
+		var limit = getLimitOfBulletPoints(category, jobDescription);
+		mainEl.append(...mapElementsToSort(jobDescription, bulletPointElems, (e) => e, limit, true));
 		return mainEl;
 	}
 
-	function getLimit(category, jobDescription) {
+	function getLimitOfItems(category, jobDescription) {
 		if (!jobDescription.size) return -1;
 		switch (LISTED_CATEGORIES[category]) {
 			case LISTED_CATEGORIES.projects:
@@ -331,8 +370,8 @@
 		categoryEl.innerText = cName;
 
 		const jobDescription = getJobDescription(cvName);
-		var limit = getLimit(category, jobDescription);
-		var itemElements = mapSortedElements(
+		var limit = getLimitOfItems(category, jobDescription);
+		var itemElements = mapElementsToSort(
 			jobDescription,
 			cvData,
 			(cvItem) => genItemElement(category, cvItem, jobDescription),
