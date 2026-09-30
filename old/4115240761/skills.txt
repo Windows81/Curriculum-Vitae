@@ -7,6 +7,5 @@ Bash
 C++
 Android/Linux
 Docker Compose
-Documenting Stuff
 PowerShell
 HTML5/CSS3

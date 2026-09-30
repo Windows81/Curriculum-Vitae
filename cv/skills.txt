@@ -23,5 +23,4 @@ FL Studio
 OBS Studio
 Filmora 13
 VS Code; VSCodium
-Documenting Stuff
 Microsoft Office

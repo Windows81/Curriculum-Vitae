@@ -3,5 +3,5 @@ _current_cv_profile.txt
 *.pdf
 cv.pdf
 cv-short.pdf
-__*.pdf
-__*/
+_*.pdf
+_*/

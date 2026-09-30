@@ -20,6 +20,6 @@ is a locally-hosted project with product features to interop with Vyond's Legacy
 Windows81.github.io
 https://windows81.github.io
 is a personal website hosted on GitHub Pages.
-- Compiled my creative 3D-showcasing work on Rōblox
+- Compiled my creative 3D-showcasing work on Roblox
 - Incorporated elements of responsive philosophy
 - Hand-coded using HTML and CSS, sans third-party frameworks

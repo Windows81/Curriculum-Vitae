@@ -1,7 +1,7 @@
 Jul 2023 - current
-Rōblox Freedom Distribution
+Roblox Freedom Distribution
 https://github.com/Windows81/Roblox-Freedom-Distribution
-is a streamlined culmination of research to allow users to host and join Rōblox servers in a local- or wide-area network.
+is a streamlined culmination of research to allow users to host and join Roblox servers in a local- or wide-area network.
 - Designed and deployed cross-platform network configurations to optimize client-server connectivity
 - Conducted diagnostic programs to monitor server performance and address network issues
 - Troubleshot technical problems for warehouse-style multi-user environments in a LAN/WAN configuration
@@ -9,7 +9,7 @@ is a streamlined culmination of research to allow users to host and join Rōblox
 Feb 2018 - Sep 2019
 Webhooky
 https://github.com/Windows81/Playing-Webhooky
-was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.
+was a lightweight, database-driven webhook proxy for Roblox games interacting with Discord's webhook API.
 - Developed webhook integrations and API notifications to safely transfer data between multiple platforms
 - Created a backend framework optimized for high database performance using SQL (MySQL), PHP, and RESTful APIs
 - Designed and tested systems for real-time communication and integration error debugging
@@ -23,9 +23,9 @@ is a project I reviewed and contributed code to re-upload videos from a YouTube 
 - Contributed fixes toward optimizing file transfer protocols and video metadata archiving
 
 Jul 2022 - May 2023
-Rōblox Script Executor
+Roblox Script Executor
 https://github.com/Windows81/Roblox-Script-Executor-CLI
-was a command-line interface facilitating script execution on Rōblox.
+was a command-line interface facilitating script execution on Roblox.
 - Built T-SQL scripts for managing and organizing large-scale database parameters
 - Automated the execution of customizable CLI workflows for server operators across remote APIs
 - Developed operational tooling to streamline backend command operations and debugging efforts

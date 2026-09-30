@@ -15,9 +15,9 @@ addressed a severe vulnerability in YuJa's API that I identified and reported.
 - Collaborated with the security engineering team at YuJa to ensure breach mitigation policies
 
 Jul 2023 - current
-Rōblox Freedom Distribution
+Roblox Freedom Distribution
 https://github.com/Windows81/Roblox-Freedom-Distribution
-is a streamlined culmination of research to allow users to host and join Rōblox servers in a local- or wide-area network.
+is a streamlined culmination of research to allow users to host and join Roblox servers in a local- or wide-area network.
 - Designed and deployed a Python-based secure client-server architecture for transport across local and wide-area networks
 - Audited system vulnerabilities and implemented processes to comply with standard web security practices
 - Conducted periodic security incident assessments and tested threat prevention simulations
@@ -33,7 +33,7 @@ is a project I reviewed and contributed code to re-upload videos from a YouTube 
 Feb 2018 - Sep 2019
 Webhooky
 https://github.com/Windows81/Playing-Webhooky
-was a lightweight, database-driven webhook proxy for Rōblox games interacting with Discord's webhook API.
+was a lightweight, database-driven webhook proxy for Roblox games interacting with Discord's webhook API.
 - Designed a high-availability architecture using PHP and MySQL, enabling over 200 developers to securely transfer data
 - Proactively monitored security breaches and implemented data usage reporting
 - Installed logging practices and conducted cybersecurity monitoring processes

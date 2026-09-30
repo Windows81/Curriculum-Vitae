@@ -1,9 +1,16 @@
-June 2015 thru now
+June 2015 thru present
 Engineering Assistant @ Professional Engineering Center
 - Safely managing mission-critical on‑site SMB-compatible file servers with sensitive data going back since 2003, enabling reliable file access for the engineering team.
 - Translating hand-drawn sketches into production-ready AutoCAD drawings for licensed engineer review and sign-off, accelerating project turnaround.
 - Directly contributed to the organisational design of high-stakes commercial and industrial projects for multi-national manufacturers and regional utility providers.
 - Reverse-engineered and modified legacy plugins to fully support modern versions of AutoCAD, enabling full migration to an updated toolchain and reducing operational risk.
+
+Sep thru Nov 2025
+<a href=https://www.robloxgo.com/game/84920227080693/Dont-Wake-The-Labubus>Don't Wake the Labubus</a> @ INSIDR GAMES
+- Contributed to a Roblox game reaching 369,800 plays and generating a total of ~100,000 robux in revenue.
+- Integrated core-loop mechanics that helped the game achieve an 87% rating.
+- Diagnosed and fixed difficult-to-triage bugs across existing gameplay systems.
+- Participated in developer discussions on power-up balancing, thresholds, and selection of third-party assets.
 
 Aug 2019 thru June 2021
 Raising Cane's and El Pollo Loco
@@ -11,7 +18,7 @@ Raising Cane's and El Pollo Loco
 - Operated drive‑thru and dine‑in cash registers with total revenue exceeding $3000 per day; processing orders through the POS system and supporting overall restaurant operations.
   - Helped maintain steady order throughput during peak hours.
 
-April 2016 thru now
+April 2016 thru present
 On-call Designer @ Islamic Institute of Orange County et al.
 - Controlling graphic design for printed and digital materials for social events <choice>using|leveraging</choice> Affinity Photo and Canva, ensuring brand consistency and on‑time delivery.
   - Creating marketing copy for affiliated non-profits such as Sabil USA, BSA Scouts, and Girl Scouts of America.

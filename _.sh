@@ -23,7 +23,7 @@ case "$1" in
         print_cv "$cv_name"
         rm -r -f "$cv_name"
         ;;
-    *)
+    all)
         for cv_name in $(
             find.exe . \
                 -maxdepth 1 -type d ! \
@@ -32,5 +32,11 @@ case "$1" in
             ); do
             print_cv "$cv_name"
         done
+        ;;
+    "")
+        print_cv "cv"
+        ;;
+    *)
+        print_cv "$1"
         ;;
 esac

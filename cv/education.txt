@@ -1,17 +1,8 @@
-2024 thru now
+MS in Computer Engineering
 California State University, Fullerton
-- Pursuing a MS in both Computer and Civil Engineering
-  - Having a solid foundation in how software works at a high level serves me for certain purposes:
-  - <i>Computer Engineering:</i> Learning about how to manipulate hardware helps me solve even more pressing technical issues.
-  - <i>Civil Engineering:</i> The field pays well. It also helps to learn these disparate industries well enough to know how to bridge them and make good for myself and society.
 
-2020 thru 2024
+BS in Software Engineering
 University of California, Irvine
-- Completed a BS in Software Engineering with a GPA of 3.671.
-- For a year in 2022, I participated at ACM club meetings,
+- Completed with a GPA of 3.671.
+- For a year, I participated at ACM club meetings,
   - <choice>Presented|Demonstrated|Verbalized</choice> technical problem-solving approaches for <i>easy</i> and <i>medium</i> LeetCode problems to an audience of various skill levels.
-
-2018 thru 2020
-Santiago Canyon College
-- Majored in Computer Science in preparation for a transfer to <choice>UC Irvine|UCI</choice>; graduated with an <choice>AA|associate's degree</choice> in Liberal Arts.
-- Achieved a 4.0 GPA for major-related courses.
