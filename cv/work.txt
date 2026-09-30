@@ -6,7 +6,8 @@ Engineering Assistant @ Professional Engineering Center
 - Reverse-engineered and modified legacy plugins to fully support modern versions of AutoCAD, enabling full migration to an updated toolchain and reducing operational risk.
 
 Sep thru Nov 2025
-<a href=https://www.robloxgo.com/game/84920227080693/Dont-Wake-The-Labubus>Don't Wake the Labubus</a> @ INSIDR GAMES
+Don't Wake the Labubus @ INSIDR GAMES
+- <a href=https://www.robloxgo.com/game/84920227080693/Dont-Wake-The-Labubus>https://www.robloxgo.com/game/84920227080693/Dont-Wake-The-Labubus</a>
 - Contributed to a Roblox game reaching 369,800 plays and generating a total of ~100,000 robux in revenue.
 - Integrated core-loop mechanics that helped the game achieve an 87% rating.
 - Diagnosed and fixed difficult-to-triage bugs across existing gameplay systems.
