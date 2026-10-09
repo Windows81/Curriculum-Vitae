@@ -4,5 +4,5 @@ California State University, Fullerton
 BS in Software Engineering
 University of California, Irvine
 - Completed with a GPA of 3.671.
-- For a year, I participated at ACM club meetings,
+- For a year, I participated at ACM club meetings, where I:
   - <choice>Presented|Demonstrated|Verbalized</choice> technical problem-solving approaches for <i>easy</i> and <i>medium</i> LeetCode problems to an audience of various skill levels.

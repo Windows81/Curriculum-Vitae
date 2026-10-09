@@ -1,0 +1,17 @@
+Dec 2022
+Responsible Security Disclosure - YuJa API
+- Responsibly disclosed an API access-control vulnerability involving 6,000,000+ private academic recordings.
+- YuJa released a security patch after ~2 days.
+
+July 2023 thru present
+Roblox Freedom Distribution
+<a href="https://github.com/Windows81/Roblox-Freedom-Distribution">https://github.com/Windows81/Roblox-Freedom-Distribution</a>
+- Built a full-stack Python-based bootstrapper and a client-server system for self-hosted Roblox game instances, including TCP and UDP networking, an HTTPS web server, configurable ports and automated remote-asset serialization.
+- Designed the system to support multiple software versions; the project has 150+ stars on GitHub.
+-  Published detailed code-analysis guides demonstrating quirks of the Roblox software.
+
+May 2025 thru May 2026
+RBXL Version Forensics
+<a href="https://github.com/Windows81/RBXL-Version-Forensics">https://github.com/Windows81/RBXL-Version-Forensics</a>
+- Built a Rust command-line tool that parses binary <code>rbxl</code> files and infers the Roblox Studio version from structural properties.
+- Benchmarked the implementation against 10,285 binary files in approximately 4.5 minutes, using a modified binary deserializer to inspect property names without parsing full property values.

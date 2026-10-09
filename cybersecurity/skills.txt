@@ -1,0 +1,15 @@
+Python
+Rust
+C++
+Luau
+
+Reverse Engineering
+Binary Formats
+TCP/UDP
+GNU/Linux
+Bash
+
+Git/GitHub
+React
+Next.js
+Sqlite

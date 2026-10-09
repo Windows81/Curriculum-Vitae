@@ -1,9 +1,9 @@
 June 2015 thru present
 Engineering Assistant @ Professional Engineering Center
-- Safely managing mission-critical on‑site SMB-compatible file servers with sensitive data going back since 2003, enabling reliable file access for the engineering team.
-- Translating hand-drawn sketches into production-ready AutoCAD drawings for licensed engineer review and sign-off, accelerating project turnaround.
-- Directly contributed to the organisational design of high-stakes commercial and industrial projects for multi-national manufacturers and regional utility providers.
-- Reverse-engineered and modified legacy plugins to fully support modern versions of AutoCAD, enabling full migration to an updated toolchain and reducing operational risk.
+- Safely managing <choice>mission-critical|high-impact</choice> <choice>on‑site|locally hosted<choice> SMB-compatible file servers with <choice>sensitive|confidential|private</choice> data going back since 2003, enabling reliable file access for the engineering team.
+- Translating hand-drawn sketches into production-ready AutoCAD drawings for review by a licensed engineer, accelerating project turnaround.
+- Directly contributing to structural designs for <choice>commercial and industrial|high-stakes</choice> projects at multi-national manufacturers and regional utility providers.
+- Reverse-engineered and modified legacy plugins to fully support modern versions of AutoCAD, enabling full migration to an updated toolchain and reducing cognitive demand upon transition.
 
 Sep thru Nov 2025
 Don't Wake the Labubus @ INSIDR GAMES

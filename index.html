@@ -223,7 +223,7 @@
 	function splatArray(words) {
 		return words
 			.toLowerCase()
-			.matchAll(/([0-9a-z]+)/gi)
+			.matchAll(/([0-9a-z\+]{5,})/g)
 			.map(([e, ..._]) => e);
 	}
 
@@ -255,7 +255,7 @@
 
 	function scoreElement(jobDescription, element) {
 		var score = 0;
-		for (var word of splatArray(element.innerHTML)) if (jobDescription.has(word)) score++;
+		for (var word of splatArray(element.innerText)) if (jobDescription.has(word)) score++;
 		return score;
 	}
 
@@ -290,7 +290,7 @@
 			case LISTED_CATEGORIES.projects:
 				return 3;
 			case LISTED_CATEGORIES.work:
-				return 3;
+				return 2;
 			case LISTED_CATEGORIES.skills:
 				return 4;
 			default:
