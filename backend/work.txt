@@ -1,0 +1,10 @@
+June 2015 thru present
+IT Manager and Engineering Assistant @ Professional Engineering Center
+- Maintaining Ubuntu file-server infrasturcture using Samba to support engineering data access.
+- Reverse-engineered and modified legacy plugins for compatibility with newer AutoCAD releases.
+- Translating sketches into production-ready structural designs for commercial and industrial projects in high-stakes industries.
+
+Sep 2023 thru Mar 2024
+Frontend Developer @ GameIn, UCI Capstone
+- Implemented <choice>mobile-responsive|mobile-user‑friendly</choice> pages<choice> using|; leveraged</choice> Next.js (and thus React) from mockups that we also made.
+- Arranged, as part of a team, a slide deck, using Figma for interface design.

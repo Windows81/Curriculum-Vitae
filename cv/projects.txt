@@ -7,8 +7,8 @@ Roblox Freedom Distribution
 - From 2023, I've built a <choice>full-stack|scalable</choice> application for users to <i>host</i> and <i>join</i> self-hosted, historic versions of Roblox in a local- or wide-area network.
   - Created a Python bootstrapper, dually for <choice>clients|end users</choice> and <choice>servers|custom backends</choice>, to enable seamless connectivity.
 - <choice>Enhanced|Ensured stable</choice> <choice>functionality|performance|standard of quality</choice> through team collaboration, <choice>feature development|x86-assembly patches</choice>, and lots of technical code review.
-  - Consulted <choice>cutting-edge academic papers to validate geometry-compression algorithms|a legacy C++ codebase to extrapolate compiled-program behaviour</choice>.
-- Built a <choice>minimally-invasive|automation</choice> asset-processing pipeline for <choice>DCC|proprietary</choice> <choice>3D|3-dimensional</choice> mesh and <choice>place-archive|<code>rbxl</code></choice> formats, <choice>promoting code hygiene|promoting product quality</choice>.
+  - Consulted <choice>cutting-edge academic papers to validate geometry-compression algorithms|a legacy C++ codebase to extrapolate compiled-program behavior</choice>.
+- Built a <choice>minimally-invasive|automation</choice> asset-processing pipeline for <choice>DCC|proprietary</choice> <choice>3D|3-dimensional</choice> mesh and <choice>place-archive|<code>.rbxl</code></choice> formats, <choice>promoting code hygiene|promoting product quality</choice>.
 - Evaluated fair-use compliance by auditing business-legal literature, publicly disclosing some analysis of legal risks and benefits of various intended use cases.
 
 Sep 2023 thru Mar 2024

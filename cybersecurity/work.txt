@@ -1,7 +1,7 @@
 June 2015 thru present
 IT Manager and Engineering Assistant @ Professional Engineering Center
 - Managing <choice>mission-critical|high-impact</choice> <choice>on‑site|locally hosted<choice> SMB-compatible file servers with <choice>sensitive|confidential|private</choice> data going back since 2003, enabling reliable file access for the engineering team.
-- Reverse-engineered and modified legacy plugins for compatibility with modernA utoCAD releases, extending an established software stack without replacing the underlying workflow.
+- Reverse-engineered and modified legacy plugins for compatibility with modern AutoCAD releases, extending an established software stack without replacing the underlying workflow.
 - Translating sketches into production-ready structural designs for commercial and industrial projects in high-stakes industries.
 
 Sep 2023 thru Mar 2024

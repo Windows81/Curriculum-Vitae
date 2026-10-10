@@ -1,0 +1,21 @@
+2023 thru now
+Roblox Freedom Distribution
+<a href="https://github.com/Windows81/Roblox-Freedom-Distribution">https://github.com/Windows81/Roblox-Freedom-Distribution</a>
+- Built a full-stack Python-based bootstrapper and a client-server system for self-hosted Roblox game instances, including TCP and UDP networking, an HTTPS web server, configurable ports and automated remote-asset serialization.
+- Designed the system to support multiple software versions; the project has 150+ stars on GitHub.
+-  Published detailed code-analysis guides demonstrating quirks of Roblox's software.
+
+2019 thru 2020
+GoAnimate Wrapper
+- <a href="https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper">https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper</a>
+- Developed and maintained a Node.js API wrapper backend for Vyond's at-the-time retired Legacy Video Maker.
+- Analyzed legacy ActionScript and network logs to determine app behavior and backend requirements.
+- Implemented server-side data persistence and file-export mechanisms.
+- Managed a community-maintained project used by people seeking to continue using the legacy animation tool.
+
+2018 thru 2019
+Webhooky
+- <a href="https://github.com/Windows81/Playing-Webhooky">https://github.com/Windows81/Playing-Webhooky</a>
+- Developed a proxy to relay data from Roblox games to Discord when direct webhook activity from Roblox was blocked.
+- Used MySQL to process and store request logs.
+- Supported more than 200 distinct games throughout the project's history.

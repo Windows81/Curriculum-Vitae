@@ -1,0 +1,15 @@
+Python
+Node.js
+C++
+
+API integration
+Request processing
+Server administation
+
+React
+Next.js
+HTML/CSS
+
+Git/GitHub
+Sqlite
+MySQL

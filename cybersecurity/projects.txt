@@ -13,5 +13,5 @@ Roblox Freedom Distribution
 May 2025 thru May 2026
 RBXL Version Forensics
 <a href="https://github.com/Windows81/RBXL-Version-Forensics">https://github.com/Windows81/RBXL-Version-Forensics</a>
-- Built a Rust command-line tool that parses binary <code>rbxl</code> files and infers the Roblox Studio version from structural properties.
+- Built a Rust command-line tool that parses binary <code>.rbxl</code> files and infers the Roblox Studio version from structural properties.
 - Benchmarked the implementation against 10,285 binary files in approximately 4.5 minutes, using a modified binary deserializer to inspect property names without parsing full property values.
