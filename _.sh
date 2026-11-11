@@ -1,14 +1,21 @@
 #!/bin/bash
 temp=_current_cv_profile.txt
 dir="$(realpath -e "$(dirname "$0")")"
-exe="$(python3 -m get_chrome_paths | head -n 1)"
-
 print_cv() {
     echo -n "$1" > "$temp"
-    $exe --headless --allow-chrome-scheme-url \
-    --print-to-pdf="$dir/$1.pdf" --disable-web-security \
-    --allow-file-access-from-files --timeout=5000 \
-    --homepage "$dir/index.html"
+    python3 - "$dir" "$dir/$1.pdf" "$1" <<'PY'
+import sys
+from playwright.sync_api import sync_playwright
+
+base, out, profile = sys.argv[1], sys.argv[2], sys.argv[3]
+with sync_playwright() as p:
+    browser = p.chromium.launch(args=["--allow-file-access-from-files"])
+    page = browser.new_page()
+    page.goto("file://" + base + "/index.html?cvProfile=" + profile)
+    page.wait_for_timeout(800)
+    page.pdf(path=out, prefer_css_page_size=True, print_background=True)
+    browser.close()
+PY
     rm "$temp"
 }
 

@@ -1,16 +1,16 @@
 # VisualPlugin's Cirriculum Vitæ
 
-To render this résumé in PDF format, I use the nearest Chromium browser's headless mode.
+To render this résumé in PDF format, I use headless Chromium via Playwright.
 
 You'll need:
 
 - Python 3
-  - The [get-chrome-paths module](https://github.com/Windows81/Get-Chrome-Paths)
-- A Chromium-based browser that's easy to find
+  - The [playwright module](https://playwright.dev/python/)
 - A Bash-like shell to run [`_.sh`](_.sh)
 
 ```
-pip3 install git+https://github.com/Windows81/Get-Chrome-Paths.git
+pip3 install playwright
+python3 -m playwright install chromium
 ```
 
 ## [`_.sh`](_.sh): How to Use
